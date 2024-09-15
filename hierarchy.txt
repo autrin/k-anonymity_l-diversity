@@ -22,8 +22,39 @@ Age Generalization Hierarchy
 
         All ages generalized to a single category: All Ages.
 
-Education:
+Education Generalization Hierarchy:
+    Level 1: Precise Education Levels
 
+        Preschool, 1st-4th, 5th-6th, 7th-8th, 9th, 10th, 11th, 12th, HS-grad, Assoc-voc, Prof-school, Some-college, Assoc-acdm, Bachelors, Masters, Doctorate.
+
+    Level 2: Grouped by Specific School Types
+
+        Preschool: Preschool
+        Primary School: 1st-4th, 5th-6th
+        Middle School: 7th-8th, 9th
+        High School: 10th, 11th, 12th, HS-grad
+        Vocational School: Assoc-voc, Prof-school, Some-college
+        Undergraduate School: Assoc-acdm, Bachelors
+        Graduate School: Masters, Doctorate
+
+    Level 3: Grouped by Educational Stage
+
+        Early Childhood Education: Preschool
+        Compulsory Education: 1st-4th, 5th-6th, 7th-8th, 9th, 10th, 11th, 12th, HS-grad
+        Vocational Education: Assoc-voc, Prof-school, Some-college
+        Undergraduate Degree: Assoc-acdm, Bachelors
+        Advanced Degree: Masters, Doctorate
+
+    Level 4: Grouped by Education Level
+
+        No Formal Education: Preschool
+        Primary/Secondary Education: 1st-12th, HS-grad
+        Post-Secondary (Vocational/Undergraduate): Assoc-voc, Prof-school, Some-college, Assoc-acdm, Bachelors
+        Graduate Education: Masters, Doctorate
+
+    Level 5: Generalized to the Top
+
+        All values generalized to Education.
 
 Martial status:
 
