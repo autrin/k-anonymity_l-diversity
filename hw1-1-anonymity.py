@@ -34,3 +34,5 @@ with open('k-anonymity_l-diversity/adult.names', 'r') as f:
 
 # Print the content of the 'adult.names' file
 # print(names_content)
+
+print(adult_data['salary'])
