@@ -1,7 +1,7 @@
 Age Generalization Hierarchy
     Level 1: Precise Age
 
-        Individual ages (e.g., 17, 18, 19, ..., 90+).
+        Individual ages (e.g., 17, 18, 19, ..., 90+). //  The data of age starts from 17 and ends with 90
 
     Level 2: Small Age Ranges
 
@@ -29,8 +29,7 @@ Education Generalization Hierarchy:
 
     Level 2: Grouped by Specific School Types
 
-        Preschool: Preschool
-        Primary School: 1st-4th, 5th-6th
+        Primary School: Preschool, 1st-4th, 5th-6th
         Middle School: 7th-8th, 9th
         High School: 10th, 11th, 12th, HS-grad
         Vocational School: Assoc-voc, Prof-school, Some-college
@@ -39,24 +38,33 @@ Education Generalization Hierarchy:
 
     Level 3: Grouped by Educational Stage
 
-        Early Childhood Education: Preschool
-        Compulsory Education: 1st-4th, 5th-6th, 7th-8th, 9th, 10th, 11th, 12th, HS-grad
-        Vocational Education: Assoc-voc, Prof-school, Some-college
-        Undergraduate Degree: Assoc-acdm, Bachelors
+        Compulsory School: Primary School, Middle School, High School
+        Basic Degree: Vocational School, Undergraduate Degree
         Advanced Degree: Masters, Doctorate
 
     Level 4: Grouped by Education Level
 
-        No Formal Education: Preschool
-        Primary/Secondary Education: 1st-12th, HS-grad
-        Post-Secondary (Vocational/Undergraduate): Assoc-voc, Prof-school, Some-college, Assoc-acdm, Bachelors
-        Graduate Education: Masters, Doctorate
+        Compulsory School: Compulsory School
+        Advanced School: Basic Degree, Advanced Degree
 
     Level 5: Generalized to the Top
 
-        All values generalized to Education.
+        Education: Compulsory School, Advanced School
 
 Martial status:
+    Level 1: Precise marital status
+        Married-civ-spouse, Divorced, Never-married, Separated, Widowed, Married-spouse-absent, Married-AF-spouse.
 
+    Level 2: Generalized by the 
+        Separated Married: Separated, Married-spouse-absent
+        
+
+    Level 3:
+
+
+    Level 4:
+        Married:
+
+        Not Married:
 
 Race:
