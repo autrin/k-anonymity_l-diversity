@@ -55,16 +55,21 @@ Martial status:
     Level 1: Precise marital status
         Married-civ-spouse, Divorced, Never-married, Separated, Widowed, Married-spouse-absent, Married-AF-spouse.
 
-    Level 2: Generalized by the 
-        Separated Married: Separated, Married-spouse-absent
-        
+    Level 2: Generalized by the type of relationship
+        Separated-Married: Separated, Married-spouse-absent
+        Single: Never-Married, Widowed, Divorced
+        Married-Together: Married-civ-spouse, Married-AF-spouse
 
-    Level 3:
-
+    Level 3: Generalized to either married or not married
+        Married: Separated-Married
+        Not-Married: Single
 
     Level 4:
-        Married:
-
-        Not Married:
-
+        *: Married, Not-Married
+        
 Race:
+    Level 1: Precise races
+        White, Asian-Pac-Islander, Amer-Indian-Eskimo, Other, Black
+
+    Level 2: 
+        
