@@ -39,7 +39,7 @@ Education Generalization Hierarchy:
     Level 3: Grouped by Educational Stage
 
         Compulsory School: Primary School, Middle School, High School
-        Basic Degree: Vocational School, Undergraduate Degree
+        Basic Degree: Vocational School, Undergraduate School
         Advanced Degree: Masters, Doctorate
 
     Level 4: Grouped by Education Level
@@ -51,7 +51,7 @@ Education Generalization Hierarchy:
 
         Education: Compulsory School, Advanced School
 
-Martial status:
+Marital status:
     Level 1: Precise marital status
         Married-civ-spouse, Divorced, Never-married, Separated, Widowed, Married-spouse-absent, Married-AF-spouse.
 
