@@ -68,8 +68,29 @@ Marital status:
         *: Married, Not-Married
         
 Race:
-    Level 1: Precise races
+    Level 1: Precise Race Values
+
         White, Asian-Pac-Islander, Amer-Indian-Eskimo, Other, Black
 
-    Level 2: 
-        
+    Level 2: Grouped by Regional Origin
+
+        Caucasian: White
+        Asian: Asian-Pac-Islander
+        Indigenous: Amer-Indian-Eskimo
+        Other: Other
+        African Descent: Black
+
+    Level 3: Grouped by Broad Continental Category
+
+        Western Origin: Caucasian, African Descent
+        Eastern Origin: Asian, Indigenous
+        Other: Other
+
+    Level 4: Grouped into Two Categories
+
+        Western Origin: Western Origin
+        Non-Western Origin: Eastern Origin, Other
+
+    Level 5: Generalized to the Top
+
+        Race
