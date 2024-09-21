@@ -8,7 +8,7 @@ All Ages, Private,121772,Basic Degree,11,Married, Craft-repair, Husband,Non-West
 All Ages, Self-emp-not-inc,292175,Advanced Degree,14,Not-Married, Exec-managerial, Unmarried,Western Origin, Female,0,0,45, United-States, >50K
 All Ages, Private,193524,Advanced Degree,16,Married, Prof-specialty, Husband,Western Origin, Male,0,0,60, United-States, >50K
 All Ages, Local-gov,216851,Basic Degree,13,Married, Tech-support, Husband,Western Origin, Male,0,0,40, United-States, >50K
-All Ages,,180211,Basic Degree,10,Married,, Husband,Non-Western Origin, Male,0,0,60, South, >50K
+All Ages,,180211,Basic Degree,10,Married,Unknown, Husband,Non-Western Origin, Male,0,0,60, South, >50K
 All Ages, Private,84154,Basic Degree,10,Married, Sales, Husband,Western Origin, Male,0,0,38,, >50K
 All Ages, Federal-gov,337895,Basic Degree,13,Married, Prof-specialty, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,51835,Basic Degree,15,Married, Prof-specialty, Wife,Western Origin, Female,0,1902,60, Honduras, >50K
@@ -36,7 +36,7 @@ All Ages, Private,114937,Basic Degree,12,Married, Adm-clerical, Husband,Western 
 All Ages, Federal-gov,125933,Advanced Degree,14,Married, Prof-specialty, Husband,Western Origin, Male,0,0,40, Iran, >50K
 All Ages, Private,81973,Basic Degree,10,Married, Craft-repair, Husband,Non-Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,196584,Basic Degree,11,Not-Married, Prof-specialty, Not-in-family,Western Origin, Female,0,1564,40, United-States, >50K
-All Ages,,252903,Compulsory School,9,Not-Married,, Not-in-family,Western Origin, Male,0,0,45, United-States, >50K
+All Ages,,252903,Compulsory School,9,Not-Married,Unknown, Not-in-family,Western Origin, Male,0,0,45, United-States, >50K
 All Ages, Self-emp-not-inc,201080,Advanced Degree,14,Married, Sales, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,96062,Basic Degree,10,Married, Sales, Husband,Western Origin, Male,0,1977,40, United-States, >50K
 All Ages, State-gov,149624,Basic Degree,13,Married, Prof-specialty, Husband,Western Origin, Male,0,0,40, United-States, >50K
@@ -81,7 +81,7 @@ All Ages, Private,296478,Basic Degree,11,Married, Craft-repair, Husband,Western 
 All Ages, State-gov,119272,Compulsory School,9,Married, Protective-serv, Husband,Western Origin, Male,7298,0,40, United-States, >50K
 All Ages, Private,117963,Basic Degree,13,Married, Exec-managerial, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,111363,Basic Degree,13,Married, Exec-managerial, Husband,Western Origin, Male,0,0,40, United-States, >50K
-All Ages,,372020,Basic Degree,13,Married,, Husband,Western Origin, Male,0,0,40, United-States, >50K
+All Ages,,372020,Basic Degree,13,Married,Unknown, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Federal-gov,95432,Compulsory School,9,Married, Adm-clerical, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,96129,Basic Degree,11,Married, Tech-support, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,270092,Advanced Degree,14,Married, Prof-specialty, Husband,Western Origin, Male,0,0,40, United-States, >50K
@@ -95,7 +95,7 @@ All Ages, Private,86872,Basic Degree,13,Married, Exec-managerial, Husband,Wester
 All Ages, Self-emp-inc,132178,Basic Degree,13,Married, Exec-managerial, Husband,Western Origin, Male,0,0,50, United-States, >50K
 All Ages, State-gov,288353,Basic Degree,13,Married, Protective-serv, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,445382,Advanced Degree,14,Married, Exec-managerial, Husband,Western Origin, Male,0,1977,65, United-States, >50K
-All Ages,,123147,Basic Degree,10,Married,, Wife,Western Origin, Female,0,1887,40, United-States, >50K
+All Ages,,123147,Basic Degree,10,Married,Unknown, Wife,Western Origin, Female,0,1887,40, United-States, >50K
 All Ages, Private,188386,Advanced Degree,16,Married, Exec-managerial, Husband,Western Origin, Male,15024,0,60, United-States, >50K
 All Ages, Private,92440,Compulsory School,8,Not-Married, Craft-repair, Not-in-family,Western Origin, Male,0,0,50, United-States, >50K
 All Ages, State-gov,92003,Basic Degree,13,Married, Exec-managerial, Wife,Western Origin, Female,0,0,40, United-States, >50K
@@ -127,7 +127,7 @@ All Ages, Private,264052,Basic Degree,10,Married, Prof-specialty, Husband,Wester
 All Ages, Self-emp-not-inc,334273,Basic Degree,13,Married, Prof-specialty, Husband,Western Origin, Male,0,0,60, United-States, >50K
 All Ages, Private,22463,Basic Degree,11,Married, Craft-repair, Husband,Western Origin, Male,0,1977,40, United-States, >50K
 All Ages, Private,350162,Basic Degree,13,Married, Exec-managerial, Wife,Western Origin, Male,0,0,40, United-States, >50K
-All Ages,,195733,Basic Degree,10,Married,, Husband,Western Origin, Male,0,0,30, United-States, >50K
+All Ages,,195733,Basic Degree,10,Married,Unknown, Husband,Western Origin, Male,0,0,30, United-States, >50K
 All Ages, Private,69884,Compulsory School,9,Married, Sales, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,25826,Compulsory School,6,Married, Craft-repair, Husband,Western Origin, Male,0,1887,47, United-States, >50K
 All Ages, Private,39352,Compulsory School,4,Not-Married, Transport-moving, Not-in-family,Western Origin, Male,0,0,48, United-States, >50K
@@ -279,9 +279,9 @@ All Ages, Private,96062,Basic Degree,12,Married, Tech-support, Husband,Western O
 All Ages, Private,133963,Basic Degree,13,Married, Prof-specialty, Wife,Western Origin, Female,0,1977,40, United-States, >50K
 All Ages, Private,350498,Basic Degree,13,Married, Adm-clerical, Husband,Western Origin, Male,10605,0,20, United-States, >50K
 All Ages, Private,404616,Advanced Degree,14,Married, Farming-fishing, Not-in-family,Western Origin, Male,0,0,99, United-States, >50K
-All Ages,,169982,Basic Degree,10,Married,, Husband,Western Origin, Male,0,0,40, United-States, >50K
+All Ages,,169982,Basic Degree,10,Married,Unknown, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, State-gov,356619,Compulsory School,9,Married, Prof-specialty, Husband,Western Origin, Male,0,0,48, United-States, >50K
-All Ages,,146015,Compulsory School,9,Married,, Husband,Western Origin, Male,0,0,40, United-States, >50K
+All Ages,,146015,Compulsory School,9,Married,Unknown, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,216237,Basic Degree,13,Not-Married, Exec-managerial, Not-in-family,Western Origin, Female,0,0,45, United-States, >50K
 All Ages, Private,182862,Basic Degree,10,Married, Craft-repair, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Federal-gov,320818,Compulsory School,9,Married, Adm-clerical, Husband,Western Origin, Male,0,0,80, United-States, >50K
@@ -291,7 +291,7 @@ All Ages, Self-emp-inc,113544,Advanced Degree,14,Married, Sales, Husband,Western
 All Ages, Private,79619,Basic Degree,13,Married, Sales, Husband,Western Origin, Male,0,0,42, United-States, >50K
 All Ages, Self-emp-inc,320984,Basic Degree,10,Married, Sales, Husband,Western Origin, Male,5178,0,60, United-States, >50K
 All Ages, Private,99185,Advanced Degree,16,Married, Prof-specialty, Husband,Western Origin, Male,15024,0,45, United-States, >50K
-All Ages,,150389,Basic Degree,13,Not-Married,, Not-in-family,Western Origin, Female,0,0,40, United-States, >50K
+All Ages,,150389,Basic Degree,13,Not-Married,Unknown, Not-in-family,Western Origin, Female,0,0,40, United-States, >50K
 All Ages, Self-emp-not-inc,243631,Basic Degree,10,Married, Craft-repair, Husband,Non-Western Origin, Male,7688,0,40, United-States, >50K
 All Ages, Private,200818,Basic Degree,15,Married, Prof-specialty, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Self-emp-not-inc,247379,Compulsory School,9,Married, Craft-repair, Husband,Western Origin, Male,0,0,40, United-States, >50K
@@ -310,7 +310,7 @@ All Ages, Local-gov,152754,Basic Degree,13,Married, Adm-clerical, Husband,Wester
 All Ages, Private,129007,Basic Degree,13,Married, Sales, Husband,Western Origin, Male,0,1977,40, United-States, >50K
 All Ages, Private,171584,Basic Degree,13,Married, Protective-serv, Husband,Western Origin, Male,6514,0,7, United-States, >50K
 All Ages, Federal-gov,158926,Basic Degree,12,Not-Married, Prof-specialty, Unmarried,Non-Western Origin, Female,0,0,40, Philippines, >50K
-All Ages,,36039,Compulsory School,9,Married,, Husband,Western Origin, Male,0,0,40, United-States, >50K
+All Ages,,36039,Compulsory School,9,Married,Unknown, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,88926,Compulsory School,9,Married, Adm-clerical, Wife,Western Origin, Female,5178,0,40, United-States, >50K
 All Ages, Self-emp-not-inc,370119,Basic Degree,13,Married, Sales, Husband,Western Origin, Male,15024,0,50, United-States, >50K
 All Ages, Self-emp-inc,186791,Basic Degree,10,Married, Transport-moving, Wife,Western Origin, Female,0,0,40, United-States, >50K
@@ -382,7 +382,7 @@ All Ages, Private,125421,Advanced Degree,14,Not-Married, Exec-managerial, Unmarr
 All Ages, Private,245305,Compulsory School,6,Married, Transport-moving, Husband,Western Origin, Male,0,0,42, United-States, >50K
 All Ages, Private,122381,Basic Degree,10,Married, Craft-repair, Husband,Western Origin, Male,0,1887,50, United-States, >50K
 All Ages, Private,134768,Advanced Degree,16,Married, Prof-specialty, Husband,Western Origin, Male,7688,0,40,, >50K
-All Ages,,111177,Basic Degree,13,Not-Married,, Not-in-family,Western Origin, Female,25124,0,16, United-States, >50K
+All Ages,,111177,Basic Degree,13,Not-Married,Unknown, Not-in-family,Western Origin, Female,25124,0,16, United-States, >50K
 All Ages, Private,216907,Basic Degree,12,Married, Craft-repair, Husband,Western Origin, Male,0,1848,40, United-States, >50K
 All Ages, Private,266912,Compulsory School,9,Married, Sales, Husband,Western Origin, Male,0,0,50, United-States, >50K
 All Ages, Private,128715,Compulsory School,9,Not-Married, Adm-clerical, Not-in-family,Western Origin, Male,10520,0,40, United-States, >50K
@@ -415,7 +415,7 @@ All Ages, Self-emp-inc,160151,Basic Degree,10,Married, Sales, Husband,Western Or
 All Ages, Private,99835,Basic Degree,15,Married, Prof-specialty, Husband,Western Origin, Male,0,0,60, United-States, >50K
 All Ages, Private,43711,Basic Degree,12,Married, Sales, Husband,Western Origin, Male,7688,0,40, United-States, >50K
 All Ages, Private,170846,Basic Degree,12,Married, Adm-clerical, Wife,Western Origin, Female,0,0,40, Italy, >50K
-All Ages,,168340,Compulsory School,9,Married,, Husband,Western Origin, Male,0,0,40,, >50K
+All Ages,,168340,Compulsory School,9,Married,Unknown, Husband,Western Origin, Male,0,0,40,, >50K
 All Ages, Private,176270,Basic Degree,13,Married, Exec-managerial, Husband,Western Origin, Male,99999,0,60, United-States, >50K
 All Ages, Private,188540,Compulsory School,9,Married, Exec-managerial, Husband,Western Origin, Male,0,1902,45, United-States, >50K
 All Ages, Private,171150,Compulsory School,9,Married, Exec-managerial, Husband,Western Origin, Male,0,1887,50, United-States, >50K
@@ -535,7 +535,7 @@ All Ages, Self-emp-inc,201763,Basic Degree,13,Married, Sales, Husband,Western Or
 All Ages, Self-emp-inc,119253,Advanced Degree,14,Married, Sales, Husband,Western Origin, Male,15024,0,65, United-States, >50K
 All Ages, Self-emp-not-inc,121124,Compulsory School,3,Married, Sales, Husband,Western Origin, Male,0,0,55, Italy, >50K
 All Ages, Private,220132,Compulsory School,9,Married, Exec-managerial, Husband,Western Origin, Male,7298,0,40, United-States, >50K
-All Ages,,331650,Compulsory School,9,Married,, Wife,Western Origin, Female,0,0,8, United-States, >50K
+All Ages,,331650,Compulsory School,9,Married,Unknown, Wife,Western Origin, Female,0,0,8, United-States, >50K
 All Ages, Private,242391,Basic Degree,13,Married, Exec-managerial, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,359155,Basic Degree,13,Married, Prof-specialty, Wife,Western Origin, Female,0,0,40, United-States, >50K
 All Ages, Private,201531,Basic Degree,12,Married, Machine-op-inspct, Husband,Western Origin, Male,0,0,40, United-States, >50K
@@ -549,7 +549,7 @@ All Ages, Private,214169,Basic Degree,10,Married, Craft-repair, Husband,Western 
 All Ages, Private,137253,Basic Degree,13,Married, Adm-clerical, Wife,Western Origin, Female,0,0,40, United-States, >50K
 All Ages, Private,211668,Compulsory School,9,Married, Machine-op-inspct, Wife,Western Origin, Female,0,0,40, United-States, >50K
 All Ages, Private,358886,Compulsory School,9,Married, Transport-moving, Husband,Western Origin, Male,0,0,40, United-States, >50K
-All Ages,,131852,Compulsory School,3,Married,, Husband,Western Origin, Male,0,0,30, United-States, >50K
+All Ages,,131852,Compulsory School,3,Married,Unknown, Husband,Western Origin, Male,0,0,30, United-States, >50K
 All Ages, Private,127215,Basic Degree,10,Married, Sales, Husband,Western Origin, Male,0,0,48, United-States, >50K
 All Ages, Private,142287,Advanced Degree,14,Married, Exec-managerial, Husband,Western Origin, Male,0,0,50, United-States, >50K
 All Ages, Local-gov,222900,Basic Degree,13,Married, Prof-specialty, Not-in-family,Western Origin, Female,0,0,50, United-States, >50K
@@ -603,7 +603,7 @@ All Ages, Private,346963,Basic Degree,13,Married, Exec-managerial, Husband,Weste
 All Ages, Private,36503,Basic Degree,10,Married, Exec-managerial, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,326232,Basic Degree,13,Not-Married, Exec-managerial, Unmarried,Western Origin, Male,0,2547,50, United-States, >50K
 All Ages, Local-gov,153976,Advanced Degree,14,Married, Prof-specialty, Husband,Western Origin, Male,0,0,40, United-States, >50K
-All Ages,,177351,Basic Degree,13,Married,, Husband,Western Origin, Male,0,2174,40, United-States, >50K
+All Ages,,177351,Basic Degree,13,Married,Unknown, Husband,Western Origin, Male,0,2174,40, United-States, >50K
 All Ages, Private,160449,Compulsory School,9,Married, Machine-op-inspct, Husband,Western Origin, Male,0,0,44, United-States, >50K
 All Ages, Self-emp-inc,124137,Basic Degree,15,Married, Prof-specialty, Husband,Western Origin, Male,0,2415,35, Greece, >50K
 All Ages, Private,240521,Compulsory School,9,Married, Craft-repair, Husband,Western Origin, Male,7298,0,40, United-States, >50K
@@ -635,10 +635,10 @@ All Ages, Private,60783,Basic Degree,10,Married, Transport-moving, Husband,Weste
 All Ages, Private,320835,Basic Degree,13,Married, Sales, Husband,Western Origin, Male,0,0,50, United-States, >50K
 All Ages, Private,172425,Basic Degree,11,Married, Adm-clerical, Wife,Western Origin, Female,0,0,20, United-States, >50K
 All Ages, Self-emp-inc,105582,Basic Degree,10,Married, Exec-managerial, Husband,Western Origin, Male,7688,0,50, United-States, >50K
-All Ages,,124993,Compulsory School,9,Married,, Husband,Western Origin, Male,0,0,40, United-States, >50K
+All Ages,,124993,Compulsory School,9,Married,Unknown, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,203408,Basic Degree,13,Married, Prof-specialty, Husband,Western Origin, Male,7688,0,50, United-States, >50K
 All Ages, Self-emp-inc,110331,Compulsory School,9,Married, Sales, Husband,Western Origin, Male,0,0,65, United-States, >50K
-All Ages,,45537,Advanced Degree,14,Married,, Husband,Western Origin, Male,0,0,40, United-States, >50K
+All Ages,,45537,Advanced Degree,14,Married,Unknown, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,147629,Compulsory School,9,Married, Transport-moving, Husband,Western Origin, Male,0,0,60, United-States, >50K
 All Ages, Private,168071,Basic Degree,13,Married, Exec-managerial, Husband,Western Origin, Male,7298,0,50, United-States, >50K
 All Ages, Private,326104,Basic Degree,10,Married, Exec-managerial, Husband,Western Origin, Male,0,0,50, United-States, >50K
@@ -657,7 +657,7 @@ All Ages, Federal-gov,30731,Compulsory School,9,Married, Exec-managerial, Husban
 All Ages, Private,194426,Basic Degree,13,Married, Tech-support, Husband,Western Origin, Male,15024,0,40, United-States, >50K
 All Ages, Self-emp-inc,141807,Basic Degree,13,Married, Sales, Husband,Western Origin, Male,0,0,60, United-States, >50K
 All Ages, Private,118941,Basic Degree,13,Married, Exec-managerial, Wife,Western Origin, Female,0,0,40, United-States, >50K
-All Ages,,159755,Basic Degree,11,Married,, Husband,Western Origin, Male,0,0,50, United-States, >50K
+All Ages,,159755,Basic Degree,11,Married,Unknown, Husband,Western Origin, Male,0,0,50, United-States, >50K
 All Ages, Private,213140,Basic Degree,11,Married, Craft-repair, Husband,Western Origin, Male,7688,0,40, United-States, >50K
 All Ages, Private,213226,Basic Degree,13,Married, Prof-specialty, Husband,Western Origin, Male,0,0,40, Iran, >50K
 All Ages, Private,108993,Compulsory School,9,Married, Craft-repair, Husband,Western Origin, Male,0,0,45, United-States, >50K
@@ -821,7 +821,7 @@ All Ages, Federal-gov,31840,Compulsory School,9,Married, Craft-repair, Husband,W
 All Ages, Local-gov,446358,Advanced Degree,16,Not-Married, Prof-specialty, Not-in-family,Western Origin, Male,0,0,50, Mexico, >50K
 All Ages, Private,83446,Compulsory School,7,Not-Married, Exec-managerial, Unmarried,Western Origin, Female,0,0,40, United-States, >50K
 All Ages, Private,185503,Basic Degree,13,Married, Prof-specialty, Husband,Western Origin, Male,0,0,50, United-States, >50K
-All Ages,,28221,Compulsory School,9,Married,, Husband,Western Origin, Male,0,0,40, Canada, >50K
+All Ages,,28221,Compulsory School,9,Married,Unknown, Husband,Western Origin, Male,0,0,40, Canada, >50K
 All Ages, Federal-gov,352094,Basic Degree,10,Married, Tech-support, Husband,Western Origin, Male,7688,0,40, Guatemala, >50K
 All Ages, Private,189922,Basic Degree,12,Married, Tech-support, Husband,Western Origin, Male,0,0,50, United-States, >50K
 All Ages, Private,247869,Basic Degree,13,Married, Prof-specialty, Husband,Western Origin, Male,0,0,60, United-States, >50K
@@ -838,7 +838,7 @@ All Ages, Self-emp-not-inc,223881,Basic Degree,15,Married, Prof-specialty, Husba
 All Ages, Private,40142,Basic Degree,13,Married, Exec-managerial, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Self-emp-not-inc,57452,Basic Degree,11,Married, Craft-repair, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,151267,Compulsory School,9,Married, Machine-op-inspct, Wife,Western Origin, Female,15024,0,40, United-States, >50K
-All Ages,,163998,Compulsory School,9,Married,, Not-in-family,Western Origin, Male,0,0,20, United-States, >50K
+All Ages,,163998,Compulsory School,9,Married,Unknown, Not-in-family,Western Origin, Male,0,0,20, United-States, >50K
 All Ages, Self-emp-not-inc,28281,Basic Degree,13,Married, Farming-fishing, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,293196,Advanced Degree,16,Married, Prof-specialty, Husband,Western Origin, Male,15024,0,60, Iran, >50K
 All Ages, Private,214627,Advanced Degree,16,Not-Married, Prof-specialty, Unmarried,Western Origin, Male,15020,0,40, Iran, >50K
@@ -893,7 +893,7 @@ All Ages, Self-emp-inc,382802,Advanced Degree,16,Married, Prof-specialty, Husban
 All Ages, Private,106023,Compulsory School,9,Married, Craft-repair, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Local-gov,96102,Basic Degree,10,Married, Protective-serv, Husband,Western Origin, Male,0,1887,40, United-States, >50K
 All Ages, Private,36440,Basic Degree,15,Not-Married, Prof-specialty, Not-in-family,Western Origin, Female,0,0,65, United-States, >50K
-All Ages,,154236,Compulsory School,9,Married,, Wife,Western Origin, Female,7688,0,40, United-States, >50K
+All Ages,,154236,Compulsory School,9,Married,Unknown, Wife,Western Origin, Female,7688,0,40, United-States, >50K
 All Ages, Self-emp-inc,153546,Basic Degree,11,Married, Other-service, Wife,Western Origin, Female,0,0,36, United-States, >50K
 All Ages, Private,97688,Basic Degree,10,Married, Tech-support, Husband,Western Origin, Male,0,0,48, United-States, >50K
 All Ages, Self-emp-not-inc,52138,Advanced Degree,16,Married, Prof-specialty, Husband,Western Origin, Male,0,2392,25, United-States, >50K
@@ -960,11 +960,11 @@ All Ages, Federal-gov,127455,Basic Degree,10,Married, Protective-serv, Husband,W
 All Ages, Private,254230,Basic Degree,10,Married, Exec-managerial, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Local-gov,116286,Advanced Degree,14,Married, Prof-specialty, Husband,Western Origin, Male,0,0,60, United-States, >50K
 All Ages, Private,361888,Basic Degree,12,Married, Tech-support, Husband,Western Origin, Male,0,0,40, United-States, >50K
-All Ages,,26553,Basic Degree,13,Married,, Wife,Western Origin, Female,0,0,25, United-States, >50K
+All Ages,,26553,Basic Degree,13,Married,Unknown, Wife,Western Origin, Female,0,0,25, United-States, >50K
 All Ages, Private,225768,Basic Degree,11,Married, Craft-repair, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,191807,Compulsory School,9,Married, Sales, Husband,Western Origin, Male,15024,0,50, United-States, >50K
 All Ages, Federal-gov,33863,Compulsory School,9,Married, Adm-clerical, Husband,Western Origin, Male,0,0,40, United-States, >50K
-All Ages,,182687,Basic Degree,10,Married,, Wife,Western Origin, Female,0,0,45, United-States, >50K
+All Ages,,182687,Basic Degree,10,Married,Unknown, Wife,Western Origin, Female,0,0,45, United-States, >50K
 All Ages, Private,104501,Basic Degree,13,Married, Exec-managerial, Husband,Western Origin, Male,0,1902,55, United-States, >50K
 All Ages, Self-emp-inc,139057,Compulsory School,9,Married, Exec-managerial, Husband,Non-Western Origin, Male,0,0,84, Taiwan, >50K
 All Ages, Private,166124,Compulsory School,9,Married, Craft-repair, Husband,Western Origin, Male,0,0,40, United-States, >50K
@@ -979,7 +979,7 @@ All Ages, Private,310632,Basic Degree,10,Married, Craft-repair, Husband,Western 
 All Ages, Private,153976,Basic Degree,10,Married, Craft-repair, Husband,Western Origin, Male,0,0,52, United-States, >50K
 All Ages, Private,746786,Basic Degree,13,Married, Prof-specialty, Husband,Western Origin, Male,0,0,55, United-States, >50K
 All Ages, Private,101825,Advanced Degree,14,Married, Prof-specialty, Wife,Western Origin, Female,0,1977,40, United-States, >50K
-All Ages,,106707,Basic Degree,12,Married,, Husband,Western Origin, Male,0,0,20, United-States, >50K
+All Ages,,106707,Basic Degree,12,Married,Unknown, Husband,Western Origin, Male,0,0,20, United-States, >50K
 All Ages, State-gov,550848,Compulsory School,6,Married, Exec-managerial, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,192390,Compulsory School,9,Married, Machine-op-inspct, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,177858,Compulsory School,9,Not-Married, Craft-repair, Other-relative,Western Origin, Male,0,0,55, United-States, >50K
@@ -987,7 +987,7 @@ All Ages, Private,178134,Basic Degree,15,Not-Married, Prof-specialty, Not-in-fam
 All Ages, Private,207201,Basic Degree,10,Married, Craft-repair, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,124483,Basic Degree,13,Not-Married, Sales, Not-in-family,Non-Western Origin, Male,0,0,50,, >50K
 All Ages, Private,92036,Compulsory School,9,Married, Handlers-cleaners, Husband,Western Origin, Male,0,0,40, United-States, >50K
-All Ages,,118902,Advanced Degree,16,Married,, Husband,Western Origin, Male,0,2392,6, United-States, >50K
+All Ages,,118902,Advanced Degree,16,Married,Unknown, Husband,Western Origin, Male,0,2392,6, United-States, >50K
 All Ages, Private,381153,Compulsory School,6,Married, Tech-support, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,183612,Compulsory School,9,Married, Prof-specialty, Husband,Western Origin, Male,0,1977,40, United-States, >50K
 All Ages, Private,184105,Basic Degree,11,Married, Craft-repair, Husband,Western Origin, Male,0,0,40, United-States, >50K
@@ -1014,7 +1014,7 @@ All Ages, Private,223327,Compulsory School,9,Married, Exec-managerial, Husband,W
 All Ages, Private,95654,Basic Degree,13,Married, Prof-specialty, Wife,Western Origin, Female,0,0,50, Iran, >50K
 All Ages, Private,144064,Advanced Degree,16,Married, Prof-specialty, Husband,Western Origin, Male,0,0,55, United-States, >50K
 All Ages, Private,379682,Basic Degree,11,Married, Other-service, Wife,Western Origin, Female,0,0,20, United-States, >50K
-All Ages,,129661,Basic Degree,11,Married,, Wife,Non-Western Origin, Female,0,0,40, United-States, >50K
+All Ages,,129661,Basic Degree,11,Married,Unknown, Wife,Non-Western Origin, Female,0,0,40, United-States, >50K
 All Ages, Private,324655,Advanced Degree,14,Married, Tech-support, Husband,Western Origin, Male,0,1902,40,, >50K
 All Ages, Local-gov,137691,Compulsory School,9,Married, Craft-repair, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,84610,Basic Degree,13,Married, Exec-managerial, Husband,Western Origin, Male,0,1902,60, United-States, >50K
@@ -1022,7 +1022,7 @@ All Ages, Private,288371,Compulsory School,9,Married, Sales, Husband,Western Ori
 All Ages, Private,163083,Basic Degree,13,Married, Exec-managerial, Not-in-family,Western Origin, Male,14084,0,45, United-States, >50K
 All Ages, Local-gov,154940,Advanced Degree,14,Not-Married, Prof-specialty, Not-in-family,Western Origin, Female,0,0,45, United-States, >50K
 All Ages, Private,63509,Basic Degree,12,Married, Prof-specialty, Husband,Western Origin, Male,0,0,48, United-States, >50K
-All Ages,,158352,Advanced Degree,14,Not-Married,, Not-in-family,Western Origin, Female,8614,0,35, United-States, >50K
+All Ages,,158352,Advanced Degree,14,Not-Married,Unknown, Not-in-family,Western Origin, Female,8614,0,35, United-States, >50K
 All Ages, Private,125461,Basic Degree,10,Not-Married, Craft-repair, Not-in-family,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,174865,Compulsory School,5,Married, Exec-managerial, Husband,Western Origin, Male,0,0,45, United-States, >50K
 All Ages, Private,195453,Compulsory School,9,Married, Exec-managerial, Husband,Western Origin, Male,0,0,50, United-States, >50K
@@ -1071,7 +1071,7 @@ All Ages, Private,304175,Advanced Degree,14,Married, Prof-specialty, Husband,Wes
 All Ages, Self-emp-inc,207578,Compulsory School,9,Married, Adm-clerical, Husband,Western Origin, Male,0,0,50, United-States, >50K
 All Ages, Private,88842,Compulsory School,9,Married, Exec-managerial, Husband,Western Origin, Male,99999,0,40, United-States, >50K
 All Ages, State-gov,149650,Advanced Degree,16,Married, Prof-specialty, Husband,Western Origin, Male,0,0,40, Iran, >50K
-All Ages,,132930,Advanced Degree,14,Not-Married,, Not-in-family,Western Origin, Female,0,0,50, United-States, >50K
+All Ages,,132930,Advanced Degree,14,Not-Married,Unknown, Not-in-family,Western Origin, Female,0,0,50, United-States, >50K
 All Ages, Private,128472,Advanced Degree,16,Married, Prof-specialty, Husband,Western Origin, Male,0,0,55, United-States, >50K
 All Ages, Self-emp-inc,344060,Basic Degree,15,Married, Prof-specialty, Husband,Western Origin, Male,0,0,50, United-States, >50K
 All Ages, Self-emp-inc,286750,Basic Degree,15,Married, Prof-specialty, Husband,Western Origin, Male,0,0,99, United-States, >50K
@@ -1107,7 +1107,7 @@ All Ages, Private,379798,Basic Degree,10,Married, Sales, Husband,Western Origin,
 All Ages, Private,299635,Advanced Degree,14,Married, Exec-managerial, Husband,Western Origin, Male,0,1902,50, United-States, >50K
 All Ages, Private,148015,Basic Degree,13,Married, Prof-specialty, Wife,Western Origin, Female,15024,0,40, United-States, >50K
 All Ages, Private,206964,Basic Degree,10,Married, Sales, Husband,Western Origin, Male,0,0,40, United-States, >50K
-All Ages,,117528,Basic Degree,11,Married,, Wife,Western Origin, Female,0,0,40, United-States, >50K
+All Ages,,117528,Basic Degree,11,Married,Unknown, Wife,Western Origin, Female,0,0,40, United-States, >50K
 All Ages, Private,124973,Basic Degree,11,Married, Exec-managerial, Husband,Western Origin, Male,15024,0,50, United-States, >50K
 All Ages, Private,220049,Compulsory School,9,Married, Sales, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,50164,Advanced Degree,16,Married, Exec-managerial, Husband,Western Origin, Male,0,0,60, United-States, >50K
@@ -1133,13 +1133,13 @@ All Ages, Local-gov,91711,Basic Degree,13,Married, Prof-specialty, Husband,Weste
 All Ages, Private,198003,Basic Degree,10,Married, Craft-repair, Husband,Western Origin, Male,7298,0,50, United-States, >50K
 All Ages, Private,164243,Compulsory School,9,Married, Tech-support, Husband,Western Origin, Male,0,0,60, United-States, >50K
 All Ages, Private,173175,Basic Degree,13,Married, Exec-managerial, Husband,Western Origin, Male,15024,0,50, United-States, >50K
-All Ages,,317219,Basic Degree,10,Married,, Wife,Western Origin, Female,0,0,20, United-States, >50K
+All Ages,,317219,Basic Degree,10,Married,Unknown, Wife,Western Origin, Female,0,0,20, United-States, >50K
 All Ages, Self-emp-not-inc,168625,Basic Degree,10,Not-Married, Tech-support, Not-in-family,Western Origin, Female,0,0,12, United-States, >50K
 All Ages, Private,155659,Basic Degree,10,Married, Craft-repair, Husband,Western Origin, Male,15024,0,45, United-States, >50K
 All Ages, Self-emp-not-inc,88570,Basic Degree,11,Married, Transport-moving, Wife,Western Origin, Female,0,0,15, Germany, >50K
 All Ages, Private,179668,Basic Degree,13,Married, Prof-specialty, Husband,Western Origin, Male,0,0,50, United-States, >50K
 All Ages, Private,155343,Compulsory School,9,Married, Craft-repair, Husband,Western Origin, Male,0,1848,50, United-States, >50K
-All Ages,,204486,Basic Degree,13,Married,, Husband,Western Origin, Male,0,0,8, United-States, >50K
+All Ages,,204486,Basic Degree,13,Married,Unknown, Husband,Western Origin, Male,0,0,8, United-States, >50K
 All Ages, Private,114224,Basic Degree,13,Married, Prof-specialty, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,163620,Compulsory School,9,Married, Exec-managerial, Husband,Western Origin, Male,7298,0,84, United-States, >50K
 All Ages, Private,135312,Basic Degree,13,Not-Married, Prof-specialty, Not-in-family,Western Origin, Male,0,0,40, United-States, >50K
@@ -1156,7 +1156,7 @@ All Ages, Federal-gov,298635,Advanced Degree,14,Married, Tech-support, Husband,N
 All Ages, Local-gov,222810,Basic Degree,10,Not-Married, Other-service, Other-relative,Western Origin, Female,7896,0,40,, >50K
 All Ages, Private,164190,Basic Degree,10,Married, Prof-specialty, Husband,Western Origin, Male,0,0,50, United-States, >50K
 All Ages, Private,65087,Advanced Degree,14,Married, Exec-managerial, Husband,Western Origin, Male,15024,0,50, United-States, >50K
-All Ages,,182378,Basic Degree,13,Married,, Husband,Western Origin, Male,9386,0,60, United-States, >50K
+All Ages,,182378,Basic Degree,13,Married,Unknown, Husband,Western Origin, Male,9386,0,60, United-States, >50K
 All Ages, Private,174789,Basic Degree,12,Married, Exec-managerial, Husband,Western Origin, Male,0,1848,50, United-States, >50K
 All Ages, Private,188982,Compulsory School,9,Married, Handlers-cleaners, Husband,Western Origin, Male,0,0,20, United-States, >50K
 All Ages, Self-emp-inc,120121,Basic Degree,13,Married, Sales, Husband,Western Origin, Male,0,0,50, United-States, >50K
@@ -1165,7 +1165,7 @@ All Ages, Private,183892,Compulsory School,9,Not-Married, Transport-moving, Not-
 All Ages, Local-gov,195124,Compulsory School,7,Not-Married, Sales, Unmarried,Western Origin, Male,7430,0,50, Puerto-Rico, >50K
 All Ages, State-gov,55938,Basic Degree,13,Married, Adm-clerical, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,179717,Basic Degree,13,Not-Married, Sales, Not-in-family,Western Origin, Male,0,1564,60, United-States, >50K
-All Ages,,164102,Compulsory School,9,Not-Married,, Not-in-family,Western Origin, Female,0,0,40, United-States, >50K
+All Ages,,164102,Compulsory School,9,Not-Married,Unknown, Not-in-family,Western Origin, Female,0,0,40, United-States, >50K
 All Ages, Private,112115,Basic Degree,13,Married, Exec-managerial, Husband,Western Origin, Male,0,0,50, United-States, >50K
 All Ages, Private,168232,Basic Degree,10,Married, Adm-clerical, Husband,Western Origin, Male,0,0,44, United-States, >50K
 All Ages, Self-emp-inc,207668,Compulsory School,9,Married, Craft-repair, Husband,Western Origin, Male,0,0,54,, >50K
@@ -1211,7 +1211,7 @@ All Ages, Self-emp-inc,204205,Basic Degree,10,Married, Exec-managerial, Husband,
 All Ages, Private,142287,Basic Degree,10,Married, Adm-clerical, Husband,Western Origin, Male,0,1902,50, United-States, >50K
 All Ages, Private,51331,Basic Degree,12,Married, Exec-managerial, Wife,Western Origin, Female,0,0,16, United-States, >50K
 All Ages, Self-emp-not-inc,402397,Advanced Degree,14,Married, Exec-managerial, Wife,Western Origin, Female,0,1902,60, United-States, >50K
-All Ages,,203953,Compulsory School,9,Married,, Husband,Western Origin, Male,0,0,40, United-States, >50K
+All Ages,,203953,Compulsory School,9,Married,Unknown, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,315640,Advanced Degree,16,Married, Prof-specialty, Husband,Non-Western Origin, Male,0,1977,40, China, >50K
 All Ages, Private,282023,Basic Degree,15,Married, Prof-specialty, Husband,Western Origin, Male,0,0,45, United-States, >50K
 All Ages, Self-emp-not-inc,148599,Advanced Degree,14,Married, Craft-repair, Husband,Western Origin, Male,0,0,50, United-States, >50K
@@ -1256,7 +1256,7 @@ All Ages, Private,207064,Compulsory School,9,Married, Craft-repair, Husband,West
 All Ages, Federal-gov,168294,Compulsory School,9,Married, Adm-clerical, Husband,Western Origin, Male,5178,0,40, United-States, >50K
 All Ages, Local-gov,194895,Basic Degree,10,Married, Handlers-cleaners, Husband,Western Origin, Male,7298,0,40, United-States, >50K
 All Ages, Self-emp-not-inc,27305,Compulsory School,9,Married, Farming-fishing, Husband,Western Origin, Male,7688,0,40, United-States, >50K
-All Ages,,134886,Compulsory School,9,Married,, Wife,Western Origin, Female,0,0,2, United-States, >50K
+All Ages,,134886,Compulsory School,9,Married,Unknown, Wife,Western Origin, Female,0,0,2, United-States, >50K
 All Ages, Private,305379,Basic Degree,13,Married, Exec-managerial, Husband,Western Origin, Male,0,0,50, United-States, >50K
 All Ages, Self-emp-not-inc,99185,Basic Degree,10,Married, Exec-managerial, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,159662,Compulsory School,9,Married, Sales, Own-child,Western Origin, Male,0,0,26, United-States, >50K
@@ -1265,7 +1265,7 @@ All Ages, Private,146091,Advanced Degree,16,Married, Exec-managerial, Wife,Weste
 All Ages, Private,207668,Basic Degree,13,Married, Exec-managerial, Husband,Western Origin, Male,15024,0,45, United-States, >50K
 All Ages, Private,225707,Compulsory School,9,Married, Machine-op-inspct, Husband,Western Origin, Male,0,0,40, Cuba, >50K
 All Ages, State-gov,506329,Advanced Degree,16,Married, Prof-specialty, Husband,Non-Western Origin, Male,0,0,40, Taiwan, >50K
-All Ages,,172637,Basic Degree,10,Married,, Husband,Western Origin, Male,0,0,20, United-States, >50K
+All Ages,,172637,Basic Degree,10,Married,Unknown, Husband,Western Origin, Male,0,0,20, United-States, >50K
 All Ages, Federal-gov,144778,Basic Degree,13,Not-Married, Exec-managerial, Not-in-family,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Self-emp-not-inc,33213,Advanced Degree,14,Married, Prof-specialty, Husband,Western Origin, Male,0,0,30,, >50K
 All Ages, Local-gov,297248,Basic Degree,15,Married, Prof-specialty, Husband,Western Origin, Male,0,2415,45, United-States, >50K
@@ -1449,7 +1449,7 @@ All Ages, Private,156580,Basic Degree,10,Married, Machine-op-inspct, Wife,Wester
 All Ages, Self-emp-not-inc,323790,Basic Degree,13,Married, Exec-managerial, Husband,Western Origin, Male,0,1977,70, United-States, >50K
 All Ages, Self-emp-inc,165667,Advanced Degree,16,Married, Prof-specialty, Husband,Western Origin, Male,7688,0,60, Canada, >50K
 All Ages, Private,205424,Basic Degree,13,Not-Married, Prof-specialty, Not-in-family,Western Origin, Male,0,0,40, United-States, >50K
-All Ages,,134566,Advanced Degree,16,Married,, Husband,Western Origin, Male,0,0,50, United-States, >50K
+All Ages,,134566,Advanced Degree,16,Married,Unknown, Husband,Western Origin, Male,0,0,50, United-States, >50K
 All Ages, Self-emp-inc,107164,Compulsory School,6,Not-Married, Transport-moving, Not-in-family,Western Origin, Male,0,2559,50, United-States, >50K
 All Ages, Private,180303,Basic Degree,13,Married, Exec-managerial, Husband,Non-Western Origin, Male,0,0,50, Japan, >50K
 All Ages, Private,119558,Compulsory School,9,Married, Exec-managerial, Husband,Western Origin, Male,0,0,50, United-States, >50K
@@ -1646,12 +1646,12 @@ All Ages, Private,308373,Basic Degree,10,Married, Exec-managerial, Wife,Western 
 All Ages, Local-gov,321851,Basic Degree,13,Not-Married, Prof-specialty, Not-in-family,Western Origin, Female,0,0,50, United-States, >50K
 All Ages, Private,125933,Basic Degree,13,Married, Sales, Husband,Western Origin, Male,0,0,60, United-States, >50K
 All Ages, Private,209205,Advanced Degree,14,Married, Prof-specialty, Husband,Western Origin, Male,0,0,45, United-States, >50K
-All Ages,,112821,Basic Degree,10,Married,, Husband,Western Origin, Male,0,0,35, United-States, >50K
+All Ages,,112821,Basic Degree,10,Married,Unknown, Husband,Western Origin, Male,0,0,35, United-States, >50K
 All Ages, Private,189564,Basic Degree,13,Married, Sales, Wife,Western Origin, Female,0,0,42, United-States, >50K
 All Ages, Federal-gov,325538,Advanced Degree,14,Married, Prof-specialty, Husband,Western Origin, Male,0,0,40,, >50K
 All Ages, Local-gov,252024,Basic Degree,10,Married, Protective-serv, Husband,Western Origin, Male,0,0,72, United-States, >50K
 All Ages, Private,43945,Basic Degree,10,Married, Craft-repair, Husband,Western Origin, Male,0,0,40, United-States, >50K
-All Ages,,69328,Basic Degree,11,Married,, Husband,Western Origin, Male,0,0,50, United-States, >50K
+All Ages,,69328,Basic Degree,11,Married,Unknown, Husband,Western Origin, Male,0,0,50, United-States, >50K
 All Ages, Private,360096,Basic Degree,13,Married, Exec-managerial, Husband,Western Origin, Male,15024,0,60, United-States, >50K
 All Ages, Private,170154,Basic Degree,13,Not-Married, Tech-support, Not-in-family,Western Origin, Female,0,0,40, United-States, >50K
 All Ages, Local-gov,180096,Advanced Degree,14,Married, Prof-specialty, Husband,Western Origin, Male,0,0,40, United-States, >50K
@@ -1666,10 +1666,10 @@ All Ages, Self-emp-not-inc,223580,Basic Degree,10,Married, Machine-op-inspct, Hu
 All Ages, Private,119177,Basic Degree,13,Married, Sales, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,327886,Basic Degree,15,Not-Married, Prof-specialty, Not-in-family,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,290641,Basic Degree,13,Married, Exec-managerial, Husband,Western Origin, Male,0,0,50, United-States, >50K
-All Ages,,191118,Compulsory School,9,Married,, Husband,Western Origin, Male,0,1848,40, United-States, >50K
+All Ages,,191118,Compulsory School,9,Married,Unknown, Husband,Western Origin, Male,0,1848,40, United-States, >50K
 All Ages, Federal-gov,39606,Advanced Degree,14,Married, Exec-managerial, Husband,Western Origin, Male,0,0,40, England, >50K
 All Ages, Self-emp-inc,95150,Basic Degree,10,Married, Exec-managerial, Husband,Western Origin, Male,0,0,50, United-States, >50K
-All Ages,,124487,Basic Degree,10,Not-Married,, Not-in-family,Western Origin, Female,0,0,40, United-States, >50K
+All Ages,,124487,Basic Degree,10,Not-Married,Unknown, Not-in-family,Western Origin, Female,0,0,40, United-States, >50K
 All Ages, Local-gov,121124,Advanced Degree,14,Married, Prof-specialty, Husband,Western Origin, Male,0,0,35, United-States, >50K
 All Ages, Federal-gov,282830,Basic Degree,12,Married, Adm-clerical, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,131584,Compulsory School,9,Married, Sales, Husband,Western Origin, Male,7298,0,40, United-States, >50K
@@ -1709,7 +1709,7 @@ All Ages, Self-emp-inc,227856,Basic Degree,13,Married, Exec-managerial, Husband,
 All Ages, Private,107682,Advanced Degree,14,Not-Married, Exec-managerial, Not-in-family,Western Origin, Female,0,0,40, United-States, >50K
 All Ages, Self-emp-inc,194636,Basic Degree,13,Married, Sales, Husband,Western Origin, Male,99999,0,65, United-States, >50K
 All Ages, Private,32709,Basic Degree,13,Married, Tech-support, Wife,Western Origin, Female,0,0,40, United-States, >50K
-All Ages,,208311,Basic Degree,13,Married,, Husband,Western Origin, Male,0,0,80, United-States, >50K
+All Ages,,208311,Basic Degree,13,Married,Unknown, Husband,Western Origin, Male,0,0,80, United-States, >50K
 All Ages, Private,152940,Basic Degree,10,Married, Sales, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,243580,Basic Degree,13,Married, Prof-specialty, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Local-gov,177675,Basic Degree,10,Not-Married, Protective-serv, Not-in-family,Western Origin, Male,0,0,50, United-States, >50K
@@ -1815,11 +1815,11 @@ All Ages, Self-emp-not-inc,241998,Basic Degree,10,Married, Sales, Husband,Wester
 All Ages, Private,115323,Advanced Degree,14,Married, Exec-managerial, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Self-emp-not-inc,190836,Compulsory School,9,Married, Sales, Husband,Western Origin, Male,0,0,50, United-States, >50K
 All Ages, Self-emp-inc,159179,Basic Degree,15,Married, Prof-specialty, Husband,Western Origin, Male,0,0,45, United-States, >50K
-All Ages,,205479,Basic Degree,13,Married,, Husband,Western Origin, Male,0,0,50, United-States, >50K
+All Ages,,205479,Basic Degree,13,Married,Unknown, Husband,Western Origin, Male,0,0,50, United-States, >50K
 All Ages, Private,163237,Basic Degree,13,Married, Sales, Husband,Western Origin, Male,0,0,52, United-States, >50K
 All Ages, Private,196501,Basic Degree,13,Not-Married, Exec-managerial, Not-in-family,Western Origin, Male,14084,0,50, United-States, >50K
 All Ages, Private,118798,Compulsory School,9,Married, Craft-repair, Husband,Western Origin, Male,99999,0,40, United-States, >50K
-All Ages,,277390,Basic Degree,13,Married,, Wife,Western Origin, Female,0,0,30, United-States, >50K
+All Ages,,277390,Basic Degree,13,Married,Unknown, Wife,Western Origin, Female,0,0,30, United-States, >50K
 All Ages, Private,100295,Compulsory School,4,Married, Machine-op-inspct, Wife,Western Origin, Female,0,0,50, Canada, >50K
 All Ages, Private,172256,Compulsory School,9,Married, Machine-op-inspct, Husband,Western Origin, Male,0,0,44, United-States, >50K
 All Ages, Private,188808,Advanced Degree,14,Married, Exec-managerial, Husband,Western Origin, Male,0,0,45, United-States, >50K
@@ -1869,7 +1869,7 @@ All Ages, Self-emp-inc,98051,Basic Degree,10,Married, Sales, Husband,Western Ori
 All Ages, Private,136986,Basic Degree,13,Married, Exec-managerial, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,199224,Basic Degree,13,Married, Prof-specialty, Husband,Western Origin, Male,0,0,45, United-States, >50K
 All Ages, Private,182314,Advanced Degree,14,Married, Tech-support, Husband,Western Origin, Male,0,0,40, United-States, >50K
-All Ages,,208640,Compulsory School,9,Married,, Husband,Western Origin, Male,0,0,30, United-States, >50K
+All Ages,,208640,Compulsory School,9,Married,Unknown, Husband,Western Origin, Male,0,0,30, United-States, >50K
 All Ages, Private,154227,Compulsory School,9,Married, Craft-repair, Husband,Western Origin, Male,0,0,43, United-States, >50K
 All Ages, Private,105044,Basic Degree,10,Married, Exec-managerial, Husband,Western Origin, Male,0,0,42, United-States, >50K
 All Ages, Private,35910,Basic Degree,10,Married, Sales, Husband,Western Origin, Male,0,0,43, United-States, >50K
@@ -1902,7 +1902,7 @@ All Ages, Private,289364,Basic Degree,10,Married, Exec-managerial, Husband,Weste
 All Ages, Self-emp-not-inc,181705,Compulsory School,9,Married, Craft-repair, Husband,Western Origin, Male,3103,0,40, United-States, >50K
 All Ages, Private,238912,Advanced Degree,16,Married, Prof-specialty, Husband,Western Origin, Male,0,0,60, United-States, >50K
 All Ages, Private,134737,Advanced Degree,14,Married, Prof-specialty, Husband,Western Origin, Male,7688,0,55, United-States, >50K
-All Ages,,157403,Basic Degree,15,Married,, Husband,Western Origin, Male,6418,0,10, United-States, >50K
+All Ages,,157403,Basic Degree,15,Married,Unknown, Husband,Western Origin, Male,6418,0,10, United-States, >50K
 All Ages, Private,197429,Compulsory School,9,Married, Handlers-cleaners, Husband,Western Origin, Male,0,0,45, United-States, >50K
 All Ages, Private,47343,Advanced Degree,14,Married, Prof-specialty, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,192982,Compulsory School,9,Married, Tech-support, Husband,Western Origin, Male,0,1848,40, United-States, >50K
@@ -1912,7 +1912,7 @@ All Ages, Private,118486,Basic Degree,13,Married, Prof-specialty, Unmarried,West
 All Ages, Private,196554,Basic Degree,15,Married, Prof-specialty, Not-in-family,Western Origin, Male,0,0,35, United-States, >50K
 All Ages, Self-emp-not-inc,192755,Compulsory School,9,Married, Machine-op-inspct, Wife,Western Origin, Female,0,0,20, United-States, >50K
 All Ages, Private,156192,Advanced Degree,14,Married, Prof-specialty, Husband,Western Origin, Male,0,0,45, United-States, >50K
-All Ages,,213149,Basic Degree,10,Married,, Husband,Western Origin, Male,0,1825,40, United-States, >50K
+All Ages,,213149,Basic Degree,10,Married,Unknown, Husband,Western Origin, Male,0,1825,40, United-States, >50K
 All Ages, Private,205424,Basic Degree,10,Married, Sales, Husband,Western Origin, Male,0,0,65, United-States, >50K
 All Ages, Private,202450,Compulsory School,9,Married, Craft-repair, Husband,Western Origin, Male,0,0,55, United-States, >50K
 All Ages, State-gov,85384,Basic Degree,10,Married, Craft-repair, Husband,Western Origin, Male,0,0,40, United-States, >50K
@@ -1930,7 +1930,7 @@ All Ages, Federal-gov,238342,Basic Degree,13,Married, Sales, Husband,Western Ori
 All Ages, Private,205659,Basic Degree,12,Married, Exec-managerial, Wife,Western Origin, Female,0,0,50, Thailand, >50K
 All Ages, Federal-gov,334346,Basic Degree,13,Married, Exec-managerial, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,169711,Basic Degree,11,Married, Prof-specialty, Husband,Western Origin, Male,0,0,40, Germany, >50K
-All Ages,,300104,Compulsory School,3,Married,, Husband,Western Origin, Male,7298,0,84, United-States, >50K
+All Ages,,300104,Compulsory School,3,Married,Unknown, Husband,Western Origin, Male,7298,0,84, United-States, >50K
 All Ages, State-gov,177974,Compulsory School,9,Married, Protective-serv, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,185459,Advanced Degree,14,Married, Sales, Husband,Western Origin, Male,0,0,50, United-States, >50K
 All Ages, Private,108496,Advanced Degree,14,Married, Exec-managerial, Husband,Western Origin, Male,0,0,45, United-States, >50K
@@ -1957,7 +1957,7 @@ All Ages, Self-emp-inc,137940,Basic Degree,15,Married, Prof-specialty, Husband,W
 All Ages, Private,224531,Compulsory School,9,Married, Craft-repair, Husband,Western Origin, Male,7298,0,40, United-States, >50K
 All Ages, Private,191256,Compulsory School,9,Married, Transport-moving, Husband,Western Origin, Male,0,0,65, United-States, >50K
 All Ages, Private,197148,Compulsory School,9,Married, Protective-serv, Husband,Western Origin, Male,0,0,24, United-States, >50K
-All Ages,,353881,Basic Degree,11,Married,, Husband,Western Origin, Male,3103,0,60, United-States, >50K
+All Ages,,353881,Basic Degree,11,Married,Unknown, Husband,Western Origin, Male,3103,0,60, United-States, >50K
 All Ages, Private,201328,Basic Degree,13,Married, Prof-specialty, Husband,Western Origin, Male,0,0,50, United-States, >50K
 All Ages, Federal-gov,200968,Basic Degree,10,Married, Adm-clerical, Other-relative,Western Origin, Male,0,0,45, United-States, >50K
 All Ages, Private,132879,Basic Degree,13,Married, Exec-managerial, Husband,Western Origin, Male,0,0,40, United-States, >50K
@@ -2056,7 +2056,7 @@ All Ages, Private,122616,Basic Degree,10,Married, Tech-support, Husband,Western 
 All Ages, Self-emp-not-inc,148492,Compulsory School,9,Married, Craft-repair, Husband,Western Origin, Male,0,1485,50, United-States, >50K
 All Ages, Private,106957,Compulsory School,7,Not-Married, Craft-repair, Own-child,Non-Western Origin, Male,14344,0,40, Vietnam, >50K
 All Ages, Private,29312,Compulsory School,6,Married, Transport-moving, Husband,Western Origin, Male,0,0,80, United-States, >50K
-All Ages,,116632,Basic Degree,10,Married,, Husband,Western Origin, Male,0,0,45, United-States, >50K
+All Ages,,116632,Basic Degree,10,Married,Unknown, Husband,Western Origin, Male,0,0,45, United-States, >50K
 All Ages, Private,256362,Compulsory School,9,Married, Craft-repair, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,183479,Basic Degree,11,Married, Sales, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Self-emp-not-inc,313853,Basic Degree,13,Not-Married, Other-service, Unmarried,Western Origin, Male,0,0,45, United-States, >50K
@@ -2070,7 +2070,7 @@ All Ages, Local-gov,221740,Basic Degree,13,Married, Prof-specialty, Wife,Western
 All Ages, Private,157932,Compulsory School,6,Married, Craft-repair, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,354739,Basic Degree,11,Married, Prof-specialty, Husband,Non-Western Origin, Male,0,0,36, Philippines, >50K
 All Ages, Local-gov,189762,Compulsory School,9,Married, Craft-repair, Husband,Western Origin, Male,0,0,40, United-States, >50K
-All Ages,,29020,Basic Degree,15,Married,, Husband,Western Origin, Male,10605,0,10, United-States, >50K
+All Ages,,29020,Basic Degree,15,Married,Unknown, Husband,Western Origin, Male,10605,0,10, United-States, >50K
 All Ages, Private,196385,Advanced Degree,14,Married, Prof-specialty, Husband,Western Origin, Male,0,0,37, United-States, >50K
 All Ages, Self-emp-not-inc,104973,Advanced Degree,14,Married, Farming-fishing, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Local-gov,238959,Advanced Degree,14,Not-Married, Exec-managerial, Unmarried,Western Origin, Female,9562,0,40, United-States, >50K
@@ -2097,7 +2097,7 @@ All Ages, Private,229029,Basic Degree,13,Married, Exec-managerial, Husband,Weste
 All Ages, Private,91037,Compulsory School,9,Married, Adm-clerical, Wife,Western Origin, Female,0,0,40, United-States, >50K
 All Ages, Private,171484,Compulsory School,6,Married, Machine-op-inspct, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,200453,Compulsory School,9,Married, Craft-repair, Husband,Western Origin, Male,15024,0,40, United-States, >50K
-All Ages,,30475,Compulsory School,4,Married,, Husband,Western Origin, Male,0,0,40, United-States, >50K
+All Ages,,30475,Compulsory School,4,Married,Unknown, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,70995,Basic Degree,13,Married, Transport-moving, Husband,Western Origin, Male,15024,0,99, United-States, >50K
 All Ages, Local-gov,247807,Basic Degree,11,Not-Married, Protective-serv, Not-in-family,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,163113,Compulsory School,9,Not-Married, Sales, Not-in-family,Western Origin, Female,0,0,35, United-States, >50K
@@ -2138,7 +2138,7 @@ All Ages, Private,96020,Basic Degree,13,Married, Exec-managerial, Wife,Western O
 All Ages, Private,205950,Basic Degree,10,Married, Machine-op-inspct, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,221172,Basic Degree,12,Married, Exec-managerial, Husband,Western Origin, Male,0,0,50, United-States, >50K
 All Ages, Private,66686,Compulsory School,9,Married, Transport-moving, Husband,Western Origin, Male,0,0,40, United-States, >50K
-All Ages,,325537,Basic Degree,11,Married,, Husband,Western Origin, Male,0,0,50, United-States, >50K
+All Ages,,325537,Basic Degree,11,Married,Unknown, Husband,Western Origin, Male,0,0,50, United-States, >50K
 All Ages, Self-emp-not-inc,250499,Basic Degree,10,Married, Adm-clerical, Wife,Western Origin, Female,0,0,55, United-States, >50K
 All Ages, Private,167531,Basic Degree,15,Married, Prof-specialty, Wife,Non-Western Origin, Female,15024,0,50, United-States, >50K
 All Ages, Private,99212,Basic Degree,11,Married, Exec-managerial, Husband,Western Origin, Male,3103,0,48, United-States, >50K
@@ -2192,7 +2192,7 @@ All Ages, Private,149324,Basic Degree,10,Married, Craft-repair, Husband,Western 
 All Ages, Private,259307,Advanced Degree,14,Married, Exec-managerial, Husband,Western Origin, Male,0,0,50, United-States, >50K
 All Ages, Self-emp-not-inc,74160,Advanced Degree,14,Not-Married, Prof-specialty, Unmarried,Western Origin, Male,0,0,60, United-States, >50K
 All Ages, Local-gov,193026,Compulsory School,9,Married, Craft-repair, Husband,Western Origin, Male,0,0,50, United-States, >50K
-All Ages,,28678,Advanced Degree,14,Married,, Husband,Western Origin, Male,9386,0,6, United-States, >50K
+All Ages,,28678,Advanced Degree,14,Married,Unknown, Husband,Western Origin, Male,9386,0,6, United-States, >50K
 All Ages, Private,282642,Compulsory School,9,Married, Handlers-cleaners, Husband,Western Origin, Male,0,2174,40, United-States, >50K
 All Ages, Local-gov,177240,Basic Degree,15,Not-Married, Prof-specialty, Not-in-family,Western Origin, Male,10520,0,40, United-States, >50K
 All Ages, Private,218490,Advanced Degree,14,Married, Exec-managerial, Husband,Western Origin, Male,0,0,55, El-Salvador, >50K
@@ -2209,14 +2209,14 @@ All Ages, Private,134737,Basic Degree,13,Married, Prof-specialty, Husband,Wester
 All Ages, Private,82622,Basic Degree,10,Married, Other-service, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Self-emp-not-inc,231348,Basic Degree,10,Married, Other-service, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, State-gov,99156,Advanced Degree,16,Married, Prof-specialty, Husband,Western Origin, Male,0,0,50, United-States, >50K
-All Ages,,149700,Basic Degree,13,Married,, Husband,Western Origin, Male,0,0,36, United-States, >50K
+All Ages,,149700,Basic Degree,13,Married,Unknown, Husband,Western Origin, Male,0,0,36, United-States, >50K
 All Ages, Private,189680,Basic Degree,13,Married, Sales, Husband,Western Origin, Male,0,1977,40, United-States, >50K
 All Ages, Private,374524,Basic Degree,15,Married, Prof-specialty, Husband,Western Origin, Male,0,0,75, United-States, >50K
 All Ages, Self-emp-not-inc,127805,Compulsory School,4,Married, Transport-moving, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,241998,Basic Degree,13,Married, Tech-support, Husband,Western Origin, Male,0,0,50, United-States, >50K
 All Ages, Federal-gov,156410,Compulsory School,9,Married, Adm-clerical, Husband,Western Origin, Male,0,0,50, United-States, >50K
 All Ages, Self-emp-not-inc,175406,Advanced Degree,14,Married, Exec-managerial, Wife,Western Origin, Female,0,0,30, United-States, >50K
-All Ages,,193172,Basic Degree,11,Married,, Own-child,Western Origin, Female,7688,0,50, United-States, >50K
+All Ages,,193172,Basic Degree,11,Married,Unknown, Own-child,Western Origin, Female,7688,0,50, United-States, >50K
 All Ages, State-gov,400285,Compulsory School,9,Married, Adm-clerical, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,212120,Basic Degree,13,Married, Exec-managerial, Husband,Western Origin, Male,0,0,45, United-States, >50K
 All Ages, Private,320510,Basic Degree,13,Married, Exec-managerial, Husband,Western Origin, Male,0,1902,40, United-States, >50K
@@ -2228,7 +2228,7 @@ All Ages, Private,162327,Basic Degree,13,Married, Adm-clerical, Husband,Western 
 All Ages, Private,233194,Compulsory School,9,Married, Sales, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,290660,Basic Degree,13,Married, Craft-repair, Husband,Western Origin, Male,7688,0,55, United-States, >50K
 All Ages, Private,179117,Basic Degree,12,Not-Married, Machine-op-inspct, Not-in-family,Western Origin, Female,10520,0,50, United-States, >50K
-All Ages,,33608,Basic Degree,10,Married,, Husband,Western Origin, Male,9386,0,30, United-States, >50K
+All Ages,,33608,Basic Degree,10,Married,Unknown, Husband,Western Origin, Male,9386,0,30, United-States, >50K
 All Ages, State-gov,126569,Compulsory School,9,Married, Craft-repair, Husband,Western Origin, Male,7298,0,40, United-States, >50K
 All Ages, Federal-gov,175873,Basic Degree,10,Married, Adm-clerical, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Self-emp-not-inc,181070,Compulsory School,9,Married, Sales, Husband,Western Origin, Male,0,0,40, England, >50K
@@ -2241,10 +2241,10 @@ All Ages, Private,108435,Advanced Degree,14,Married, Exec-managerial, Husband,We
 All Ages, Private,352005,Basic Degree,13,Married, Sales, Husband,Western Origin, Male,15024,0,45, United-States, >50K
 All Ages, Private,258819,Compulsory School,9,Not-Married, Craft-repair, Not-in-family,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Self-emp-inc,340110,Basic Degree,10,Married, Sales, Husband,Western Origin, Male,0,0,50, United-States, >50K
-All Ages,,186809,Basic Degree,13,Married,, Husband,Western Origin, Male,0,0,30, United-States, >50K
+All Ages,,186809,Basic Degree,13,Married,Unknown, Husband,Western Origin, Male,0,0,30, United-States, >50K
 All Ages, Private,110977,Advanced Degree,16,Not-Married, Exec-managerial, Not-in-family,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,158800,Basic Degree,13,Married, Exec-managerial, Husband,Western Origin, Male,0,0,50, United-States, >50K
-All Ages,,28197,Compulsory School,9,Married,, Husband,Western Origin, Male,0,0,60, United-States, >50K
+All Ages,,28197,Compulsory School,9,Married,Unknown, Husband,Western Origin, Male,0,0,60, United-States, >50K
 All Ages, Private,170871,Advanced Degree,14,Married, Exec-managerial, Husband,Western Origin, Male,0,0,45, United-States, >50K
 All Ages, Private,175689,Basic Degree,10,Married, Adm-clerical, Wife,Western Origin, Female,0,0,14, Cuba, >50K
 All Ages, Private,205100,Basic Degree,13,Married, Exec-managerial, Husband,Western Origin, Male,15024,0,60, United-States, >50K
@@ -2269,7 +2269,7 @@ All Ages, State-gov,199381,Advanced Degree,14,Married, Prof-specialty, Wife,West
 All Ages, Self-emp-not-inc,56328,Basic Degree,13,Married, Prof-specialty, Wife,Western Origin, Female,0,0,8, United-States, >50K
 All Ages, Private,128796,Basic Degree,13,Married, Exec-managerial, Husband,Western Origin, Male,0,0,44, United-States, >50K
 All Ages, Private,190333,Basic Degree,10,Married, Adm-clerical, Husband,Western Origin, Male,0,0,40, United-States, >50K
-All Ages,,180553,Compulsory School,9,Married,, Wife,Western Origin, Female,0,0,40, United-States, >50K
+All Ages,,180553,Compulsory School,9,Married,Unknown, Wife,Western Origin, Female,0,0,40, United-States, >50K
 All Ages, Private,255334,Basic Degree,13,Married, Prof-specialty, Husband,Western Origin, Male,0,0,25, United-States, >50K
 All Ages, Self-emp-inc,328216,Basic Degree,13,Married, Sales, Husband,Western Origin, Male,0,1902,42,, >50K
 All Ages, State-gov,41834,Compulsory School,9,Married, Transport-moving, Husband,Western Origin, Male,0,0,38, United-States, >50K
@@ -2282,7 +2282,7 @@ All Ages, Self-emp-not-inc,119199,Basic Degree,10,Married, Adm-clerical, Wife,We
 All Ages, Private,46221,Advanced Degree,16,Married, Other-service, Not-in-family,Western Origin, Male,27828,0,60,, >50K
 All Ages, Private,174533,Basic Degree,13,Not-Married, Exec-managerial, Not-in-family,Western Origin, Female,0,0,45, United-States, >50K
 All Ages, Private,155261,Compulsory School,9,Married, Exec-managerial, Husband,Western Origin, Male,0,0,40, United-States, >50K
-All Ages,,184513,Basic Degree,13,Married,, Husband,Western Origin, Male,0,0,80, United-States, >50K
+All Ages,,184513,Basic Degree,13,Married,Unknown, Husband,Western Origin, Male,0,0,80, United-States, >50K
 All Ages, Local-gov,233734,Advanced Degree,14,Not-Married, Prof-specialty, Not-in-family,Western Origin, Female,0,0,40, United-States, >50K
 All Ages, State-gov,35969,Advanced Degree,14,Married, Prof-specialty, Husband,Western Origin, Male,0,0,60, United-States, >50K
 All Ages, Local-gov,209899,Advanced Degree,14,Not-Married, Tech-support, Not-in-family,Western Origin, Female,8614,0,47, United-States, >50K
@@ -2395,7 +2395,7 @@ All Ages, Private,179574,Basic Degree,15,Married, Prof-specialty, Husband,Wester
 All Ages, Private,278228,Basic Degree,13,Married, Exec-managerial, Husband,Western Origin, Male,0,0,50, United-States, >50K
 All Ages, Private,187215,Basic Degree,13,Married, Prof-specialty, Wife,Western Origin, Female,15024,0,36, United-States, >50K
 All Ages, Private,211654,Compulsory School,6,Married, Craft-repair, Husband,Western Origin, Male,0,0,40, United-States, >50K
-All Ages,,179761,Compulsory School,9,Married,, Husband,Western Origin, Male,0,0,40, United-States, >50K
+All Ages,,179761,Compulsory School,9,Married,Unknown, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,257485,Basic Degree,10,Married, Craft-repair, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, State-gov,261929,Advanced Degree,16,Married, Prof-specialty, Unmarried,Western Origin, Male,25236,0,64, United-States, >50K
 All Ages, Private,355918,Basic Degree,10,Married, Transport-moving, Husband,Western Origin, Male,0,0,65, United-States, >50K
@@ -2452,7 +2452,7 @@ All Ages, Private,77357,Basic Degree,15,Married, Prof-specialty, Husband,Western
 All Ages, Self-emp-not-inc,328606,Basic Degree,15,Not-Married, Prof-specialty, Unmarried,Western Origin, Male,14084,0,63, United-States, >50K
 All Ages, State-gov,348960,Basic Degree,13,Married, Prof-specialty, Husband,Western Origin, Male,0,0,36, United-States, >50K
 All Ages, Private,135289,Basic Degree,13,Married, Craft-repair, Husband,Western Origin, Male,0,0,48, United-States, >50K
-All Ages,,160625,Basic Degree,13,Married,, Husband,Western Origin, Male,4386,0,15, United-States, >50K
+All Ages,,160625,Basic Degree,13,Married,Unknown, Husband,Western Origin, Male,4386,0,15, United-States, >50K
 All Ages, Self-emp-not-inc,249249,Compulsory School,3,Married, Craft-repair, Husband,Western Origin, Male,0,0,50, United-States, >50K
 All Ages, Self-emp-not-inc,226696,Basic Degree,11,Married, Farming-fishing, Husband,Western Origin, Male,0,0,60, United-States, >50K
 All Ages, Private,193755,Basic Degree,13,Not-Married, Exec-managerial, Not-in-family,Western Origin, Male,0,0,50, United-States, >50K
@@ -2534,13 +2534,13 @@ All Ages, Local-gov,235951,Basic Degree,15,Married, Prof-specialty, Husband,West
 All Ages, Private,112840,Basic Degree,10,Married, Sales, Husband,Western Origin, Male,0,0,50, United-States, >50K
 All Ages, Private,122283,Basic Degree,15,Married, Prof-specialty, Husband,Non-Western Origin, Male,99999,0,40, India, >50K
 All Ages, Private,226902,Advanced Degree,14,Married, Exec-managerial, Husband,Western Origin, Male,15024,0,50, United-States, >50K
-All Ages,,35303,Basic Degree,13,Married,, Husband,Western Origin, Male,9386,0,30, United-States, >50K
+All Ages,,35303,Basic Degree,13,Married,Unknown, Husband,Western Origin, Male,9386,0,30, United-States, >50K
 All Ages, Federal-gov,266598,Compulsory School,9,Married, Prof-specialty, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Local-gov,116608,Compulsory School,9,Married, Adm-clerical, Wife,Western Origin, Female,0,0,35, United-States, >50K
 All Ages, Private,353263,Basic Degree,13,Not-Married, Prof-specialty, Not-in-family,Western Origin, Female,0,0,45, United-States, >50K
-All Ages,,146645,Advanced Degree,16,Married,, Husband,Western Origin, Male,20051,0,50, United-States, >50K
+All Ages,,146645,Advanced Degree,16,Married,Unknown, Husband,Western Origin, Male,20051,0,50, United-States, >50K
 All Ages, Federal-gov,162410,Basic Degree,10,Not-Married, Tech-support, Not-in-family,Western Origin, Female,0,0,45, United-States, >50K
-All Ages,,143516,Advanced Degree,14,Married,, Husband,Western Origin, Male,0,0,8, United-States, >50K
+All Ages,,143516,Advanced Degree,14,Married,Unknown, Husband,Western Origin, Male,0,0,8, United-States, >50K
 All Ages, Private,180920,Compulsory School,9,Married, Transport-moving, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,607848,Basic Degree,10,Married, Sales, Husband,Western Origin, Male,7688,0,45, United-States, >50K
 All Ages, Private,293073,Basic Degree,13,Not-Married, Sales, Not-in-family,Western Origin, Male,0,0,50, United-States, >50K
@@ -2623,9 +2623,9 @@ All Ages, Private,96359,Advanced Degree,16,Married, Exec-managerial, Husband,Wes
 All Ages, Federal-gov,165630,Compulsory School,9,Married, Tech-support, Husband,Western Origin, Male,0,1977,40, United-States, >50K
 All Ages, Private,102359,Basic Degree,13,Married, Exec-managerial, Husband,Western Origin, Male,7298,0,60, United-States, >50K
 All Ages, Private,37359,Basic Degree,13,Married, Sales, Husband,Western Origin, Male,0,0,60, United-States, >50K
-All Ages,,232618,Basic Degree,15,Married,, Husband,Western Origin, Male,0,0,40, United-States, >50K
+All Ages,,232618,Basic Degree,15,Married,Unknown, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,135606,Advanced Degree,14,Not-Married, Exec-managerial, Not-in-family,Western Origin, Female,0,0,50, United-States, >50K
-All Ages,,487411,Advanced Degree,14,Married,, Husband,Western Origin, Male,0,0,40, United-States, >50K
+All Ages,,487411,Advanced Degree,14,Married,Unknown, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Self-emp-not-inc,43348,Basic Degree,15,Married, Exec-managerial, Husband,Western Origin, Male,15024,0,55, United-States, >50K
 All Ages, State-gov,118447,Basic Degree,13,Married, Prof-specialty, Husband,Western Origin, Male,0,0,60, United-States, >50K
 All Ages, Local-gov,368797,Advanced Degree,14,Not-Married, Prof-specialty, Unmarried,Western Origin, Male,0,0,35, United-States, >50K
@@ -2673,7 +2673,7 @@ All Ages, State-gov,75409,Basic Degree,13,Married, Prof-specialty, Wife,Western 
 All Ages, Private,172581,Basic Degree,13,Married, Exec-managerial, Husband,Western Origin, Male,0,1902,50, United-States, >50K
 All Ages, Private,46466,Compulsory School,9,Married, Transport-moving, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Local-gov,114459,Advanced Degree,14,Married, Prof-specialty, Husband,Western Origin, Male,7688,0,45, United-States, >50K
-All Ages,,109832,Compulsory School,9,Married,, Husband,Western Origin, Male,5178,0,30, Canada, >50K
+All Ages,,109832,Compulsory School,9,Married,Unknown, Husband,Western Origin, Male,5178,0,30, Canada, >50K
 All Ages, Private,195554,Compulsory School,9,Married, Machine-op-inspct, Husband,Western Origin, Male,0,0,45, United-States, >50K
 All Ages, Self-emp-inc,271901,Compulsory School,9,Married, Sales, Husband,Western Origin, Male,0,0,32, United-States, >50K
 All Ages, Federal-gov,289653,Compulsory School,9,Married, Adm-clerical, Husband,Western Origin, Male,0,0,50, United-States, >50K
@@ -2705,7 +2705,7 @@ All Ages, Self-emp-not-inc,312477,Compulsory School,9,Married, Exec-managerial, 
 All Ages, Federal-gov,171335,Advanced Degree,14,Married, Sales, Husband,Western Origin, Male,0,0,50, United-States, >50K
 All Ages, Federal-gov,155970,Compulsory School,9,Married, Tech-support, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,99682,Basic Degree,10,Married, Sales, Wife,Western Origin, Female,0,0,52, Canada, >50K
-All Ages,,188070,Advanced Degree,14,Married,, Husband,Western Origin, Male,0,0,35, United-States, >50K
+All Ages,,188070,Advanced Degree,14,Married,Unknown, Husband,Western Origin, Male,0,0,35, United-States, >50K
 All Ages, Private,189811,Basic Degree,13,Married, Exec-managerial, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Self-emp-not-inc,32239,Compulsory School,9,Not-Married, Farming-fishing, Not-in-family,Western Origin, Male,27828,0,40, United-States, >50K
 All Ages, Private,84547,Basic Degree,13,Married, Tech-support, Husband,Western Origin, Male,0,0,40, United-States, >50K
@@ -2737,7 +2737,7 @@ All Ages, State-gov,28887,Compulsory School,9,Married, Machine-op-inspct, Husban
 All Ages, Private,77820,Basic Degree,13,Married, Exec-managerial, Husband,Western Origin, Male,0,0,45, United-States, >50K
 All Ages, Local-gov,230420,Basic Degree,13,Married, Prof-specialty, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,98350,Basic Degree,10,Married, Adm-clerical, Husband,Non-Western Origin, Male,0,0,40, Philippines, >50K
-All Ages,,182668,Compulsory School,9,Married,, Husband,Western Origin, Male,0,0,45, United-States, >50K
+All Ages,,182668,Compulsory School,9,Married,Unknown, Husband,Western Origin, Male,0,0,45, United-States, >50K
 All Ages, Private,208613,Basic Degree,15,Married, Prof-specialty, Not-in-family,Western Origin, Male,99999,0,40, United-States, >50K
 All Ages, Federal-gov,307555,Basic Degree,13,Not-Married, Prof-specialty, Not-in-family,Western Origin, Male,0,0,60, United-States, >50K
 All Ages, Private,199058,Basic Degree,13,Married, Prof-specialty, Husband,Western Origin, Male,0,0,60, United-States, >50K
@@ -2756,7 +2756,7 @@ All Ages, State-gov,290661,Advanced Degree,16,Not-Married, Prof-specialty, Not-i
 All Ages, Private,221172,Basic Degree,13,Married, Craft-repair, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,201519,Basic Degree,13,Married, Exec-managerial, Wife,Western Origin, Female,0,0,40, United-States, >50K
 All Ages, Private,279337,Basic Degree,13,Not-Married, Exec-managerial, Not-in-family,Western Origin, Male,0,0,55, United-States, >50K
-All Ages,,27187,Basic Degree,11,Married,, Husband,Western Origin, Male,0,2415,12, United-States, >50K
+All Ages,,27187,Basic Degree,11,Married,Unknown, Husband,Western Origin, Male,0,2415,12, United-States, >50K
 All Ages, Private,143822,Basic Degree,10,Married, Craft-repair, Husband,Western Origin, Male,7298,0,40, United-States, >50K
 All Ages, Private,171924,Basic Degree,13,Not-Married, Prof-specialty, Not-in-family,Western Origin, Male,14344,0,55, United-States, >50K
 All Ages, Private,119101,Basic Degree,10,Married, Craft-repair, Husband,Western Origin, Male,5178,0,40, United-States, >50K
@@ -2886,7 +2886,7 @@ All Ages, Self-emp-inc,181307,Compulsory School,9,Married, Craft-repair, Husband
 All Ages, Private,314727,Compulsory School,9,Married, Craft-repair, Husband,Western Origin, Male,0,0,35, United-States, >50K
 All Ages, Private,167711,Compulsory School,9,Not-Married, Sales, Not-in-family,Western Origin, Female,0,0,40, United-States, >50K
 All Ages, Private,204447,Compulsory School,9,Married, Machine-op-inspct, Husband,Western Origin, Male,4386,0,40, United-States, >50K
-All Ages,,151153,Basic Degree,10,Not-Married,, Not-in-family,Non-Western Origin, Male,99999,0,50, South, >50K
+All Ages,,151153,Basic Degree,10,Not-Married,Unknown, Not-in-family,Non-Western Origin, Male,99999,0,50, South, >50K
 All Ages, Private,269323,Compulsory School,9,Married, Adm-clerical, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,120131,Basic Degree,13,Married, Other-service, Husband,Western Origin, Male,0,0,30, United-States, >50K
 All Ages, Private,199058,Advanced Degree,14,Married, Exec-managerial, Husband,Western Origin, Male,0,0,40, United-States, >50K
@@ -2938,7 +2938,7 @@ All Ages, Private,160731,Compulsory School,9,Married, Craft-repair, Husband,West
 All Ages, Local-gov,219906,Basic Degree,13,Married, Prof-specialty, Wife,Western Origin, Female,0,0,25, United-States, >50K
 All Ages, Private,125933,Basic Degree,13,Married, Craft-repair, Husband,Western Origin, Male,0,0,50, United-States, >50K
 All Ages, State-gov,309056,Advanced Degree,16,Married, Prof-specialty, Husband,Western Origin, Male,0,0,50, United-States, >50K
-All Ages,,56248,Compulsory School,9,Married,, Husband,Western Origin, Male,0,1485,70, United-States, >50K
+All Ages,,56248,Compulsory School,9,Married,Unknown, Husband,Western Origin, Male,0,1485,70, United-States, >50K
 All Ages, Local-gov,271521,Basic Degree,10,Married, Protective-serv, Husband,Non-Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,265295,Basic Degree,13,Married, Exec-managerial, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,196342,Advanced Degree,16,Not-Married, Prof-specialty, Not-in-family,Western Origin, Male,0,0,40, United-States, >50K
@@ -2949,7 +2949,7 @@ All Ages, Private,158294,Advanced Degree,14,Married, Prof-specialty, Husband,Wes
 All Ages, Private,168730,Basic Degree,10,Married, Sales, Husband,Western Origin, Male,0,0,50, United-States, >50K
 All Ages, Private,175942,Basic Degree,10,Not-Married, Exec-managerial, Not-in-family,Western Origin, Female,0,0,50, United-States, >50K
 All Ages, Private,132912,Compulsory School,9,Married, Sales, Husband,Western Origin, Male,0,0,45, United-States, >50K
-All Ages,,254765,Basic Degree,10,Married,, Husband,Western Origin, Male,0,0,40, United-States, >50K
+All Ages,,254765,Basic Degree,10,Married,Unknown, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,55743,Basic Degree,13,Married, Exec-managerial, Wife,Western Origin, Female,0,0,45, United-States, >50K
 All Ages, State-gov,148171,Advanced Degree,16,Not-Married, Prof-specialty, Unmarried,Western Origin, Male,0,0,50, France, >50K
 All Ages, Private,172401,Compulsory School,9,Married, Sales, Husband,Western Origin, Male,0,0,40, United-States, >50K
@@ -3088,7 +3088,7 @@ All Ages, Private,209320,Basic Degree,13,Married, Sales, Husband,Western Origin,
 All Ages, Self-emp-inc,206862,Compulsory School,9,Married, Exec-managerial, Husband,Western Origin, Male,0,0,36, United-States, >50K
 All Ages, Self-emp-not-inc,201263,Basic Degree,13,Married, Sales, Husband,Western Origin, Male,15024,0,55, United-States, >50K
 All Ages, Self-emp-not-inc,163212,Compulsory School,9,Not-Married, Adm-clerical, Unmarried,Western Origin, Female,99999,0,40, United-States, >50K
-All Ages,,198686,Basic Degree,12,Married,, Husband,Western Origin, Male,0,0,2, United-States, >50K
+All Ages,,198686,Basic Degree,12,Married,Unknown, Husband,Western Origin, Male,0,0,2, United-States, >50K
 All Ages, Private,113491,Basic Degree,10,Married, Prof-specialty, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,48093,Basic Degree,13,Not-Married, Craft-repair, Not-in-family,Western Origin, Male,0,0,90, United-States, >50K
 All Ages, Private,350440,Compulsory School,9,Married, Exec-managerial, Husband,Non-Western Origin, Male,0,0,40, United-States, >50K
@@ -3113,16 +3113,16 @@ All Ages, Private,116825,Basic Degree,15,Married, Prof-specialty, Husband,Wester
 All Ages, Private,165050,Compulsory School,6,Married, Craft-repair, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Self-emp-inc,202937,Advanced Degree,14,Married, Prof-specialty, Wife,Western Origin, Female,0,0,40, United-States, >50K
 All Ages, Self-emp-not-inc,103948,Basic Degree,15,Married, Prof-specialty, Husband,Western Origin, Male,0,0,30, United-States, >50K
-All Ages,,100881,Basic Degree,12,Married,, Wife,Western Origin, Female,0,0,2, United-States, >50K
+All Ages,,100881,Basic Degree,12,Married,Unknown, Wife,Western Origin, Female,0,0,2, United-States, >50K
 All Ages, Self-emp-inc,212760,Basic Degree,13,Married, Exec-managerial, Husband,Western Origin, Male,0,0,60, United-States, >50K
 All Ages, Private,214502,Compulsory School,5,Married, Handlers-cleaners, Husband,Western Origin, Male,0,0,50, United-States, >50K
 All Ages, Private,69333,Compulsory School,9,Married, Craft-repair, Husband,Western Origin, Male,0,0,45, United-States, >50K
 All Ages, Private,190060,Compulsory School,9,Married, Sales, Husband,Western Origin, Male,0,0,40, United-States, >50K
-All Ages,,144872,Basic Degree,10,Married,, Husband,Western Origin, Male,6514,0,40, United-States, >50K
+All Ages,,144872,Basic Degree,10,Married,Unknown, Husband,Western Origin, Male,6514,0,40, United-States, >50K
 All Ages, Self-emp-not-inc,171615,Basic Degree,10,Not-Married, Craft-repair, Not-in-family,Western Origin, Male,0,0,35, United-States, >50K
 All Ages, Private,116541,Advanced Degree,14,Not-Married, Prof-specialty, Own-child,Western Origin, Male,0,0,44, United-States, >50K
 All Ages, Private,184837,Compulsory School,9,Married, Machine-op-inspct, Wife,Western Origin, Female,7298,0,40, United-States, >50K
-All Ages,,228372,Basic Degree,10,Married,, Husband,Western Origin, Male,0,0,20, United-States, >50K
+All Ages,,228372,Basic Degree,10,Married,Unknown, Husband,Western Origin, Male,0,0,20, United-States, >50K
 All Ages, State-gov,89040,Basic Degree,13,Married, Exec-managerial, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Self-emp-not-inc,398918,Basic Degree,13,Not-Married, Prof-specialty, Not-in-family,Western Origin, Male,0,0,50, United-States, >50K
 All Ages, Local-gov,215895,Basic Degree,13,Married, Protective-serv, Husband,Western Origin, Male,0,0,40, United-States, >50K
@@ -3203,9 +3203,9 @@ All Ages, Private,187493,Compulsory School,9,Married, Protective-serv, Husband,W
 All Ages, Private,34361,Basic Degree,10,Married, Exec-managerial, Wife,Western Origin, Female,0,0,20, United-States, >50K
 All Ages, Private,170174,Compulsory School,6,Married, Machine-op-inspct, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,167770,Compulsory School,9,Married, Exec-managerial, Husband,Western Origin, Male,0,1902,55, United-States, >50K
-All Ages,,70282,Advanced Degree,14,Married,, Wife,Western Origin, Female,15024,0,2, United-States, >50K
+All Ages,,70282,Advanced Degree,14,Married,Unknown, Wife,Western Origin, Female,15024,0,2, United-States, >50K
 All Ages, Private,259757,Basic Degree,13,Not-Married, Prof-specialty, Unmarried,Western Origin, Male,0,653,50, United-States, >50K
-All Ages,,46907,Basic Degree,13,Married,, Husband,Western Origin, Male,0,0,8, United-States, >50K
+All Ages,,46907,Basic Degree,13,Married,Unknown, Husband,Western Origin, Male,0,0,8, United-States, >50K
 All Ages, Self-emp-inc,383365,Basic Degree,13,Married, Sales, Husband,Western Origin, Male,0,0,70, United-States, >50K
 All Ages, Private,211804,Basic Degree,13,Married, Prof-specialty, Husband,Western Origin, Male,3103,0,50, United-States, >50K
 All Ages, Self-emp-not-inc,208577,Basic Degree,10,Married, Exec-managerial, Husband,Western Origin, Male,0,0,45, United-States, >50K
@@ -3231,7 +3231,7 @@ All Ages, Federal-gov,122220,Basic Degree,10,Married, Exec-managerial, Wife,West
 All Ages, Private,136204,Advanced Degree,14,Married, Exec-managerial, Not-in-family,Western Origin, Male,0,2824,55, United-States, >50K
 All Ages, Private,175641,Compulsory School,7,Married, Sales, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Federal-gov,88876,Advanced Degree,14,Married, Exec-managerial, Husband,Non-Western Origin, Male,0,0,60, United-States, >50K
-All Ages,,247986,Basic Degree,15,Married,, Husband,Western Origin, Male,0,0,30, United-States, >50K
+All Ages,,247986,Basic Degree,15,Married,Unknown, Husband,Western Origin, Male,0,0,30, United-States, >50K
 All Ages, Private,238959,Basic Degree,13,Married, Sales, Husband,Western Origin, Male,99999,0,60,, >50K
 All Ages, Private,423222,Basic Degree,13,Married, Exec-managerial, Husband,Western Origin, Male,7688,0,40, United-States, >50K
 All Ages, Private,89735,Basic Degree,11,Married, Prof-specialty, Husband,Western Origin, Male,0,0,40, United-States, >50K
@@ -3245,7 +3245,7 @@ All Ages, Private,153291,Basic Degree,15,Married, Prof-specialty, Wife,Western O
 All Ages, Private,55213,Compulsory School,9,Married, Machine-op-inspct, Husband,Western Origin, Male,0,1977,52, United-States, >50K
 All Ages, Private,38950,Basic Degree,13,Married, Exec-managerial, Husband,Western Origin, Male,15024,0,50, United-States, >50K
 All Ages, Self-emp-not-inc,65991,Compulsory School,9,Married, Farming-fishing, Husband,Western Origin, Male,7298,0,45, United-States, >50K
-All Ages,,87263,Compulsory School,9,Married,, Husband,Western Origin, Male,0,0,55, United-States, >50K
+All Ages,,87263,Compulsory School,9,Married,Unknown, Husband,Western Origin, Male,0,0,55, United-States, >50K
 All Ages, Private,163671,Compulsory School,9,Married, Transport-moving, Husband,Western Origin, Male,0,1887,65, United-States, >50K
 All Ages, Private,159755,Basic Degree,10,Married, Protective-serv, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Local-gov,185846,Advanced Degree,14,Married, Prof-specialty, Husband,Western Origin, Male,0,1977,40, United-States, >50K
@@ -3281,7 +3281,7 @@ All Ages, Private,117295,Compulsory School,2,Married, Exec-managerial, Husband,W
 All Ages, Private,199688,Basic Degree,13,Married, Exec-managerial, Husband,Western Origin, Male,0,1977,60,, >50K
 All Ages, Private,205803,Advanced Degree,14,Married, Sales, Husband,Western Origin, Male,15024,0,40, United-States, >50K
 All Ages, Private,154410,Compulsory School,9,Married, Adm-clerical, Husband,Western Origin, Male,0,0,40, United-States, >50K
-All Ages,,154537,Basic Degree,10,Not-Married,, Unmarried,Western Origin, Female,0,0,50, United-States, >50K
+All Ages,,154537,Basic Degree,10,Not-Married,Unknown, Unmarried,Western Origin, Female,0,0,50, United-States, >50K
 All Ages, Private,190987,Basic Degree,10,Married, Sales, Wife,Western Origin, Female,7298,0,40, United-States, >50K
 All Ages, Private,225456,Basic Degree,13,Married, Prof-specialty, Husband,Western Origin, Male,0,1977,40, United-States, >50K
 All Ages, Private,170850,Compulsory School,9,Married, Machine-op-inspct, Husband,Western Origin, Male,0,0,44, United-States, >50K
@@ -3327,7 +3327,7 @@ All Ages, State-gov,156015,Basic Degree,13,Married, Exec-managerial, Husband,Wes
 All Ages, Self-emp-inc,187411,Compulsory School,9,Married, Exec-managerial, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,396633,Basic Degree,10,Married, Adm-clerical, Wife,Western Origin, Female,0,0,56, United-States, >50K
 All Ages, Private,182313,Basic Degree,13,Married, Exec-managerial, Husband,Western Origin, Male,7688,0,50, United-States, >50K
-All Ages,,260111,Basic Degree,10,Married,, Husband,Western Origin, Male,0,0,40, United-States, >50K
+All Ages,,260111,Basic Degree,10,Married,Unknown, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,160634,Basic Degree,11,Not-Married, Craft-repair, Own-child,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Self-emp-not-inc,151990,Basic Degree,11,Married, Prof-specialty, Wife,Western Origin, Female,0,0,15, United-States, >50K
 All Ages, Federal-gov,188081,Compulsory School,9,Married, Adm-clerical, Husband,Western Origin, Male,0,0,40, United-States, >50K
@@ -3368,7 +3368,7 @@ All Ages, Private,155233,Basic Degree,13,Not-Married, Adm-clerical, Not-in-famil
 All Ages, Private,152810,Advanced Degree,14,Married, Exec-managerial, Husband,Western Origin, Male,0,1977,55, United-States, >50K
 All Ages, Private,148623,Basic Degree,15,Married, Prof-specialty, Husband,Western Origin, Male,0,0,35, United-States, >50K
 All Ages, Private,320984,Basic Degree,15,Married, Prof-specialty, Husband,Western Origin, Male,99999,0,65, United-States, >50K
-All Ages,,403625,Basic Degree,10,Married,, Husband,Non-Western Origin, Male,0,0,60, United-States, >50K
+All Ages,,403625,Basic Degree,10,Married,Unknown, Husband,Non-Western Origin, Male,0,0,60, United-States, >50K
 All Ages, Private,105794,Basic Degree,15,Not-Married, Prof-specialty, Not-in-family,Western Origin, Female,14084,0,50, United-States, >50K
 All Ages, Private,190290,Basic Degree,12,Married, Prof-specialty, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,213844,Compulsory School,9,Married, Craft-repair, Wife,Western Origin, Female,0,0,42, United-States, >50K
@@ -3390,7 +3390,7 @@ All Ages, Private,156926,Basic Degree,11,Not-Married, Exec-managerial, Not-in-fa
 All Ages, Self-emp-inc,165881,Compulsory School,9,Married, Sales, Husband,Western Origin, Male,0,0,50, United-States, >50K
 All Ages, Private,154950,Basic Degree,13,Married, Tech-support, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,256908,Basic Degree,13,Married, Tech-support, Husband,Western Origin, Male,0,0,25, United-States, >50K
-All Ages,,199665,Basic Degree,13,Married,, Husband,Western Origin, Male,0,0,30, United-States, >50K
+All Ages,,199665,Basic Degree,13,Married,Unknown, Husband,Western Origin, Male,0,0,30, United-States, >50K
 All Ages, Self-emp-inc,151089,Basic Degree,10,Married, Exec-managerial, Husband,Western Origin, Male,0,2415,55, United-States, >50K
 All Ages, Private,170525,Basic Degree,13,Not-Married, Prof-specialty, Not-in-family,Western Origin, Female,14344,0,40, United-States, >50K
 All Ages, Self-emp-not-inc,34297,Compulsory School,4,Married, Craft-repair, Husband,Western Origin, Male,0,0,40, United-States, >50K
@@ -3419,7 +3419,7 @@ All Ages, Private,201122,Basic Degree,13,Married, Sales, Husband,Western Origin,
 All Ages, Private,150528,Advanced Degree,14,Married, Prof-specialty, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,247895,Basic Degree,13,Married, Exec-managerial, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Self-emp-not-inc,33521,Basic Degree,13,Not-Married, Prof-specialty, Not-in-family,Western Origin, Male,0,0,70, United-States, >50K
-All Ages,,129188,Advanced Degree,16,Married,, Husband,Western Origin, Male,20051,0,5, United-States, >50K
+All Ages,,129188,Advanced Degree,16,Married,Unknown, Husband,Western Origin, Male,20051,0,5, United-States, >50K
 All Ages, Private,182757,Compulsory School,9,Married, Craft-repair, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,136343,Basic Degree,13,Married, Prof-specialty, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,127089,Basic Degree,10,Married, Prof-specialty, Husband,Western Origin, Male,5178,0,38, United-States, >50K
@@ -3511,8 +3511,8 @@ All Ages, Private,237630,Compulsory School,9,Married, Tech-support, Husband,West
 All Ages, Private,171550,Compulsory School,9,Married, Exec-managerial, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,67218,Basic Degree,13,Married, Prof-specialty, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,205152,Basic Degree,11,Not-Married, Exec-managerial, Not-in-family,Western Origin, Male,0,0,55, United-States, >50K
-All Ages,,110150,Compulsory School,9,Married,, Husband,Western Origin, Male,0,0,55, United-States, >50K
-All Ages,,249043,Basic Degree,13,Married,, Husband,Western Origin, Male,10605,0,40, United-States, >50K
+All Ages,,110150,Compulsory School,9,Married,Unknown, Husband,Western Origin, Male,0,0,55, United-States, >50K
+All Ages,,249043,Basic Degree,13,Married,Unknown, Husband,Western Origin, Male,10605,0,40, United-States, >50K
 All Ages, Private,72630,Basic Degree,13,Not-Married, Exec-managerial, Not-in-family,Western Origin, Male,14084,0,50, United-States, >50K
 All Ages, State-gov,345969,Basic Degree,15,Married, Prof-specialty, Husband,Western Origin, Male,0,0,50, United-States, >50K
 All Ages, Federal-gov,232997,Basic Degree,10,Married, Transport-moving, Husband,Western Origin, Male,0,0,65, United-States, >50K
@@ -3728,7 +3728,7 @@ All Ages, Self-emp-inc,170850,Compulsory School,9,Married, Sales, Husband,Wester
 All Ages, State-gov,159908,Compulsory School,7,Not-Married, Other-service, Unmarried,Western Origin, Female,0,0,32, United-States, >50K
 All Ages, Self-emp-not-inc,309955,Basic Degree,15,Married, Prof-specialty, Husband,Western Origin, Male,0,2174,50, United-States, >50K
 All Ages, Local-gov,63042,Basic Degree,13,Married, Prof-specialty, Wife,Western Origin, Female,0,0,40, United-States, >50K
-All Ages,,116230,Basic Degree,13,Married,, Husband,Western Origin, Male,0,0,40, United-States, >50K
+All Ages,,116230,Basic Degree,13,Married,Unknown, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,191088,Basic Degree,13,Married, Exec-managerial, Wife,Western Origin, Female,0,0,40, United-States, >50K
 All Ages, Private,162741,Basic Degree,12,Married, Prof-specialty, Wife,Western Origin, Female,15024,0,40, United-States, >50K
 All Ages, Private,103860,Basic Degree,13,Married, Exec-managerial, Husband,Western Origin, Male,0,0,50, United-States, >50K
@@ -3804,7 +3804,7 @@ All Ages, Private,120238,Compulsory School,7,Married, Transport-moving, Husband,
 All Ages, Local-gov,125457,Advanced Degree,14,Married, Prof-specialty, Husband,Western Origin, Male,0,0,38, United-States, >50K
 All Ages, Private,185027,Basic Degree,10,Married, Sales, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Self-emp-not-inc,211584,Basic Degree,10,Married, Sales, Husband,Western Origin, Male,0,0,40, United-States, >50K
-All Ages,,160155,Compulsory School,4,Married,, Husband,Western Origin, Male,6418,0,40, United-States, >50K
+All Ages,,160155,Compulsory School,4,Married,Unknown, Husband,Western Origin, Male,6418,0,40, United-States, >50K
 All Ages, Self-emp-not-inc,24473,Basic Degree,11,Married, Craft-repair, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,272944,Basic Degree,11,Married, Exec-managerial, Husband,Western Origin, Male,0,0,60, United-States, >50K
 All Ages, Private,314153,Compulsory School,9,Married, Craft-repair, Husband,Western Origin, Male,0,0,40, United-States, >50K
@@ -3835,7 +3835,7 @@ All Ages, Self-emp-not-inc,179981,Basic Degree,10,Married, Exec-managerial, Husb
 All Ages, Private,207568,Compulsory School,9,Married, Handlers-cleaners, Husband,Western Origin, Male,0,0,48, United-States, >50K
 All Ages, Federal-gov,371382,Basic Degree,10,Married, Exec-managerial, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,221366,Basic Degree,10,Married, Prof-specialty, Husband,Western Origin, Male,3103,0,50, United-States, >50K
-All Ages,,159938,Compulsory School,9,Not-Married,, Not-in-family,Western Origin, Male,8614,0,40, United-States, >50K
+All Ages,,159938,Compulsory School,9,Not-Married,Unknown, Not-in-family,Western Origin, Male,8614,0,40, United-States, >50K
 All Ages, Private,192779,Basic Degree,13,Not-Married, Sales, Not-in-family,Western Origin, Male,0,0,45, United-States, >50K
 All Ages, Private,207578,Basic Degree,12,Married, Exec-managerial, Husband,Western Origin, Male,0,0,50, India, >50K
 All Ages, Private,314592,Compulsory School,9,Married, Craft-repair, Husband,Western Origin, Male,0,0,40, United-States, >50K
@@ -3860,10 +3860,10 @@ All Ages, Private,30673,Basic Degree,10,Not-Married, Handlers-cleaners, Not-in-f
 All Ages, Private,111895,Basic Degree,13,Married, Prof-specialty, Husband,Western Origin, Male,0,0,50, United-States, >50K
 All Ages, Private,117674,Advanced Degree,14,Married, Prof-specialty, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,207578,Compulsory School,9,Married, Transport-moving, Husband,Western Origin, Male,0,0,40, United-States, >50K
-All Ages,,55621,Basic Degree,10,Married,, Husband,Western Origin, Male,0,0,35, United-States, >50K
+All Ages,,55621,Basic Degree,10,Married,Unknown, Husband,Western Origin, Male,0,0,35, United-States, >50K
 All Ages, Private,31621,Compulsory School,9,Married, Craft-repair, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Self-emp-not-inc,43221,Basic Degree,10,Married, Farming-fishing, Husband,Western Origin, Male,0,2415,40, United-States, >50K
-All Ages,,202560,Compulsory School,9,Married,, Wife,Western Origin, Female,0,0,40, United-States, >50K
+All Ages,,202560,Compulsory School,9,Married,Unknown, Wife,Western Origin, Female,0,0,40, United-States, >50K
 All Ages, Private,150057,Advanced Degree,14,Not-Married, Sales, Not-in-family,Western Origin, Male,0,0,50, United-States, >50K
 All Ages, Self-emp-inc,244605,Basic Degree,10,Married, Sales, Husband,Western Origin, Male,0,0,50, United-States, >50K
 All Ages, Private,150876,Compulsory School,9,Married, Exec-managerial, Husband,Western Origin, Male,0,1887,55, United-States, >50K
@@ -3917,7 +3917,7 @@ All Ages, Private,264095,Basic Degree,10,Married, Handlers-cleaners, Husband,Wes
 All Ages, Local-gov,407495,Basic Degree,12,Married, Protective-serv, Husband,Western Origin, Male,0,0,56, United-States, >50K
 All Ages, Private,270968,Basic Degree,13,Not-Married, Exec-managerial, Not-in-family,Western Origin, Female,0,0,50, United-States, >50K
 All Ages, Private,127728,Basic Degree,13,Married, Exec-managerial, Husband,Western Origin, Male,15024,0,50, United-States, >50K
-All Ages,,172175,Advanced Degree,16,Not-Married,, Not-in-family,Western Origin, Male,0,2824,40, United-States, >50K
+All Ages,,172175,Advanced Degree,16,Not-Married,Unknown, Not-in-family,Western Origin, Male,0,2824,40, United-States, >50K
 All Ages, Private,79531,Basic Degree,13,Married, Exec-managerial, Husband,Western Origin, Male,0,0,75, United-States, >50K
 All Ages, Self-emp-not-inc,33234,Basic Degree,13,Married, Sales, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,168337,Compulsory School,9,Married, Machine-op-inspct, Husband,Western Origin, Male,0,0,48, United-States, >50K
@@ -3942,7 +3942,7 @@ All Ages, Private,178983,Advanced Degree,16,Married, Prof-specialty, Husband,Wes
 All Ages, Private,418020,Advanced Degree,16,Married, Prof-specialty, Husband,Western Origin, Male,0,0,50, United-States, >50K
 All Ages, Private,148549,Basic Degree,10,Not-Married, Craft-repair, Not-in-family,Western Origin, Male,27828,0,56, United-States, >50K
 All Ages, Private,236586,Compulsory School,9,Married, Adm-clerical, Husband,Western Origin, Male,0,0,40, United-States, >50K
-All Ages,,163140,Compulsory School,9,Married,, Husband,Western Origin, Male,0,0,40, United-States, >50K
+All Ages,,163140,Compulsory School,9,Married,Unknown, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Self-emp-inc,326048,Basic Degree,10,Married, Exec-managerial, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,226947,Basic Degree,13,Married, Prof-specialty, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Self-emp-not-inc,162347,Basic Degree,15,Married, Prof-specialty, Husband,Western Origin, Male,0,0,15, United-States, >50K
@@ -4016,7 +4016,7 @@ All Ages, Local-gov,203482,Advanced Degree,14,Married, Prof-specialty, Husband,W
 All Ages, Federal-gov,355918,Compulsory School,9,Married, Tech-support, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,168262,Compulsory School,9,Married, Machine-op-inspct, Husband,Western Origin, Male,0,1887,40, United-States, >50K
 All Ages, Private,211482,Basic Degree,13,Not-Married, Prof-specialty, Not-in-family,Western Origin, Male,0,0,50, United-States, >50K
-All Ages,,85077,Basic Degree,13,Married,, Wife,Western Origin, Female,0,1902,20, United-States, >50K
+All Ages,,85077,Basic Degree,13,Married,Unknown, Wife,Western Origin, Female,0,1902,20, United-States, >50K
 All Ages, Local-gov,180010,Basic Degree,13,Married, Prof-specialty, Wife,Western Origin, Female,0,0,40, United-States, >50K
 All Ages, State-gov,153451,Compulsory School,9,Married, Tech-support, Wife,Western Origin, Female,0,1887,40, United-States, >50K
 All Ages, Self-emp-not-inc,383384,Compulsory School,9,Married, Craft-repair, Husband,Western Origin, Male,0,0,40, United-States, >50K
@@ -4115,7 +4115,7 @@ All Ages, Self-emp-not-inc,309124,Compulsory School,9,Married, Transport-moving,
 All Ages, Private,105010,Basic Degree,13,Married, Farming-fishing, Husband,Western Origin, Male,0,0,45, United-States, >50K
 All Ages, Private,175669,Compulsory School,7,Married, Prof-specialty, Wife,Western Origin, Female,5178,0,36, United-States, >50K
 All Ages, Private,297906,Basic Degree,10,Married, Sales, Husband,Non-Western Origin, Male,0,0,50, United-States, >50K
-All Ages,,123011,Compulsory School,9,Married,, Husband,Western Origin, Male,0,0,40, United-States, >50K
+All Ages,,123011,Compulsory School,9,Married,Unknown, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,170866,Basic Degree,13,Married, Exec-managerial, Husband,Western Origin, Male,0,0,50, United-States, >50K
 All Ages, Federal-gov,219967,Basic Degree,13,Married, Exec-managerial, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, State-gov,119421,Basic Degree,13,Married, Exec-managerial, Wife,Western Origin, Female,0,0,35, United-States, >50K
@@ -4131,7 +4131,7 @@ All Ages, Self-emp-not-inc,43712,Compulsory School,7,Married, Exec-managerial, H
 All Ages, Private,379919,Basic Degree,12,Married, Farming-fishing, Husband,Western Origin, Male,0,0,60, United-States, >50K
 All Ages, Local-gov,220656,Basic Degree,13,Married, Exec-managerial, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Self-emp-not-inc,223789,Advanced Degree,14,Married, Prof-specialty, Husband,Western Origin, Male,0,0,45, United-States, >50K
-All Ages,,335427,Basic Degree,13,Married,, Wife,Western Origin, Female,0,0,20, United-States, >50K
+All Ages,,335427,Basic Degree,13,Married,Unknown, Wife,Western Origin, Female,0,0,20, United-States, >50K
 All Ages, Self-emp-inc,31359,Advanced Degree,14,Married, Exec-managerial, Husband,Western Origin, Male,15024,0,80, United-States, >50K
 All Ages, Private,147989,Compulsory School,9,Married, Transport-moving, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,239171,Compulsory School,9,Married, Craft-repair, Husband,Western Origin, Male,0,0,40, United-States, >50K
@@ -4211,9 +4211,9 @@ All Ages, Private,93884,Basic Degree,13,Married, Prof-specialty, Husband,Western
 All Ages, Private,279833,Basic Degree,13,Not-Married, Exec-managerial, Not-in-family,Western Origin, Male,0,2258,45, United-States, >50K
 All Ages, Federal-gov,98980,Basic Degree,13,Married, Exec-managerial, Husband,Western Origin, Male,7298,0,40, United-States, >50K
 All Ages, Private,116632,Compulsory School,9,Not-Married, Sales, Not-in-family,Western Origin, Male,0,0,60, United-States, >50K
-All Ages,,139391,Basic Degree,10,Married,, Husband,Western Origin, Male,99999,0,30, United-States, >50K
+All Ages,,139391,Basic Degree,10,Married,Unknown, Husband,Western Origin, Male,99999,0,30, United-States, >50K
 All Ages, Private,237452,Basic Degree,13,Married, Prof-specialty, Wife,Western Origin, Female,0,0,15, Cuba, >50K
-All Ages,,216479,Basic Degree,13,Married,, Wife,Western Origin, Female,0,0,24, United-States, >50K
+All Ages,,216479,Basic Degree,13,Married,Unknown, Wife,Western Origin, Female,0,0,24, United-States, >50K
 All Ages, Private,51461,Basic Degree,13,Married, Adm-clerical, Husband,Western Origin, Male,0,1887,40, United-States, >50K
 All Ages, Private,37676,Basic Degree,13,Married, Sales, Husband,Western Origin, Male,0,0,50, United-States, >50K
 All Ages, Private,159319,Advanced Degree,14,Married, Exec-managerial, Husband,Western Origin, Male,0,0,50, United-States, >50K
@@ -4232,7 +4232,7 @@ All Ages, Self-emp-inc,354075,Basic Degree,13,Married, Exec-managerial, Husband,
 All Ages, Private,76417,Advanced Degree,14,Married, Prof-specialty, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,119913,Basic Degree,11,Married, Prof-specialty, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,549174,Compulsory School,9,Married, Craft-repair, Husband,Western Origin, Male,0,0,50, United-States, >50K
-All Ages,,33811,Basic Degree,13,Married,, Wife,Non-Western Origin, Female,0,0,40, Taiwan, >50K
+All Ages,,33811,Basic Degree,13,Married,Unknown, Wife,Non-Western Origin, Female,0,0,40, Taiwan, >50K
 All Ages, Private,185942,Advanced Degree,14,Not-Married, Prof-specialty, Own-child,Western Origin, Female,0,0,40, United-States, >50K
 All Ages, Private,287701,Basic Degree,12,Not-Married, Craft-repair, Unmarried,Western Origin, Male,0,0,45, United-States, >50K
 All Ages, Private,137707,Basic Degree,11,Married, Tech-support, Wife,Western Origin, Female,0,0,40, United-States, >50K
@@ -4246,7 +4246,7 @@ All Ages, Private,69867,Basic Degree,11,Married, Prof-specialty, Husband,Western
 All Ages, Private,219546,Basic Degree,13,Married, Prof-specialty, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,183043,Advanced Degree,14,Married, Exec-managerial, Husband,Western Origin, Male,0,1977,48, United-States, >50K
 All Ages, Local-gov,209752,Basic Degree,15,Married, Exec-managerial, Husband,Western Origin, Male,0,0,55, United-States, >50K
-All Ages,,175653,Basic Degree,12,Not-Married,, Not-in-family,Western Origin, Female,14084,0,40, United-States, >50K
+All Ages,,175653,Basic Degree,12,Not-Married,Unknown, Not-in-family,Western Origin, Female,14084,0,40, United-States, >50K
 All Ages, Private,196707,Compulsory School,9,Married, Machine-op-inspct, Husband,Western Origin, Male,7298,0,43, United-States, >50K
 All Ages, Self-emp-not-inc,180150,Basic Degree,15,Married, Prof-specialty, Husband,Western Origin, Male,0,0,45, United-States, >50K
 All Ages, Private,151227,Basic Degree,13,Married, Other-service, Husband,Western Origin, Male,0,0,40, United-States, >50K
@@ -4258,7 +4258,7 @@ All Ages, Private,387068,Compulsory School,9,Married, Exec-managerial, Husband,W
 All Ages, Private,219546,Basic Degree,11,Married, Craft-repair, Husband,Western Origin, Male,4386,0,44, United-States, >50K
 All Ages, Private,220531,Advanced Degree,16,Married, Prof-specialty, Husband,Western Origin, Male,0,0,50, United-States, >50K
 All Ages, Self-emp-not-inc,201908,Basic Degree,15,Married, Prof-specialty, Husband,Western Origin, Male,99999,0,50, United-States, >50K
-All Ages,,109912,Basic Degree,13,Married,, Wife,Western Origin, Female,0,0,16, United-States, >50K
+All Ages,,109912,Basic Degree,13,Married,Unknown, Wife,Western Origin, Female,0,0,16, United-States, >50K
 All Ages, Private,175674,Basic Degree,13,Married, Tech-support, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,125167,Basic Degree,10,Married, Exec-managerial, Husband,Western Origin, Male,0,0,60, United-States, >50K
 All Ages, Private,195394,Basic Degree,12,Married, Prof-specialty, Husband,Western Origin, Male,7688,0,40, United-States, >50K
@@ -4352,7 +4352,7 @@ All Ages, Private,198841,Basic Degree,11,Married, Craft-repair, Husband,Western 
 All Ages, Private,240771,Basic Degree,10,Married, Craft-repair, Husband,Western Origin, Male,4386,0,50, United-States, >50K
 All Ages, Private,119098,Basic Degree,13,Married, Prof-specialty, Husband,Western Origin, Male,0,0,50, United-States, >50K
 All Ages, State-gov,151580,Basic Degree,11,Married, Prof-specialty, Husband,Western Origin, Male,4386,0,40, United-States, >50K
-All Ages,,166545,Basic Degree,10,Married,, Wife,Western Origin, Female,7688,0,6, United-States, >50K
+All Ages,,166545,Basic Degree,10,Married,Unknown, Wife,Western Origin, Female,7688,0,6, United-States, >50K
 All Ages, Private,271710,Basic Degree,13,Married, Sales, Husband,Western Origin, Male,7298,0,50, United-States, >50K
 All Ages, Self-emp-not-inc,33304,Basic Degree,15,Married, Prof-specialty, Husband,Western Origin, Male,0,0,38, United-States, >50K
 All Ages, Private,359001,Basic Degree,11,Married, Transport-moving, Husband,Western Origin, Male,15024,0,50, United-States, >50K
@@ -4383,7 +4383,7 @@ All Ages, Self-emp-not-inc,127149,Compulsory School,7,Married, Farming-fishing, 
 All Ages, Self-emp-not-inc,182752,Advanced Degree,16,Married, Prof-specialty, Wife,Western Origin, Female,0,0,35, United-States, >50K
 All Ages, Private,223999,Compulsory School,5,Married, Other-service, Husband,Western Origin, Male,0,1848,40, United-States, >50K
 All Ages, Local-gov,100793,Basic Degree,13,Married, Prof-specialty, Husband,Western Origin, Male,0,0,60, United-States, >50K
-All Ages,,159589,Advanced Degree,14,Married,, Husband,Western Origin, Male,0,0,46, United-States, >50K
+All Ages,,159589,Advanced Degree,14,Married,Unknown, Husband,Western Origin, Male,0,0,46, United-States, >50K
 All Ages, Private,76317,Basic Degree,11,Married, Exec-managerial, Husband,Western Origin, Male,0,0,55, United-States, >50K
 All Ages, Local-gov,124692,Advanced Degree,14,Married, Prof-specialty, Husband,Western Origin, Male,0,0,35, United-States, >50K
 All Ages, Private,102569,Basic Degree,13,Married, Adm-clerical, Husband,Western Origin, Male,0,0,40, United-States, >50K
@@ -4399,7 +4399,7 @@ All Ages, Local-gov,138077,Advanced Degree,14,Married, Prof-specialty, Wife,West
 All Ages, Private,36006,Basic Degree,13,Married, Craft-repair, Husband,Western Origin, Male,0,0,45, United-States, >50K
 All Ages, Private,369538,Compulsory School,6,Married, Transport-moving, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Self-emp-inc,181130,Basic Degree,15,Married, Prof-specialty, Husband,Western Origin, Male,99999,0,50, United-States, >50K
-All Ages,,254834,Basic Degree,13,Married,, Husband,Western Origin, Male,10605,0,10, United-States, >50K
+All Ages,,254834,Basic Degree,13,Married,Unknown, Husband,Western Origin, Male,10605,0,10, United-States, >50K
 All Ages, Federal-gov,156996,Basic Degree,15,Married, Prof-specialty, Husband,Non-Western Origin, Male,0,2415,55,, >50K
 All Ages, Private,331651,Basic Degree,15,Married, Exec-managerial, Wife,Western Origin, Female,0,0,50, Japan, >50K
 All Ages, Private,401930,Compulsory School,9,Married, Adm-clerical, Wife,Western Origin, Female,0,1887,42, United-States, >50K
@@ -4437,7 +4437,7 @@ All Ages, Private,226696,Compulsory School,9,Not-Married, Craft-repair, Not-in-f
 All Ages, Private,195813,Compulsory School,3,Married, Craft-repair, Husband,Non-Western Origin, Male,5178,0,40, Puerto-Rico, >50K
 All Ages, Private,123983,Basic Degree,13,Married, Prof-specialty, Husband,Non-Western Origin, Male,0,0,55, Japan, >50K
 All Ages, Private,147258,Compulsory School,5,Married, Machine-op-inspct, Husband,Western Origin, Male,0,0,50, United-States, >50K
-All Ages,,222289,Basic Degree,13,Married,, Husband,Western Origin, Male,7688,0,54, United-States, >50K
+All Ages,,222289,Basic Degree,13,Married,Unknown, Husband,Western Origin, Male,7688,0,54, United-States, >50K
 All Ages, Self-emp-inc,171564,Compulsory School,9,Married, Prof-specialty, Wife,Western Origin, Female,20051,0,30, England, >50K
 All Ages, Federal-gov,86837,Basic Degree,12,Married, Other-service, Husband,Non-Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,89587,Basic Degree,10,Married, Transport-moving, Husband,Western Origin, Male,7298,0,45, United-States, >50K
@@ -4449,7 +4449,7 @@ All Ages, Federal-gov,190541,Compulsory School,9,Married, Craft-repair, Husband,
 All Ages, Self-emp-not-inc,366089,Basic Degree,15,Married, Prof-specialty, Husband,Western Origin, Male,15024,0,40, United-States, >50K
 All Ages, Private,51944,Compulsory School,9,Married, Other-service, Wife,Western Origin, Female,4386,0,40, United-States, >50K
 All Ages, Private,163604,Basic Degree,13,Not-Married, Prof-specialty, Unmarried,Western Origin, Female,0,0,55, United-States, >50K
-All Ages,,251854,Basic Degree,13,Married,, Wife,Western Origin, Female,0,0,35,, >50K
+All Ages,,251854,Basic Degree,13,Married,Unknown, Wife,Western Origin, Female,0,0,35,, >50K
 All Ages, Private,127306,Basic Degree,11,Not-Married, Adm-clerical, Own-child,Western Origin, Female,14344,0,40, United-States, >50K
 All Ages, Private,366180,Basic Degree,10,Married, Exec-managerial, Husband,Western Origin, Male,0,0,55, United-States, >50K
 All Ages, Private,61885,Basic Degree,13,Married, Prof-specialty, Husband,Western Origin, Male,15024,0,50, United-States, >50K
@@ -4521,7 +4521,7 @@ All Ages, Local-gov,129972,Basic Degree,11,Married, Protective-serv, Husband,Wes
 All Ages, Self-emp-inc,203488,Basic Degree,13,Married, Exec-managerial, Husband,Western Origin, Male,0,0,50, United-States, >50K
 All Ages, Private,128796,Compulsory School,9,Married, Craft-repair, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,55395,Basic Degree,11,Married, Prof-specialty, Husband,Western Origin, Male,0,0,40, United-States, >50K
-All Ages,,151584,Basic Degree,10,Not-Married,, Not-in-family,Western Origin, Male,8614,0,60, United-States, >50K
+All Ages,,151584,Basic Degree,10,Not-Married,Unknown, Not-in-family,Western Origin, Male,8614,0,60, United-States, >50K
 All Ages, Private,322171,Basic Degree,10,Married, Other-service, Wife,Western Origin, Female,0,0,40, United-States, >50K
 All Ages, Private,227856,Basic Degree,13,Married, Sales, Husband,Western Origin, Male,0,0,37, United-States, >50K
 All Ages, Private,266083,Compulsory School,4,Married, Transport-moving, Husband,Western Origin, Male,0,0,60, United-States, >50K
@@ -4555,7 +4555,7 @@ All Ages, Private,101709,Basic Degree,13,Married, Prof-specialty, Husband,Non-We
 All Ages, Private,250068,Compulsory School,8,Married, Sales, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,280169,Advanced Degree,14,Married, Exec-managerial, Husband,Western Origin, Male,0,0,50, United-States, >50K
 All Ages, Private,144608,Basic Degree,13,Not-Married, Prof-specialty, Not-in-family,Western Origin, Male,0,0,40,, >50K
-All Ages,,141580,Compulsory School,9,Married,, Husband,Western Origin, Male,0,0,50, United-States, >50K
+All Ages,,141580,Compulsory School,9,Married,Unknown, Husband,Western Origin, Male,0,0,50, United-States, >50K
 All Ages, Private,170174,Compulsory School,9,Married, Exec-managerial, Husband,Western Origin, Male,0,0,46, United-States, >50K
 All Ages, Private,314149,Advanced Degree,16,Married, Prof-specialty, Husband,Western Origin, Male,0,0,50, United-States, >50K
 All Ages, Federal-gov,31728,Basic Degree,10,Married, Adm-clerical, Wife,Western Origin, Female,0,0,40, United-States, >50K
@@ -4570,7 +4570,7 @@ All Ages, Private,213412,Basic Degree,10,Married, Sales, Husband,Western Origin,
 All Ages, Private,54772,Compulsory School,9,Married, Craft-repair, Husband,Western Origin, Male,3103,0,45, United-States, >50K
 All Ages, Self-emp-inc,56651,Basic Degree,10,Married, Exec-managerial, Husband,Western Origin, Male,7688,0,45, United-States, >50K
 All Ages, Private,280309,Basic Degree,12,Married, Exec-managerial, Husband,Western Origin, Male,5178,0,60, United-States, >50K
-All Ages,,323016,Basic Degree,13,Married,, Husband,Western Origin, Male,99999,0,40, United-States, >50K
+All Ages,,323016,Basic Degree,13,Married,Unknown, Husband,Western Origin, Male,99999,0,40, United-States, >50K
 All Ages, Private,172822,Compulsory School,7,Not-Married, Transport-moving, Not-in-family,Western Origin, Male,0,2824,76, United-States, >50K
 All Ages, Local-gov,216691,Advanced Degree,16,Not-Married, Prof-specialty, Not-in-family,Western Origin, Female,10520,0,40, United-States, >50K
 All Ages, Private,212276,Basic Degree,13,Married, Prof-specialty, Husband,Western Origin, Male,0,0,60, United-States, >50K
@@ -4609,7 +4609,7 @@ All Ages, State-gov,110426,Advanced Degree,16,Married, Prof-specialty, Wife,West
 All Ages, Self-emp-inc,298449,Basic Degree,13,Married, Exec-managerial, Husband,Western Origin, Male,0,2415,50, United-States, >50K
 All Ages, Private,210736,Basic Degree,10,Married, Exec-managerial, Husband,Western Origin, Male,3103,0,55, United-States, >50K
 All Ages, Private,360884,Basic Degree,10,Married, Adm-clerical, Wife,Western Origin, Female,7298,0,40, United-States, >50K
-All Ages,,177305,Basic Degree,11,Married,, Wife,Western Origin, Female,0,0,35, United-States, >50K
+All Ages,,177305,Basic Degree,11,Married,Unknown, Wife,Western Origin, Female,0,0,35, United-States, >50K
 All Ages, Private,165106,Basic Degree,13,Married, Craft-repair, Not-in-family,Western Origin, Male,0,1564,50,, >50K
 All Ages, Private,424478,Basic Degree,10,Married, Craft-repair, Husband,Western Origin, Male,0,0,45, United-States, >50K
 All Ages, Private,189721,Basic Degree,13,Married, Handlers-cleaners, Husband,Western Origin, Male,0,0,40, Italy, >50K
@@ -4635,7 +4635,7 @@ All Ages, Private,406051,Advanced Degree,16,Not-Married, Prof-specialty, Not-in-
 All Ages, Private,212705,Advanced Degree,14,Married, Exec-managerial, Not-in-family,Western Origin, Male,0,0,55, United-States, >50K
 All Ages, Private,103986,Basic Degree,11,Married, Tech-support, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,203761,Basic Degree,10,Married, Exec-managerial, Husband,Western Origin, Male,0,0,45, United-States, >50K
-All Ages,,266792,Basic Degree,10,Married,, Husband,Western Origin, Male,99999,0,40, United-States, >50K
+All Ages,,266792,Basic Degree,10,Married,Unknown, Husband,Western Origin, Male,99999,0,40, United-States, >50K
 All Ages, Federal-gov,321990,Basic Degree,10,Married, Adm-clerical, Husband,Western Origin, Male,7298,0,48, Cuba, >50K
 All Ages, Private,108914,Compulsory School,9,Married, Sales, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Self-emp-inc,191712,Advanced Degree,14,Married, Prof-specialty, Husband,Western Origin, Male,0,2415,55, United-States, >50K
@@ -4728,7 +4728,7 @@ All Ages, Private,183800,Basic Degree,13,Married, Adm-clerical, Husband,Western 
 All Ages, Self-emp-inc,260938,Basic Degree,10,Married, Exec-managerial, Husband,Western Origin, Male,0,0,60, United-States, >50K
 All Ages, Private,389713,Basic Degree,11,Married, Craft-repair, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,208451,Advanced Degree,14,Married, Exec-managerial, Husband,Western Origin, Male,0,0,40, United-States, >50K
-All Ages,,270228,Basic Degree,12,Married,, Husband,Western Origin, Male,7688,0,40, United-States, >50K
+All Ages,,270228,Basic Degree,12,Married,Unknown, Husband,Western Origin, Male,7688,0,40, United-States, >50K
 All Ages, Private,101096,Advanced Degree,16,Not-Married, Prof-specialty, Not-in-family,Western Origin, Female,0,0,65, United-States, >50K
 All Ages, Private,236391,Compulsory School,9,Married, Transport-moving, Husband,Western Origin, Male,0,0,50, United-States, >50K
 All Ages, Private,248612,Basic Degree,13,Not-Married, Exec-managerial, Not-in-family,Western Origin, Male,0,0,70, United-States, >50K
@@ -4740,7 +4740,7 @@ All Ages, Private,198170,Basic Degree,10,Married, Transport-moving, Husband,West
 All Ages, Private,22328,Basic Degree,13,Married, Sales, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Self-emp-inc,148888,Compulsory School,9,Married, Exec-managerial, Husband,Western Origin, Male,0,0,60, United-States, >50K
 All Ages, Self-emp-inc,55139,Advanced Degree,14,Married, Exec-managerial, Husband,Western Origin, Male,0,0,40, United-States, >50K
-All Ages,,212206,Advanced Degree,14,Married,, Wife,Western Origin, Female,0,1887,48, United-States, >50K
+All Ages,,212206,Advanced Degree,14,Married,Unknown, Wife,Western Origin, Female,0,1887,48, United-States, >50K
 All Ages, Private,252079,Basic Degree,10,Married, Prof-specialty, Husband,Western Origin, Male,0,0,50, United-States, >50K
 All Ages, Self-emp-inc,392325,Basic Degree,13,Married, Sales, Husband,Western Origin, Male,99999,0,60, United-States, >50K
 All Ages, State-gov,174283,Advanced Degree,16,Married, Prof-specialty, Husband,Western Origin, Male,0,1887,50, United-States, >50K
@@ -4776,7 +4776,7 @@ All Ages, Private,183173,Compulsory School,9,Married, Prof-specialty, Husband,We
 All Ages, Local-gov,47392,Compulsory School,9,Married, Exec-managerial, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,358585,Basic Degree,10,Not-Married, Craft-repair, Unmarried,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,377283,Basic Degree,13,Married, Sales, Not-in-family,Western Origin, Female,0,0,50, United-States, >50K
-All Ages,,76043,Compulsory School,9,Married,, Husband,Western Origin, Male,0,0,1, United-States, >50K
+All Ages,,76043,Compulsory School,9,Married,Unknown, Husband,Western Origin, Male,0,0,1, United-States, >50K
 All Ages, Private,110171,Basic Degree,10,Married, Craft-repair, Husband,Western Origin, Male,7688,0,40, United-States, >50K
 All Ages, Private,163455,Compulsory School,9,Married, Craft-repair, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Federal-gov,145401,Basic Degree,13,Married, Exec-managerial, Husband,Western Origin, Male,0,0,40, United-States, >50K
@@ -4786,7 +4786,7 @@ All Ages, State-gov,23740,Compulsory School,9,Not-Married, Transport-moving, Not
 All Ages, Private,164488,Advanced Degree,14,Married, Prof-specialty, Husband,Western Origin, Male,0,1887,40, United-States, >50K
 All Ages, Private,189530,Basic Degree,12,Married, Prof-specialty, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,224512,Advanced Degree,14,Married, Sales, Husband,Western Origin, Male,0,0,55, United-States, >50K
-All Ages,,410980,Basic Degree,10,Married,, Husband,Western Origin, Male,0,0,10, United-States, >50K
+All Ages,,410980,Basic Degree,10,Married,Unknown, Husband,Western Origin, Male,0,0,10, United-States, >50K
 All Ages, Private,38795,Compulsory School,9,Not-Married, Craft-repair, Not-in-family,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Local-gov,233954,Advanced Degree,14,Not-Married, Prof-specialty, Unmarried,Western Origin, Female,0,0,40, United-States, >50K
 All Ages, Private,86551,Basic Degree,13,Married, Exec-managerial, Husband,Western Origin, Male,0,0,50, United-States, >50K
@@ -4813,7 +4813,7 @@ All Ages, Private,133969,Advanced Degree,16,Married, Prof-specialty, Husband,Non
 All Ages, Private,253267,Basic Degree,10,Married, Adm-clerical, Husband,Western Origin, Male,0,1902,36, United-States, >50K
 All Ages, Private,202027,Advanced Degree,14,Married, Adm-clerical, Husband,Western Origin, Male,7688,0,50, United-States, >50K
 All Ages, Self-emp-not-inc,321865,Basic Degree,15,Not-Married, Prof-specialty, Not-in-family,Western Origin, Male,0,0,60, United-States, >50K
-All Ages,,92968,Advanced Degree,14,Married,, Wife,Western Origin, Female,15024,0,40, United-States, >50K
+All Ages,,92968,Advanced Degree,14,Married,Unknown, Wife,Western Origin, Female,15024,0,40, United-States, >50K
 All Ages, State-gov,126701,Basic Degree,13,Married, Exec-managerial, Husband,Western Origin, Male,0,0,35, United-States, >50K
 All Ages, Self-emp-not-inc,197176,Basic Degree,13,Married, Farming-fishing, Husband,Western Origin, Male,0,0,75, United-States, >50K
 All Ages, Federal-gov,81487,Basic Degree,10,Married, Adm-clerical, Husband,Western Origin, Male,0,0,40, Puerto-Rico, >50K
@@ -4847,7 +4847,7 @@ All Ages, Federal-gov,113597,Basic Degree,10,Married, Exec-managerial, Husband,W
 All Ages, Self-emp-not-inc,26145,Basic Degree,11,Married, Sales, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Federal-gov,497253,Basic Degree,13,Married, Exec-managerial, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Self-emp-not-inc,282461,Compulsory School,4,Married, Sales, Husband,Western Origin, Male,0,0,35, United-States, >50K
-All Ages,,149131,Basic Degree,13,Married,, Husband,Western Origin, Male,0,0,40, Italy, >50K
+All Ages,,149131,Basic Degree,13,Married,Unknown, Husband,Western Origin, Male,0,0,40, Italy, >50K
 All Ages, Private,449354,Compulsory School,9,Married, Adm-clerical, Husband,Western Origin, Male,4386,0,45, United-States, >50K
 All Ages, Private,96099,Basic Degree,10,Married, Sales, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,175925,Basic Degree,10,Married, Exec-managerial, Husband,Western Origin, Male,0,0,60, United-States, >50K
@@ -4882,7 +4882,7 @@ All Ages, Self-emp-not-inc,36270,Compulsory School,9,Married, Farming-fishing, H
 All Ages, Private,198654,Basic Degree,15,Married, Prof-specialty, Husband,Non-Western Origin, Male,0,2415,67, India, >50K
 All Ages, Private,104333,Basic Degree,10,Married, Craft-repair, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,442045,Basic Degree,10,Married, Prof-specialty, Husband,Western Origin, Male,0,0,40, United-States, >50K
-All Ages,,253370,Compulsory School,9,Married,, Wife,Western Origin, Female,0,0,35, United-States, >50K
+All Ages,,253370,Compulsory School,9,Married,Unknown, Wife,Western Origin, Female,0,0,35, United-States, >50K
 All Ages, Private,213226,Basic Degree,13,Not-Married, Sales, Not-in-family,Western Origin, Male,0,0,65, United-States, >50K
 All Ages, Self-emp-not-inc,450544,Basic Degree,13,Married, Exec-managerial, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,195258,Compulsory School,9,Married, Craft-repair, Husband,Western Origin, Male,0,0,40, United-States, >50K
@@ -4898,7 +4898,7 @@ All Ages, State-gov,285747,Advanced Degree,14,Married, Prof-specialty, Husband,W
 All Ages, Private,31782,Compulsory School,6,Married, Transport-moving, Husband,Western Origin, Male,0,0,45, United-States, >50K
 All Ages, Private,263614,Basic Degree,12,Married, Craft-repair, Husband,Western Origin, Male,0,0,45, United-States, >50K
 All Ages, Private,74500,Basic Degree,13,Married, Sales, Husband,Western Origin, Male,0,0,40, United-States, >50K
-All Ages,,389479,Advanced Degree,14,Married,, Husband,Western Origin, Male,0,0,50, United-States, >50K
+All Ages,,389479,Advanced Degree,14,Married,Unknown, Husband,Western Origin, Male,0,0,50, United-States, >50K
 All Ages, Private,152307,Basic Degree,10,Married, Machine-op-inspct, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Local-gov,300681,Compulsory School,9,Married, Protective-serv, Husband,Western Origin, Male,7298,0,35, United-States, >50K
 All Ages, Federal-gov,140711,Basic Degree,13,Married, Prof-specialty, Husband,Western Origin, Male,0,0,40, United-States, >50K
@@ -4909,7 +4909,7 @@ All Ages, Private,81280,Basic Degree,13,Married, Farming-fishing, Husband,Wester
 All Ages, Local-gov,220430,Basic Degree,13,Married, Protective-serv, Husband,Western Origin, Male,0,0,70, United-States, >50K
 All Ages, Local-gov,380614,Basic Degree,13,Married, Adm-clerical, Wife,Western Origin, Female,0,0,35, Germany, >50K
 All Ages, Private,192002,Advanced Degree,14,Married, Exec-managerial, Husband,Western Origin, Male,7298,0,60, Canada, >50K
-All Ages,,378239,Advanced Degree,14,Married,, Husband,Western Origin, Male,0,0,2, United-States, >50K
+All Ages,,378239,Advanced Degree,14,Married,Unknown, Husband,Western Origin, Male,0,0,2, United-States, >50K
 All Ages, Private,336007,Basic Degree,13,Married, Prof-specialty, Husband,Western Origin, Male,0,2246,40, United-States, >50K
 All Ages, Private,222539,Basic Degree,10,Married, Craft-repair, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,202027,Basic Degree,13,Married, Handlers-cleaners, Husband,Western Origin, Male,7298,0,35, United-States, >50K
@@ -4956,7 +4956,7 @@ All Ages, Private,48358,Compulsory School,9,Married, Craft-repair, Husband,Weste
 All Ages, State-gov,199512,Basic Degree,13,Married, Exec-managerial, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,96509,Basic Degree,10,Married, Prof-specialty, Husband,Non-Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,226733,Compulsory School,9,Married, Adm-clerical, Husband,Western Origin, Male,0,0,40, United-States, >50K
-All Ages,,351161,Advanced Degree,14,Married,, Husband,Western Origin, Male,0,0,60, United-States, >50K
+All Ages,,351161,Advanced Degree,14,Married,Unknown, Husband,Western Origin, Male,0,0,60, United-States, >50K
 All Ages, Private,186934,Basic Degree,13,Married, Sales, Husband,Western Origin, Male,0,0,50, United-States, >50K
 All Ages, Self-emp-inc,129432,Basic Degree,13,Married, Exec-managerial, Husband,Western Origin, Male,15024,0,40, United-States, >50K
 All Ages, Private,102476,Basic Degree,13,Not-Married, Prof-specialty, Own-child,Western Origin, Male,10520,0,64, United-States, >50K
@@ -4965,7 +4965,7 @@ All Ages, Private,141326,Compulsory School,9,Married, Craft-repair, Husband,West
 All Ages, Private,347166,Basic Degree,13,Not-Married, Prof-specialty, Not-in-family,Western Origin, Male,13550,0,45, United-States, >50K
 All Ages, Local-gov,213722,Compulsory School,9,Married, Protective-serv, Husband,Western Origin, Male,0,0,57, United-States, >50K
 All Ages, Federal-gov,199934,Basic Degree,10,Married, Adm-clerical, Husband,Western Origin, Male,0,0,40, United-States, >50K
-All Ages,,117162,Basic Degree,11,Married,, Wife,Western Origin, Female,0,0,56, United-States, >50K
+All Ages,,117162,Basic Degree,11,Married,Unknown, Wife,Western Origin, Female,0,0,56, United-States, >50K
 All Ages, Private,115613,Compulsory School,9,Married, Craft-repair, Husband,Western Origin, Male,0,0,50, United-States, >50K
 All Ages, Private,121590,Basic Degree,10,Not-Married, Prof-specialty, Not-in-family,Western Origin, Male,4787,0,40, United-States, >50K
 All Ages, Private,126368,Basic Degree,10,Not-Married, Adm-clerical, Not-in-family,Western Origin, Female,0,0,50, United-States, >50K
@@ -5036,7 +5036,7 @@ All Ages, Private,179291,Basic Degree,10,Married, Prof-specialty, Husband,Wester
 All Ages, Private,122889,Advanced Degree,14,Married, Prof-specialty, Husband,Non-Western Origin, Male,0,0,50, India, >50K
 All Ages, Private,276087,Basic Degree,11,Married, Prof-specialty, Husband,Western Origin, Male,0,0,24, United-States, >50K
 All Ages, Self-emp-inc,106395,Compulsory School,9,Married, Other-service, Husband,Western Origin, Male,0,0,40, United-States, >50K
-All Ages,,193047,Compulsory School,9,Married,, Husband,Western Origin, Male,0,0,40, United-States, >50K
+All Ages,,193047,Compulsory School,9,Married,Unknown, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,348521,Basic Degree,10,Married, Farming-fishing, Husband,Western Origin, Male,0,2415,99, United-States, >50K
 All Ages, Private,222756,Basic Degree,10,Married, Machine-op-inspct, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,204751,Basic Degree,10,Married, Craft-repair, Husband,Western Origin, Male,0,0,40, United-States, >50K
@@ -5079,7 +5079,7 @@ All Ages, Private,182862,Compulsory School,9,Not-Married, Transport-moving, Not-
 All Ages, Local-gov,31365,Basic Degree,13,Not-Married, Prof-specialty, Not-in-family,Western Origin, Female,0,0,40, United-States, >50K
 All Ages, Private,148171,Basic Degree,11,Married, Craft-repair, Husband,Western Origin, Male,15024,0,40, United-States, >50K
 All Ages, Private,107265,Compulsory School,9,Married, Transport-moving, Husband,Western Origin, Male,0,0,50, United-States, >50K
-All Ages,,109912,Basic Degree,13,Married,, Wife,Western Origin, Female,0,0,7, United-States, >50K
+All Ages,,109912,Basic Degree,13,Married,Unknown, Wife,Western Origin, Female,0,0,7, United-States, >50K
 All Ages, Local-gov,183486,Basic Degree,13,Married, Prof-specialty, Wife,Western Origin, Female,0,0,50, United-States, >50K
 All Ages, Federal-gov,153066,Advanced Degree,14,Married, Prof-specialty, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Self-emp-inc,56248,Basic Degree,13,Married, Farming-fishing, Husband,Western Origin, Male,0,2415,60, United-States, >50K
@@ -5121,7 +5121,7 @@ All Ages, Self-emp-not-inc,103179,Compulsory School,9,Married, Transport-moving,
 All Ages, Private,243409,Compulsory School,9,Married, Exec-managerial, Husband,Western Origin, Male,0,0,60, United-States, >50K
 All Ages, Private,162442,Compulsory School,9,Married, Adm-clerical, Wife,Western Origin, Female,0,0,20, United-States, >50K
 All Ages, Self-emp-inc,155983,Advanced Degree,14,Married, Sales, Husband,Western Origin, Male,0,0,65, United-States, >50K
-All Ages,,170276,Basic Degree,13,Married,, Wife,Western Origin, Female,0,0,10, United-States, >50K
+All Ages,,170276,Basic Degree,13,Married,Unknown, Wife,Western Origin, Female,0,0,10, United-States, >50K
 All Ages, Private,210275,Advanced Degree,14,Not-Married, Tech-support, Unmarried,Western Origin, Female,4687,0,35, United-States, >50K
 All Ages, Private,112754,Basic Degree,11,Married, Craft-repair, Husband,Western Origin, Male,0,0,65, United-States, >50K
 All Ages, Self-emp-inc,287647,Advanced Degree,16,Married, Prof-specialty, Husband,Western Origin, Male,7688,0,55, United-States, >50K
@@ -5131,7 +5131,7 @@ All Ages, Self-emp-not-inc,62539,Compulsory School,7,Not-Married, Other-service,
 All Ages, Private,157612,Basic Degree,13,Not-Married, Prof-specialty, Not-in-family,Western Origin, Female,14344,0,40, United-States, >50K
 All Ages, Private,31137,Compulsory School,9,Married, Craft-repair, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,116138,Basic Degree,13,Not-Married, Exec-managerial, Not-in-family,Western Origin, Male,27828,0,60, United-States, >50K
-All Ages,,355890,Basic Degree,13,Married,, Husband,Western Origin, Male,0,0,55, United-States, >50K
+All Ages,,355890,Basic Degree,13,Married,Unknown, Husband,Western Origin, Male,0,0,55, United-States, >50K
 All Ages, Private,136841,Basic Degree,13,Married, Prof-specialty, Wife,Western Origin, Female,99999,0,35, United-States, >50K
 All Ages, Private,155489,Compulsory School,9,Married, Machine-op-inspct, Husband,Western Origin, Male,0,0,43, United-States, >50K
 All Ages, Private,177408,Compulsory School,9,Married, Exec-managerial, Husband,Western Origin, Male,0,2377,26, United-States, >50K
@@ -5219,7 +5219,7 @@ All Ages, Private,141570,Advanced Degree,14,Married, Exec-managerial, Husband,We
 All Ages, Private,225660,Basic Degree,13,Married, Exec-managerial, Wife,Western Origin, Female,0,0,45, United-States, >50K
 All Ages, Self-emp-not-inc,210164,Compulsory School,9,Married, Exec-managerial, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,409922,Basic Degree,10,Married, Prof-specialty, Husband,Western Origin, Male,7298,0,40, United-States, >50K
-All Ages,,224472,Basic Degree,15,Not-Married,, Not-in-family,Western Origin, Male,25124,0,80, United-States, >50K
+All Ages,,224472,Basic Degree,15,Not-Married,Unknown, Not-in-family,Western Origin, Male,25124,0,80, United-States, >50K
 All Ages, Private,144949,Basic Degree,13,Married, Prof-specialty, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,147206,Compulsory School,9,Married, Craft-repair, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,187870,Basic Degree,13,Married, Prof-specialty, Husband,Western Origin, Male,7298,0,50, United-States, >50K
@@ -5289,13 +5289,13 @@ All Ages, Self-emp-not-inc,462832,Compulsory School,9,Married, Craft-repair, Wif
 All Ages, State-gov,119565,Basic Degree,13,Married, Exec-managerial, Husband,Western Origin, Male,0,0,40, Puerto-Rico, >50K
 All Ages, Private,169383,Advanced Degree,14,Married, Prof-specialty, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,191957,Compulsory School,9,Married, Sales, Husband,Western Origin, Male,0,0,40, United-States, >50K
-All Ages,,98080,Basic Degree,15,Not-Married,, Not-in-family,Non-Western Origin, Male,4787,0,45, Japan, >50K
+All Ages,,98080,Basic Degree,15,Not-Married,Unknown, Not-in-family,Non-Western Origin, Male,4787,0,45, Japan, >50K
 All Ages, State-gov,197184,Advanced Degree,14,Married, Exec-managerial, Husband,Western Origin, Male,0,0,70, United-States, >50K
 All Ages, Private,187295,Basic Degree,13,Married, Prof-specialty, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,233796,Basic Degree,10,Married, Adm-clerical, Wife,Western Origin, Female,7298,0,32, United-States, >50K
 All Ages, Private,97741,Compulsory School,9,Married, Machine-op-inspct, Husband,Western Origin, Male,0,0,45, United-States, >50K
 All Ages, Local-gov,160173,Advanced Degree,14,Married, Exec-managerial, Husband,Western Origin, Male,7688,0,50, United-States, >50K
-All Ages,,182836,Compulsory School,9,Married,, Wife,Western Origin, Female,0,0,40, United-States, >50K
+All Ages,,182836,Compulsory School,9,Married,Unknown, Wife,Western Origin, Female,0,0,40, United-States, >50K
 All Ages, Private,172175,Basic Degree,15,Married, Prof-specialty, Husband,Western Origin, Male,0,0,50, United-States, >50K
 All Ages, Private,83922,Basic Degree,10,Married, Craft-repair, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,154981,Basic Degree,13,Married, Adm-clerical, Husband,Western Origin, Male,0,1902,50, United-States, >50K
@@ -5401,7 +5401,7 @@ All Ages, Private,214503,Basic Degree,13,Married, Prof-specialty, Husband,Wester
 All Ages, Self-emp-not-inc,284329,Advanced Degree,14,Not-Married, Exec-managerial, Not-in-family,Western Origin, Male,0,0,50, United-States, >50K
 All Ages, Private,340614,Advanced Degree,14,Married, Prof-specialty, Husband,Western Origin, Male,0,0,50, United-States, >50K
 All Ages, Private,61474,Basic Degree,10,Married, Exec-managerial, Husband,Western Origin, Male,7688,0,45, United-States, >50K
-All Ages,,99127,Basic Degree,11,Married,, Husband,Western Origin, Male,0,0,40, United-States, >50K
+All Ages,,99127,Basic Degree,11,Married,Unknown, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,103925,Compulsory School,9,Married, Adm-clerical, Wife,Western Origin, Female,0,0,40, United-States, >50K
 All Ages, Federal-gov,346532,Basic Degree,10,Married, Adm-clerical, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,216256,Basic Degree,13,Married, Exec-managerial, Husband,Western Origin, Male,0,0,60, Italy, >50K
@@ -5459,7 +5459,7 @@ All Ages, Private,155659,Basic Degree,13,Married, Prof-specialty, Husband,Wester
 All Ages, Private,455379,Basic Degree,13,Married, Exec-managerial, Husband,Western Origin, Male,0,0,63, United-States, >50K
 All Ages, Private,185099,Basic Degree,15,Married, Prof-specialty, Husband,Western Origin, Male,0,0,55, United-States, >50K
 All Ages, Local-gov,126754,Advanced Degree,14,Married, Prof-specialty, Husband,Western Origin, Male,0,0,40, United-States, >50K
-All Ages,,200790,Compulsory School,8,Married,, Other-relative,Western Origin, Female,15024,0,40, United-States, >50K
+All Ages,,200790,Compulsory School,8,Married,Unknown, Other-relative,Western Origin, Female,15024,0,40, United-States, >50K
 All Ages, Local-gov,197918,Basic Degree,10,Not-Married, Protective-serv, Own-child,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Self-emp-not-inc,150533,Basic Degree,15,Married, Prof-specialty, Husband,Western Origin, Male,0,0,50, United-States, >50K
 All Ages, State-gov,50468,Basic Degree,15,Married, Adm-clerical, Husband,Western Origin, Male,0,0,34, United-States, >50K
@@ -5520,7 +5520,7 @@ All Ages, Federal-gov,140516,Advanced Degree,14,Married, Prof-specialty, Husband
 All Ages, Private,159888,Basic Degree,13,Not-Married, Sales, Not-in-family,Western Origin, Male,0,0,60, United-States, >50K
 All Ages, Self-emp-not-inc,181307,Basic Degree,15,Married, Prof-specialty, Husband,Western Origin, Male,15024,0,65, United-States, >50K
 All Ages, State-gov,240738,Compulsory School,9,Married, Craft-repair, Husband,Western Origin, Male,0,0,40, United-States, >50K
-All Ages,,271346,Basic Degree,13,Married,, Husband,Western Origin, Male,15024,0,60, United-States, >50K
+All Ages,,271346,Basic Degree,13,Married,Unknown, Husband,Western Origin, Male,15024,0,60, United-States, >50K
 All Ages, Self-emp-inc,134854,Compulsory School,9,Married, Exec-managerial, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,126701,Basic Degree,13,Not-Married, Adm-clerical, Unmarried,Western Origin, Male,9562,0,45, United-States, >50K
 All Ages, Private,182863,Basic Degree,13,Married, Exec-managerial, Husband,Western Origin, Male,0,0,50, United-States, >50K
@@ -5578,7 +5578,7 @@ All Ages, Self-emp-not-inc,155489,Compulsory School,4,Married, Exec-managerial, 
 All Ages, Private,197322,Compulsory School,7,Married, Exec-managerial, Husband,Western Origin, Male,0,0,50, United-States, >50K
 All Ages, Private,346189,Advanced Degree,16,Married, Prof-specialty, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,98361,Basic Degree,13,Married, Exec-managerial, Husband,Western Origin, Male,15024,0,55, United-States, >50K
-All Ages,,178556,Compulsory School,6,Married,, Husband,Western Origin, Male,0,0,56, United-States, >50K
+All Ages,,178556,Compulsory School,6,Married,Unknown, Husband,Western Origin, Male,0,0,56, United-States, >50K
 All Ages, Self-emp-inc,162943,Basic Degree,15,Married, Prof-specialty, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,19302,Basic Degree,10,Married, Prof-specialty, Husband,Western Origin, Male,7688,0,40, United-States, >50K
 All Ages, Private,215392,Basic Degree,11,Married, Prof-specialty, Wife,Western Origin, Female,0,0,40, United-States, >50K
@@ -5604,7 +5604,7 @@ All Ages, Local-gov,303918,Compulsory School,9,Married, Protective-serv, Husband
 All Ages, Private,1033222,Basic Degree,13,Not-Married, Adm-clerical, Not-in-family,Western Origin, Male,8614,0,40, United-States, >50K
 All Ages, Private,109530,Basic Degree,11,Married, Tech-support, Husband,Western Origin, Male,7298,0,40, United-States, >50K
 All Ages, Federal-gov,217864,Compulsory School,9,Married, Adm-clerical, Husband,Western Origin, Male,0,0,40, United-States, >50K
-All Ages,,424468,Basic Degree,13,Married,, Husband,Western Origin, Male,0,0,40, United-States, >50K
+All Ages,,424468,Basic Degree,13,Married,Unknown, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Local-gov,199539,Basic Degree,10,Married, Protective-serv, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Self-emp-not-inc,29231,Compulsory School,9,Married, Exec-managerial, Husband,Western Origin, Male,0,0,45, United-States, >50K
 All Ages, Private,212064,Basic Degree,13,Married, Exec-managerial, Wife,Western Origin, Female,0,0,40, United-States, >50K
@@ -5626,7 +5626,7 @@ All Ages, Private,212838,Compulsory School,9,Married, Sales, Husband,Western Ori
 All Ages, Private,187702,Basic Degree,10,Not-Married, Exec-managerial, Not-in-family,Western Origin, Male,0,0,50, United-States, >50K
 All Ages, Private,115284,Basic Degree,13,Not-Married, Exec-managerial, Unmarried,Western Origin, Male,0,0,45, United-States, >50K
 All Ages, Self-emp-inc,98350,Advanced Degree,16,Married, Exec-managerial, Husband,Non-Western Origin, Male,0,0,40, Taiwan, >50K
-All Ages,,81578,Compulsory School,9,Married,, Husband,Western Origin, Male,0,0,40, United-States, >50K
+All Ages,,81578,Compulsory School,9,Married,Unknown, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,201466,Basic Degree,13,Married, Exec-managerial, Husband,Western Origin, Male,0,0,45, United-States, >50K
 All Ages, Federal-gov,254211,Advanced Degree,14,Not-Married, Sales, Unmarried,Western Origin, Male,0,0,50, El-Salvador, >50K
 All Ages, Private,599629,Basic Degree,10,Married, Adm-clerical, Wife,Western Origin, Female,0,0,40, United-States, >50K
@@ -5634,7 +5634,7 @@ All Ages, Private,98211,Basic Degree,13,Married, Exec-managerial, Husband,Wester
 All Ages, State-gov,27305,Advanced Degree,14,Married, Prof-specialty, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,216711,Compulsory School,9,Married, Craft-repair, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,113364,Basic Degree,13,Not-Married, Prof-specialty, Not-in-family,Western Origin, Male,0,0,40, United-States, >50K
-All Ages,,148065,Basic Degree,10,Married,, Husband,Western Origin, Male,0,0,4, United-States, >50K
+All Ages,,148065,Basic Degree,10,Married,Unknown, Husband,Western Origin, Male,0,0,4, United-States, >50K
 All Ages, State-gov,296991,Basic Degree,15,Married, Prof-specialty, Husband,Western Origin, Male,15024,0,40, United-States, >50K
 All Ages, Private,390368,Basic Degree,10,Married, Sales, Husband,Western Origin, Male,15024,0,99, United-States, >50K
 All Ages, Private,170411,Basic Degree,13,Married, Protective-serv, Husband,Western Origin, Male,0,0,40, United-States, >50K
@@ -5682,7 +5682,7 @@ All Ages, Private,128143,Basic Degree,13,Married, Craft-repair, Husband,Western 
 All Ages, Private,185041,Basic Degree,10,Married, Craft-repair, Husband,Western Origin, Male,7298,0,40, United-States, >50K
 All Ages, Private,348739,Basic Degree,13,Married, Prof-specialty, Husband,Western Origin, Male,0,0,45, United-States, >50K
 All Ages, Private,270421,Basic Degree,13,Married, Craft-repair, Husband,Western Origin, Male,0,0,50, United-States, >50K
-All Ages,,221592,Compulsory School,9,Married,, Husband,Western Origin, Male,0,0,40, United-States, >50K
+All Ages,,221592,Compulsory School,9,Married,Unknown, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Self-emp-not-inc,156951,Basic Degree,12,Married, Machine-op-inspct, Husband,Western Origin, Male,3103,0,40, United-States, >50K
 All Ages, State-gov,367292,Basic Degree,10,Married, Protective-serv, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Self-emp-inc,345489,Basic Degree,10,Married, Exec-managerial, Husband,Western Origin, Male,0,0,55, United-States, >50K
@@ -5734,7 +5734,7 @@ All Ages, Private,469572,Basic Degree,10,Not-Married, Prof-specialty, Not-in-fam
 All Ages, Self-emp-not-inc,282722,Basic Degree,15,Married, Prof-specialty, Husband,Western Origin, Male,99999,0,50, United-States, >50K
 All Ages, Self-emp-inc,120277,Advanced Degree,14,Married, Exec-managerial, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,202051,Basic Degree,13,Married, Exec-managerial, Husband,Western Origin, Male,0,0,42, United-States, >50K
-All Ages,,353244,Basic Degree,13,Not-Married,, Unmarried,Western Origin, Female,27828,0,50, United-States, >50K
+All Ages,,353244,Basic Degree,13,Not-Married,Unknown, Unmarried,Western Origin, Female,27828,0,50, United-States, >50K
 All Ages, Self-emp-not-inc,104501,Basic Degree,10,Married, Tech-support, Husband,Western Origin, Male,0,0,60, United-States, >50K
 All Ages, Private,73715,Basic Degree,10,Married, Craft-repair, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Local-gov,290660,Basic Degree,12,Not-Married, Exec-managerial, Not-in-family,Western Origin, Male,8614,0,50, United-States, >50K
@@ -5797,7 +5797,7 @@ All Ages, Self-emp-not-inc,237293,Basic Degree,15,Married, Prof-specialty, Wife,
 All Ages, Local-gov,171589,Basic Degree,11,Married, Craft-repair, Husband,Western Origin, Male,7688,0,40, United-States, >50K
 All Ages, Self-emp-not-inc,176814,Advanced Degree,16,Married, Prof-specialty, Husband,Western Origin, Male,15024,0,40, United-States, >50K
 All Ages, Local-gov,133336,Advanced Degree,14,Married, Prof-specialty, Husband,Western Origin, Male,15024,0,40, United-States, >50K
-All Ages,,191380,Compulsory School,6,Married,, Husband,Western Origin, Male,9386,0,50, United-States, >50K
+All Ages,,191380,Compulsory School,6,Married,Unknown, Husband,Western Origin, Male,9386,0,50, United-States, >50K
 All Ages, Private,128715,Basic Degree,13,Married, Exec-managerial, Husband,Western Origin, Male,0,0,60, United-States, >50K
 All Ages, Private,202729,Compulsory School,9,Married, Machine-op-inspct, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,277471,Basic Degree,11,Married, Tech-support, Husband,Western Origin, Male,0,0,40, United-States, >50K
@@ -5814,7 +5814,7 @@ All Ages, Private,115932,Basic Degree,10,Married, Exec-managerial, Husband,Weste
 All Ages, State-gov,164790,Basic Degree,10,Not-Married, Adm-clerical, Not-in-family,Western Origin, Male,0,0,50, United-States, >50K
 All Ages, Private,100252,Basic Degree,13,Not-Married, Other-service, Not-in-family,Non-Western Origin, Male,99999,0,70, United-States, >50K
 All Ages, Private,170154,Basic Degree,12,Married, Exec-managerial, Unmarried,Western Origin, Female,25236,0,50, United-States, >50K
-All Ages,,361838,Basic Degree,13,Married,, Wife,Western Origin, Female,0,0,6, United-States, >50K
+All Ages,,361838,Basic Degree,13,Married,Unknown, Wife,Western Origin, Female,0,0,6, United-States, >50K
 All Ages, State-gov,283917,Basic Degree,11,Married, Prof-specialty, Husband,Western Origin, Male,0,0,35, United-States, >50K
 All Ages, Private,159755,Basic Degree,13,Married, Exec-managerial, Husband,Western Origin, Male,7688,0,40, United-States, >50K
 All Ages, Private,340880,Basic Degree,15,Married, Prof-specialty, Husband,Western Origin, Male,0,0,60, United-States, >50K
@@ -5839,11 +5839,11 @@ All Ages, Private,195891,Basic Degree,12,Married, Prof-specialty, Husband,Wester
 All Ages, Private,211424,Basic Degree,10,Married, Handlers-cleaners, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,233955,Basic Degree,13,Not-Married, Prof-specialty, Not-in-family,Non-Western Origin, Female,14344,0,40, United-States, >50K
 All Ages, Self-emp-not-inc,361280,Basic Degree,10,Married, Sales, Husband,Non-Western Origin, Male,0,0,80, Philippines, >50K
-All Ages,,123044,Advanced Degree,14,Married,, Husband,Western Origin, Male,0,0,60, United-States, >50K
+All Ages,,123044,Advanced Degree,14,Married,Unknown, Husband,Western Origin, Male,0,0,60, United-States, >50K
 All Ages, Private,165472,Basic Degree,13,Married, Prof-specialty, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,99452,Basic Degree,13,Married, Prof-specialty, Husband,Western Origin, Male,0,0,50, United-States, >50K
 All Ages, Private,230858,Basic Degree,10,Married, Craft-repair, Husband,Western Origin, Male,0,1977,60, United-States, >50K
-All Ages,,191118,Basic Degree,10,Married,, Husband,Western Origin, Male,7298,0,40, United-States, >50K
+All Ages,,191118,Basic Degree,10,Married,Unknown, Husband,Western Origin, Male,7298,0,40, United-States, >50K
 All Ages, Private,138692,Basic Degree,13,Married, Prof-specialty, Husband,Western Origin, Male,0,1887,40, United-States, >50K
 All Ages, Self-emp-inc,153183,Basic Degree,13,Married, Exec-managerial, Husband,Western Origin, Male,0,2392,55, United-States, >50K
 All Ages, Private,104196,Advanced Degree,14,Married, Exec-managerial, Husband,Western Origin, Male,0,0,45, United-States, >50K
@@ -5873,7 +5873,7 @@ All Ages, Private,113324,Compulsory School,9,Married, Craft-repair, Husband,West
 All Ages, Self-emp-not-inc,185129,Basic Degree,15,Married, Prof-specialty, Husband,Western Origin, Male,0,1887,40, United-States, >50K
 All Ages, Private,61270,Compulsory School,9,Married, Handlers-cleaners, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Self-emp-inc,124685,Advanced Degree,14,Not-Married, Exec-managerial, Not-in-family,Non-Western Origin, Male,0,0,99, Japan, >50K
-All Ages,,310396,Compulsory School,5,Married,, Husband,Western Origin, Male,5178,0,40, United-States, >50K
+All Ages,,310396,Compulsory School,5,Married,Unknown, Husband,Western Origin, Male,5178,0,40, United-States, >50K
 All Ages, Private,400004,Basic Degree,11,Married, Exec-managerial, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,278322,Basic Degree,10,Married, Prof-specialty, Husband,Western Origin, Male,7688,0,40, United-States, >50K
 All Ages, State-gov,352156,Basic Degree,15,Married, Prof-specialty, Husband,Western Origin, Male,0,0,40, United-States, >50K
@@ -5962,10 +5962,10 @@ All Ages, Private,165492,Basic Degree,10,Married, Sales, Husband,Western Origin,
 All Ages, Self-emp-not-inc,344128,Basic Degree,13,Married, Sales, Husband,Western Origin, Male,0,0,50, United-States, >50K
 All Ages, Private,103580,Basic Degree,12,Not-Married, Exec-managerial, Unmarried,Western Origin, Female,0,0,55, United-States, >50K
 All Ages, State-gov,117357,Advanced Degree,16,Married, Prof-specialty, Husband,Non-Western Origin, Male,0,0,70,, >50K
-All Ages,,141218,Advanced Degree,14,Married,, Husband,Western Origin, Male,0,0,30, United-States, >50K
+All Ages,,141218,Advanced Degree,14,Married,Unknown, Husband,Western Origin, Male,0,0,30, United-States, >50K
 All Ages, Local-gov,207677,Basic Degree,13,Married, Protective-serv, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,246891,Basic Degree,13,Married, Exec-managerial, Husband,Western Origin, Male,0,0,72, Canada, >50K
-All Ages,,202106,Compulsory School,9,Married,, Husband,Western Origin, Male,0,1902,40, United-States, >50K
+All Ages,,202106,Compulsory School,9,Married,Unknown, Husband,Western Origin, Male,0,1902,40, United-States, >50K
 All Ages, Private,229015,Basic Degree,13,Married, Exec-managerial, Husband,Western Origin, Male,0,0,50, United-States, >50K
 All Ages, Private,130067,Basic Degree,13,Married, Prof-specialty, Wife,Western Origin, Female,0,0,40, United-States, >50K
 All Ages, Private,333305,Basic Degree,10,Married, Sales, Wife,Western Origin, Female,0,0,45, United-States, >50K
@@ -6020,7 +6020,7 @@ All Ages, Private,240441,Advanced Degree,14,Not-Married, Exec-managerial, Not-in
 All Ages, Self-emp-not-inc,406811,Basic Degree,10,Married, Prof-specialty, Wife,Western Origin, Female,0,0,40, United-States, >50K
 All Ages, Private,171467,Compulsory School,9,Not-Married, Craft-repair, Unmarried,Western Origin, Male,0,0,48, United-States, >50K
 All Ages, Private,119177,Compulsory School,9,Married, Sales, Husband,Western Origin, Male,0,0,55, United-States, >50K
-All Ages,,76641,Advanced Degree,14,Married,, Husband,Western Origin, Male,20051,0,40, Poland, >50K
+All Ages,,76641,Advanced Degree,14,Married,Unknown, Husband,Western Origin, Male,20051,0,40, Poland, >50K
 All Ages, Self-emp-not-inc,190072,Basic Degree,10,Married, Craft-repair, Husband,Western Origin, Male,0,0,40, Iran, >50K
 All Ages, Private,104501,Compulsory School,9,Married, Craft-repair, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,148995,Advanced Degree,16,Not-Married, Prof-specialty, Not-in-family,Western Origin, Male,99999,0,30, United-States, >50K
@@ -6064,7 +6064,7 @@ All Ages, Private,166416,Basic Degree,13,Married, Exec-managerial, Husband,Weste
 All Ages, Self-emp-inc,216414,Advanced Degree,14,Married, Sales, Husband,Western Origin, Male,0,1977,60, United-States, >50K
 All Ages, Federal-gov,27432,Compulsory School,9,Married, Adm-clerical, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,102308,Advanced Degree,14,Married, Exec-managerial, Husband,Western Origin, Male,15024,0,60, United-States, >50K
-All Ages,,94559,Basic Degree,13,Married,, Wife,Non-Western Origin, Female,7688,0,50,, >50K
+All Ages,,94559,Basic Degree,13,Married,Unknown, Wife,Non-Western Origin, Female,7688,0,50,, >50K
 All Ages, State-gov,366198,Advanced Degree,16,Married, Prof-specialty, Husband,Western Origin, Male,0,0,45, Germany, >50K
 All Ages, Self-emp-not-inc,210364,Compulsory School,9,Married, Sales, Husband,Western Origin, Male,15024,0,80, United-States, >50K
 All Ages, Self-emp-not-inc,375574,Basic Degree,10,Married, Sales, Husband,Western Origin, Male,0,0,60, Mexico, >50K
@@ -6079,7 +6079,7 @@ All Ages, Self-emp-not-inc,219718,Basic Degree,13,Married, Sales, Husband,Wester
 All Ages, Private,99185,Compulsory School,9,Not-Married, Craft-repair, Unmarried,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,65408,Compulsory School,9,Married, Craft-repair, Husband,Western Origin, Male,0,0,50, United-States, >50K
 All Ages, Private,173279,Basic Degree,13,Married, Tech-support, Husband,Non-Western Origin, Male,0,0,40, United-States, >50K
-All Ages,,318351,Basic Degree,10,Married,, Wife,Western Origin, Female,0,0,40, United-States, >50K
+All Ages,,318351,Basic Degree,10,Married,Unknown, Wife,Western Origin, Female,0,0,40, United-States, >50K
 All Ages, Self-emp-not-inc,157686,Basic Degree,10,Married, Exec-managerial, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,277434,Basic Degree,12,Not-Married, Tech-support, Unmarried,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,268553,Compulsory School,9,Married, Transport-moving, Husband,Western Origin, Male,7298,0,40, United-States, >50K
@@ -6129,7 +6129,7 @@ All Ages, Private,119592,Basic Degree,12,Not-Married, Handlers-cleaners, Not-in-
 All Ages, Private,186172,Basic Degree,13,Married, Prof-specialty, Husband,Western Origin, Male,3103,0,40, United-States, >50K
 All Ages, Self-emp-inc,98418,Basic Degree,15,Married, Prof-specialty, Husband,Western Origin, Male,99999,0,40, United-States, >50K
 All Ages, Private,329980,Basic Degree,13,Not-Married, Exec-managerial, Not-in-family,Western Origin, Male,27828,0,40, United-States, >50K
-All Ages,,195946,Basic Degree,10,Married,, Husband,Non-Western Origin, Male,0,0,40, Philippines, >50K
+All Ages,,195946,Basic Degree,10,Married,Unknown, Husband,Non-Western Origin, Male,0,0,40, Philippines, >50K
 All Ages, Federal-gov,73883,Basic Degree,10,Married, Tech-support, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,175714,Basic Degree,12,Married, Exec-managerial, Husband,Western Origin, Male,0,0,55, United-States, >50K
 All Ages, Private,52327,Advanced Degree,14,Married, Prof-specialty, Husband,Non-Western Origin, Male,0,0,40, Iran, >50K
@@ -6173,7 +6173,7 @@ All Ages, Private,36539,Basic Degree,13,Married, Exec-managerial, Wife,Western O
 All Ages, Private,456062,Advanced Degree,16,Married, Prof-specialty, Husband,Western Origin, Male,0,2415,55, United-States, >50K
 All Ages, Federal-gov,344415,Advanced Degree,14,Married, Armed-Forces, Husband,Western Origin, Male,0,1887,40, United-States, >50K
 All Ages, Self-emp-inc,206964,Basic Degree,10,Married, Sales, Husband,Western Origin, Male,0,1977,40, United-States, >50K
-All Ages,,150264,Advanced Degree,16,Married,, Husband,Western Origin, Male,0,0,20, Canada, >50K
+All Ages,,150264,Advanced Degree,16,Married,Unknown, Husband,Western Origin, Male,0,0,20, Canada, >50K
 All Ages, Private,588484,Basic Degree,13,Married, Sales, Husband,Western Origin, Male,0,0,20, United-States, >50K
 All Ages, Private,153066,Basic Degree,10,Married, Craft-repair, Husband,Western Origin, Male,0,0,50, United-States, >50K
 All Ages, Private,150393,Basic Degree,13,Married, Machine-op-inspct, Husband,Western Origin, Male,0,0,40, United-States, >50K
@@ -6251,7 +6251,7 @@ All Ages, Private,246183,Compulsory School,9,Married, Sales, Husband,Western Ori
 All Ages, Self-emp-inc,38822,Advanced Degree,14,Married, Exec-managerial, Husband,Western Origin, Male,99999,0,40, United-States, >50K
 All Ages, Private,273241,Basic Degree,13,Married, Exec-managerial, Wife,Western Origin, Female,0,0,40, United-States, >50K
 All Ages, Self-emp-inc,125000,Basic Degree,15,Married, Prof-specialty, Husband,Western Origin, Male,0,0,35, United-States, >50K
-All Ages,,68461,Advanced Degree,16,Married,, Husband,Non-Western Origin, Male,0,0,40, United-States, >50K
+All Ages,,68461,Advanced Degree,16,Married,Unknown, Husband,Non-Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,129573,Basic Degree,13,Not-Married, Exec-managerial, Not-in-family,Western Origin, Male,0,0,50, United-States, >50K
 All Ages, Private,179481,Basic Degree,13,Married, Machine-op-inspct, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Self-emp-not-inc,173716,Basic Degree,13,Married, Sales, Husband,Western Origin, Male,0,0,45, United-States, >50K
@@ -6318,12 +6318,12 @@ All Ages, Private,113504,Basic Degree,13,Married, Exec-managerial, Husband,Weste
 All Ages, Private,222596,Basic Degree,13,Married, Sales, Husband,Western Origin, Male,15024,0,45, United-States, >50K
 All Ages, Self-emp-not-inc,112497,Basic Degree,15,Not-Married, Prof-specialty, Unmarried,Western Origin, Male,25236,0,40, United-States, >50K
 All Ages, Self-emp-inc,115922,Basic Degree,13,Married, Exec-managerial, Husband,Western Origin, Male,0,0,40, United-States, >50K
-All Ages,,375049,Compulsory School,9,Married,, Husband,Western Origin, Male,0,0,41, United-States, >50K
+All Ages,,375049,Compulsory School,9,Married,Unknown, Husband,Western Origin, Male,0,0,41, United-States, >50K
 All Ages, Local-gov,182971,Basic Degree,10,Married, Protective-serv, Husband,Western Origin, Male,0,1887,40, United-States, >50K
 All Ages, State-gov,276241,Basic Degree,13,Married, Exec-managerial, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, State-gov,175109,Basic Degree,10,Married, Prof-specialty, Husband,Western Origin, Male,0,0,50, United-States, >50K
 All Ages, Private,99872,Advanced Degree,14,Married, Exec-managerial, Husband,Non-Western Origin, Male,3103,0,40, India, >50K
-All Ages,,353824,Basic Degree,10,Married,, Husband,Western Origin, Male,0,0,40,, >50K
+All Ages,,353824,Basic Degree,10,Married,Unknown, Husband,Western Origin, Male,0,0,40,, >50K
 All Ages, Private,34248,Basic Degree,11,Married, Sales, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, State-gov,198741,Basic Degree,10,Married, Protective-serv, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,381153,Compulsory School,9,Married, Exec-managerial, Husband,Western Origin, Male,0,0,40, United-States, >50K
@@ -6394,7 +6394,7 @@ All Ages, Private,287737,Basic Degree,10,Married, Exec-managerial, Wife,Western 
 All Ages, Local-gov,161662,Advanced Degree,14,Married, Exec-managerial, Husband,Western Origin, Male,0,0,55, United-States, >50K
 All Ages, Private,160187,Compulsory School,9,Married, Prof-specialty, Other-relative,Western Origin, Female,14084,0,38, United-States, >50K
 All Ages, Private,139391,Basic Degree,10,Married, Machine-op-inspct, Not-in-family,Western Origin, Male,0,0,50, United-States, >50K
-All Ages,,139049,Compulsory School,9,Not-Married,, Not-in-family,Western Origin, Female,0,0,22, United-States, >50K
+All Ages,,139049,Compulsory School,9,Not-Married,Unknown, Not-in-family,Western Origin, Female,0,0,22, United-States, >50K
 All Ages, Private,340755,Advanced Degree,14,Married, Sales, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,148995,Compulsory School,9,Married, Craft-repair, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,33304,Basic Degree,10,Married, Transport-moving, Husband,Western Origin, Male,0,0,40, United-States, >50K
@@ -6471,7 +6471,7 @@ All Ages, Private,30813,Advanced Degree,14,Married, Prof-specialty, Husband,West
 All Ages, Private,148003,Basic Degree,10,Married, Adm-clerical, Wife,Western Origin, Female,20051,0,36, United-States, >50K
 All Ages, Private,421561,Basic Degree,10,Married, Prof-specialty, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,149909,Compulsory School,9,Married, Craft-repair, Husband,Western Origin, Male,0,1848,40, United-States, >50K
-All Ages,,240857,Basic Degree,13,Married,, Husband,Western Origin, Male,0,2377,40, United-States, >50K
+All Ages,,240857,Basic Degree,13,Married,Unknown, Husband,Western Origin, Male,0,2377,40, United-States, >50K
 All Ages, Self-emp-not-inc,138940,Basic Degree,13,Married, Exec-managerial, Husband,Western Origin, Male,4386,0,50, United-States, >50K
 All Ages, Private,103323,Basic Degree,10,Married, Craft-repair, Husband,Western Origin, Male,7688,0,40, United-States, >50K
 All Ages, State-gov,29145,Basic Degree,13,Married, Exec-managerial, Husband,Western Origin, Male,0,0,50, United-States, >50K
@@ -6483,7 +6483,7 @@ All Ages, Private,84587,Basic Degree,11,Married, Craft-repair, Husband,Non-Weste
 All Ages, Self-emp-inc,188615,Basic Degree,13,Married, Sales, Husband,Western Origin, Male,0,0,60, United-States, >50K
 All Ages, State-gov,196348,Compulsory School,9,Married, Exec-managerial, Husband,Western Origin, Male,0,0,60, United-States, >50K
 All Ages, Private,173938,Basic Degree,13,Married, Exec-managerial, Husband,Western Origin, Male,0,0,57, United-States, >50K
-All Ages,,29859,Compulsory School,9,Married,, Husband,Western Origin, Male,0,1485,40, United-States, >50K
+All Ages,,29859,Compulsory School,9,Married,Unknown, Husband,Western Origin, Male,0,1485,40, United-States, >50K
 All Ages, Private,314092,Basic Degree,11,Married, Craft-repair, Husband,Western Origin, Male,0,1887,48, United-States, >50K
 All Ages, Private,266439,Basic Degree,13,Married, Machine-op-inspct, Husband,Western Origin, Male,0,1887,40, United-States, >50K
 All Ages, Private,188246,Basic Degree,13,Married, Exec-managerial, Husband,Western Origin, Male,0,0,65, United-States, >50K
@@ -6501,7 +6501,7 @@ All Ages, Private,25031,Basic Degree,10,Married, Exec-managerial, Wife,Western O
 All Ages, Self-emp-not-inc,26892,Basic Degree,13,Married, Prof-specialty, Husband,Western Origin, Male,7298,0,50, United-States, >50K
 All Ages, Private,408537,Compulsory School,5,Not-Married, Craft-repair, Unmarried,Western Origin, Female,99999,0,37, United-States, >50K
 All Ages, Federal-gov,30030,Compulsory School,9,Married, Craft-repair, Husband,Western Origin, Male,0,0,40, United-States, >50K
-All Ages,,177906,Basic Degree,13,Married,, Husband,Western Origin, Male,0,0,10, United-States, >50K
+All Ages,,177906,Basic Degree,13,Married,Unknown, Husband,Western Origin, Male,0,0,10, United-States, >50K
 All Ages, Private,281647,Basic Degree,13,Married, Sales, Husband,Western Origin, Male,0,0,45, United-States, >50K
 All Ages, State-gov,48214,Advanced Degree,14,Married, Prof-specialty, Wife,Western Origin, Female,0,0,50, United-States, >50K
 All Ages, Self-emp-inc,38240,Compulsory School,9,Married, Farming-fishing, Husband,Western Origin, Male,0,0,40, United-States, >50K
@@ -6511,7 +6511,7 @@ All Ages, Private,112497,Basic Degree,15,Married, Prof-specialty, Husband,Wester
 All Ages, Private,186325,Basic Degree,10,Married, Exec-managerial, Wife,Western Origin, Female,0,0,38, United-States, >50K
 All Ages, Private,126677,Basic Degree,10,Married, Exec-managerial, Husband,Western Origin, Male,0,0,50, United-States, >50K
 All Ages, Private,149210,Basic Degree,13,Married, Prof-specialty, Husband,Western Origin, Male,7298,0,45, United-States, >50K
-All Ages,,106566,Advanced Degree,16,Married,, Husband,Western Origin, Male,0,0,50, United-States, >50K
+All Ages,,106566,Advanced Degree,16,Married,Unknown, Husband,Western Origin, Male,0,0,50, United-States, >50K
 All Ages, Private,24266,Basic Degree,11,Married, Craft-repair, Husband,Western Origin, Male,7688,0,40, United-States, >50K
 All Ages, Private,267967,Basic Degree,13,Married, Prof-specialty, Husband,Western Origin, Male,0,0,45, United-States, >50K
 All Ages, Private,210648,Basic Degree,13,Married, Tech-support, Husband,Western Origin, Male,0,0,40, United-States, >50K
@@ -6552,11 +6552,11 @@ All Ages, Private,216924,Compulsory School,9,Married, Handlers-cleaners, Husband
 All Ages, Self-emp-inc,131288,Basic Degree,12,Married, Sales, Husband,Western Origin, Male,5178,0,48, United-States, >50K
 All Ages, Private,171914,Basic Degree,13,Married, Prof-specialty, Husband,Western Origin, Male,0,0,50, United-States, >50K
 All Ages, State-gov,144064,Compulsory School,9,Married, Protective-serv, Husband,Western Origin, Male,0,0,40, United-States, >50K
-All Ages,,54849,Advanced Degree,16,Married,, Husband,Western Origin, Male,0,0,20, United-States, >50K
+All Ages,,54849,Advanced Degree,16,Married,Unknown, Husband,Western Origin, Male,0,0,20, United-States, >50K
 All Ages, Private,184801,Basic Degree,13,Married, Sales, Husband,Western Origin, Male,0,0,60, United-States, >50K
 All Ages, Private,147284,Basic Degree,11,Married, Sales, Husband,Western Origin, Male,0,0,50, United-States, >50K
 All Ages, Private,162551,Advanced Degree,14,Married, Prof-specialty, Wife,Non-Western Origin, Female,0,0,40, Hong, >50K
-All Ages,,42938,Basic Degree,13,Not-Married,, Not-in-family,Western Origin, Male,0,0,7, United-States, >50K
+All Ages,,42938,Basic Degree,13,Not-Married,Unknown, Not-in-family,Western Origin, Male,0,0,7, United-States, >50K
 All Ages, Private,389843,Basic Degree,13,Married, Sales, Husband,Western Origin, Male,0,0,50, Germany, >50K
 All Ages, Federal-gov,141877,Basic Degree,13,Married, Adm-clerical, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Self-emp-inc,117555,Basic Degree,13,Married, Exec-managerial, Husband,Western Origin, Male,0,0,60, United-States, >50K
@@ -6596,7 +6596,7 @@ All Ages, Private,291755,Basic Degree,13,Married, Exec-managerial, Husband,Weste
 All Ages, Private,159322,Basic Degree,13,Married, Exec-managerial, Husband,Western Origin, Male,0,0,50, United-States, >50K
 All Ages, Private,99434,Compulsory School,9,Married, Exec-managerial, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,185063,Basic Degree,10,Married, Machine-op-inspct, Husband,Western Origin, Male,0,0,45, United-States, >50K
-All Ages,,125493,Compulsory School,9,Married,, Wife,Western Origin, Female,5178,0,40, Scotland, >50K
+All Ages,,125493,Compulsory School,9,Married,Unknown, Wife,Western Origin, Female,5178,0,40, Scotland, >50K
 All Ages, Private,108837,Basic Degree,10,Married, Handlers-cleaners, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,261278,Basic Degree,13,Married, Prof-specialty, Wife,Non-Western Origin, Female,5178,0,40, Philippines, >50K
 All Ages, Private,173495,Basic Degree,10,Married, Craft-repair, Husband,Western Origin, Male,0,0,48, United-States, >50K
@@ -6611,7 +6611,7 @@ All Ages, Private,123429,Advanced Degree,14,Married, Exec-managerial, Husband,We
 All Ages, Private,353512,Compulsory School,9,Married, Machine-op-inspct, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,108247,Basic Degree,13,Married, Prof-specialty, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Self-emp-not-inc,369648,Basic Degree,12,Married, Craft-repair, Not-in-family,Western Origin, Male,0,0,50, United-States, >50K
-All Ages,,145574,Basic Degree,12,Married,, Husband,Western Origin, Male,0,0,35, United-States, >50K
+All Ages,,145574,Basic Degree,12,Married,Unknown, Husband,Western Origin, Male,0,0,35, United-States, >50K
 All Ages, Private,317313,Compulsory School,9,Married, Transport-moving, Husband,Western Origin, Male,0,0,60, United-States, >50K
 All Ages, Private,108140,Advanced Degree,14,Married, Exec-managerial, Husband,Western Origin, Male,0,0,50, United-States, >50K
 All Ages, Self-emp-inc,81534,Compulsory School,9,Not-Married, Sales, Other-relative,Non-Western Origin, Male,0,0,35, United-States, >50K
@@ -6738,13 +6738,13 @@ All Ages, Private,212781,Basic Degree,13,Married, Exec-managerial, Husband,Weste
 All Ages, Private,260868,Basic Degree,13,Married, Sales, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,171393,Advanced Degree,14,Married, Prof-specialty, Husband,Western Origin, Male,7298,0,55, United-States, >50K
 All Ages, Private,172281,Advanced Degree,14,Not-Married, Tech-support, Not-in-family,Western Origin, Male,0,0,40, United-States, >50K
-All Ages,,257269,Basic Degree,13,Married,, Husband,Western Origin, Male,0,2377,35, United-States, >50K
+All Ages,,257269,Basic Degree,13,Married,Unknown, Husband,Western Origin, Male,0,2377,35, United-States, >50K
 All Ages, Local-gov,190661,Advanced Degree,16,Not-Married, Prof-specialty, Not-in-family,Western Origin, Female,7896,0,50, United-States, >50K
 All Ages, Private,228476,Basic Degree,13,Married, Sales, Husband,Western Origin, Male,0,0,50, United-States, >50K
 All Ages, Local-gov,115763,Advanced Degree,14,Married, Prof-specialty, Wife,Western Origin, Female,0,0,40, United-States, >50K
 All Ages, Local-gov,199368,Basic Degree,13,Married, Protective-serv, Husband,Western Origin, Male,0,0,50, United-States, >50K
 All Ages, Private,159755,Basic Degree,13,Married, Exec-managerial, Husband,Western Origin, Male,0,1887,40, United-States, >50K
-All Ages,,141807,Compulsory School,9,Not-Married,, Not-in-family,Western Origin, Male,13550,0,40, United-States, >50K
+All Ages,,141807,Compulsory School,9,Not-Married,Unknown, Not-in-family,Western Origin, Male,13550,0,40, United-States, >50K
 All Ages, Private,97883,Basic Degree,13,Not-Married, Priv-house-serv, Unmarried,Western Origin, Female,25236,0,35, United-States, >50K
 All Ages, State-gov,269417,Advanced Degree,16,Not-Married, Exec-managerial, Not-in-family,Western Origin, Female,0,2258,50, United-States, >50K
 All Ages, Private,199539,Compulsory School,9,Married, Craft-repair, Husband,Western Origin, Male,0,0,48, United-States, >50K
@@ -6786,7 +6786,7 @@ All Ages, Self-emp-not-inc,287229,Compulsory School,9,Married, Craft-repair, Hus
 All Ages, Private,191834,Basic Degree,10,Married, Craft-repair, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,365739,Compulsory School,9,Married, Craft-repair, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Self-emp-not-inc,194534,Advanced Degree,14,Married, Prof-specialty, Husband,Western Origin, Male,99999,0,60, United-States, >50K
-All Ages,,504871,Compulsory School,9,Married,, Husband,Western Origin, Male,0,0,40, United-States, >50K
+All Ages,,504871,Compulsory School,9,Married,Unknown, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,173944,Advanced Degree,14,Married, Prof-specialty, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Self-emp-inc,127728,Basic Degree,15,Married, Prof-specialty, Husband,Western Origin, Male,15024,0,60, United-States, >50K
 All Ages, State-gov,262664,Basic Degree,13,Married, Protective-serv, Husband,Western Origin, Male,0,0,40, United-States, >50K
@@ -6834,7 +6834,7 @@ All Ages, Local-gov,101110,Basic Degree,11,Not-Married, Prof-specialty, Unmarrie
 All Ages, Self-emp-inc,140854,Basic Degree,13,Married, Craft-repair, Husband,Western Origin, Male,0,0,50, United-States, >50K
 All Ages, Private,158286,Advanced Degree,14,Married, Exec-managerial, Husband,Western Origin, Male,0,0,50, United-States, >50K
 All Ages, Private,269095,Basic Degree,13,Not-Married, Exec-managerial, Unmarried,Western Origin, Female,0,0,40, United-States, >50K
-All Ages,,255276,Basic Degree,10,Married,, Husband,Western Origin, Male,0,0,48, United-States, >50K
+All Ages,,255276,Basic Degree,10,Married,Unknown, Husband,Western Origin, Male,0,0,48, United-States, >50K
 All Ages, Private,185099,Compulsory School,9,Married, Transport-moving, Husband,Western Origin, Male,0,0,70, United-States, >50K
 All Ages, Private,110970,Basic Degree,13,Married, Prof-specialty, Husband,Western Origin, Male,0,1902,40, United-States, >50K
 All Ages, Private,203067,Basic Degree,10,Married, Prof-specialty, Husband,Western Origin, Male,0,0,40, United-States, >50K
@@ -6853,7 +6853,7 @@ All Ages, Private,19899,Compulsory School,9,Married, Craft-repair, Husband,Weste
 All Ages, Private,181363,Basic Degree,12,Married, Exec-managerial, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,43712,Basic Degree,13,Married, Prof-specialty, Husband,Western Origin, Male,7298,0,60, United-States, >50K
 All Ages, Self-emp-not-inc,342719,Advanced Degree,16,Married, Prof-specialty, Husband,Western Origin, Male,0,0,45,, >50K
-All Ages,,71467,Compulsory School,9,Married,, Husband,Western Origin, Male,3103,0,40, United-States, >50K
+All Ages,,71467,Compulsory School,9,Married,Unknown, Husband,Western Origin, Male,3103,0,40, United-States, >50K
 All Ages, Private,400061,Basic Degree,10,Married, Machine-op-inspct, Husband,Non-Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Local-gov,131568,Basic Degree,13,Married, Prof-specialty, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,367984,Basic Degree,11,Married, Exec-managerial, Husband,Western Origin, Male,15024,0,40, United-States, >50K
@@ -6933,7 +6933,7 @@ All Ages, Private,176552,Compulsory School,7,Not-Married, Prof-specialty, Unmarr
 All Ages, Private,182303,Basic Degree,10,Married, Sales, Husband,Western Origin, Male,0,0,50, United-States, >50K
 All Ages, Local-gov,296253,Advanced Degree,14,Not-Married, Prof-specialty, Unmarried,Western Origin, Female,8614,0,60, United-States, >50K
 All Ages, Private,165695,Basic Degree,13,Married, Exec-managerial, Husband,Western Origin, Male,0,0,40,, >50K
-All Ages,,200235,Compulsory School,9,Married,, Husband,Western Origin, Male,0,0,50, United-States, >50K
+All Ages,,200235,Compulsory School,9,Married,Unknown, Husband,Western Origin, Male,0,0,50, United-States, >50K
 All Ages, Private,94429,Basic Degree,10,Married, Craft-repair, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,306982,Basic Degree,13,Married, Adm-clerical, Husband,Non-Western Origin, Male,0,0,40, Philippines, >50K
 All Ages, Private,80896,Compulsory School,9,Married, Transport-moving, Unmarried,Non-Western Origin, Male,0,0,45, United-States, >50K
@@ -6978,7 +6978,7 @@ All Ages, Private,351576,Basic Degree,13,Not-Married, Sales, Not-in-family,Weste
 All Ages, Federal-gov,33794,Basic Degree,13,Married, Tech-support, Husband,Western Origin, Male,3103,0,40, United-States, >50K
 All Ages, Private,79923,Advanced Degree,14,Married, Prof-specialty, Husband,Western Origin, Male,0,0,45, United-States, >50K
 All Ages, Private,187589,Compulsory School,9,Married, Handlers-cleaners, Husband,Western Origin, Male,5178,0,40, United-States, >50K
-All Ages,,319685,Basic Degree,11,Married,, Husband,Western Origin, Male,0,0,54, United-States, >50K
+All Ages,,319685,Basic Degree,11,Married,Unknown, Husband,Western Origin, Male,0,0,54, United-States, >50K
 All Ages, Private,709798,Basic Degree,13,Married, Prof-specialty, Husband,Western Origin, Male,0,0,60, United-States, >50K
 All Ages, Private,248254,Basic Degree,10,Married, Prof-specialty, Wife,Western Origin, Female,7298,0,40, United-States, >50K
 All Ages, Private,561334,Basic Degree,10,Married, Exec-managerial, Husband,Western Origin, Male,0,0,50, United-States, >50K
@@ -7051,7 +7051,7 @@ All Ages, Private,205235,Compulsory School,9,Married, Transport-moving, Husband,
 All Ages, Self-emp-inc,192779,Basic Degree,15,Married, Prof-specialty, Husband,Western Origin, Male,15024,0,60, United-States, >50K
 All Ages, Private,189719,Basic Degree,13,Married, Exec-managerial, Husband,Western Origin, Male,0,0,45, United-States, >50K
 All Ages, Private,92215,Compulsory School,5,Not-Married, Craft-repair, Not-in-family,Western Origin, Female,0,0,40, United-States, >50K
-All Ages,,204577,Basic Degree,13,Married,, Husband,Western Origin, Male,0,1902,60, United-States, >50K
+All Ages,,204577,Basic Degree,13,Married,Unknown, Husband,Western Origin, Male,0,1902,60, United-States, >50K
 All Ages, Private,344572,Compulsory School,9,Not-Married, Exec-managerial, Not-in-family,Western Origin, Female,0,0,40, United-States, >50K
 All Ages, Private,188650,Compulsory School,3,Married, Sales, Husband,Western Origin, Male,0,0,40,, >50K
 All Ages, Private,243190,Basic Degree,12,Married, Craft-repair, Unmarried,Non-Western Origin, Male,8614,0,40, United-States, >50K
@@ -7059,7 +7059,7 @@ All Ages, Private,583755,Compulsory School,9,Married, Adm-clerical, Husband,West
 All Ages, Private,306646,Basic Degree,12,Married, Exec-managerial, Husband,Western Origin, Male,0,0,50, United-States, >50K
 All Ages, Private,279580,Basic Degree,13,Not-Married, Sales, Not-in-family,Western Origin, Male,10520,0,45, United-States, >50K
 All Ages, Private,154076,Compulsory School,9,Married, Prof-specialty, Husband,Western Origin, Male,7688,0,50, United-States, >50K
-All Ages,,139770,Basic Degree,11,Married,, Wife,Western Origin, Female,0,0,20, United-States, >50K
+All Ages,,139770,Basic Degree,11,Married,Unknown, Wife,Western Origin, Female,0,0,20, United-States, >50K
 All Ages, Private,30457,Basic Degree,13,Married, Exec-managerial, Husband,Western Origin, Male,15024,0,40, United-States, >50K
 All Ages, Private,103024,Compulsory School,9,Not-Married, Tech-support, Not-in-family,Western Origin, Male,0,0,42, United-States, >50K
 All Ages, Federal-gov,510072,Basic Degree,13,Married, Exec-managerial, Husband,Western Origin, Male,0,0,40, United-States, >50K
@@ -7130,7 +7130,7 @@ All Ages, Self-emp-not-inc,170979,Basic Degree,15,Married, Prof-specialty, Husba
 All Ages, Private,210525,Basic Degree,13,Married, Prof-specialty, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Self-emp-not-inc,187794,Compulsory School,9,Married, Transport-moving, Husband,Western Origin, Male,3103,0,60, United-States, >50K
 All Ages, Private,110396,Advanced Degree,14,Not-Married, Exec-managerial, Not-in-family,Western Origin, Male,14084,0,56, United-States, >50K
-All Ages,,89391,Basic Degree,15,Married,, Husband,Western Origin, Male,0,0,24, United-States, >50K
+All Ages,,89391,Basic Degree,15,Married,Unknown, Husband,Western Origin, Male,0,0,24, United-States, >50K
 All Ages, Private,59083,Basic Degree,13,Married, Adm-clerical, Husband,Western Origin, Male,0,1902,45, United-States, >50K
 All Ages, Private,22211,Advanced Degree,14,Married, Prof-specialty, Husband,Western Origin, Male,7688,0,50, United-States, >50K
 All Ages, State-gov,162945,Basic Degree,15,Married, Exec-managerial, Husband,Western Origin, Male,20051,0,55, United-States, >50K
@@ -7187,7 +7187,7 @@ All Ages, Federal-gov,207066,Compulsory School,9,Married, Exec-managerial, Husba
 All Ages, Self-emp-inc,98389,Compulsory School,9,Married, Exec-managerial, Husband,Western Origin, Male,0,0,50, United-States, >50K
 All Ages, Private,368797,Advanced Degree,14,Married, Exec-managerial, Husband,Western Origin, Male,0,1977,60, United-States, >50K
 All Ages, Private,24106,Basic Degree,10,Married, Exec-managerial, Husband,Western Origin, Male,0,0,40, United-States, >50K
-All Ages,,108683,Basic Degree,10,Married,, Wife,Western Origin, Female,0,0,12, United-States, >50K
+All Ages,,108683,Basic Degree,10,Married,Unknown, Wife,Western Origin, Female,0,0,12, United-States, >50K
 All Ages, Private,312446,Basic Degree,13,Married, Exec-managerial, Husband,Western Origin, Male,0,0,60, United-States, >50K
 All Ages, Private,170376,Compulsory School,9,Married, Craft-repair, Husband,Western Origin, Male,0,0,45, United-States, >50K
 All Ages, Self-emp-inc,161325,Basic Degree,12,Married, Sales, Husband,Western Origin, Male,0,1887,50, United-States, >50K
@@ -7260,7 +7260,7 @@ All Ages, Private,35576,Basic Degree,10,Married, Sales, Husband,Western Origin, 
 All Ages, Federal-gov,363630,Compulsory School,9,Married, Adm-clerical, Husband,Western Origin, Male,7688,0,52, United-States, >50K
 All Ages, Private,322691,Advanced Degree,14,Married, Prof-specialty, Husband,Western Origin, Male,0,0,50, United-States, >50K
 All Ages, Private,156464,Compulsory School,9,Married, Sales, Husband,Western Origin, Male,0,1902,50, United-States, >50K
-All Ages,,369386,Basic Degree,10,Married,, Wife,Western Origin, Female,5178,0,40, United-States, >50K
+All Ages,,369386,Basic Degree,10,Married,Unknown, Wife,Western Origin, Female,5178,0,40, United-States, >50K
 All Ages, Private,242984,Compulsory School,9,Married, Exec-managerial, Husband,Western Origin, Male,0,1887,45, United-States, >50K
 All Ages, State-gov,132055,Compulsory School,9,Married, Exec-managerial, Husband,Western Origin, Male,0,1825,40, United-States, >50K
 All Ages, Private,140644,Compulsory School,9,Married, Exec-managerial, Husband,Western Origin, Male,0,0,40, United-States, >50K
@@ -7288,7 +7288,7 @@ All Ages, Local-gov,184466,Advanced Degree,14,Married, Prof-specialty, Husband,W
 All Ages, Private,108140,Advanced Degree,14,Married, Prof-specialty, Husband,Western Origin, Male,0,0,50, United-States, >50K
 All Ages, Local-gov,104917,Advanced Degree,14,Married, Prof-specialty, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,48915,Compulsory School,9,Married, Machine-op-inspct, Husband,Western Origin, Male,0,0,40, United-States, >50K
-All Ages,,72886,Compulsory School,9,Married,, Husband,Western Origin, Male,0,0,38, United-States, >50K
+All Ages,,72886,Compulsory School,9,Married,Unknown, Husband,Western Origin, Male,0,0,38, United-States, >50K
 All Ages, Local-gov,44694,Advanced Degree,14,Married, Prof-specialty, Wife,Western Origin, Female,0,0,45, United-States, >50K
 All Ages, Private,168906,Basic Degree,13,Not-Married, Exec-managerial, Not-in-family,Western Origin, Female,0,0,50, United-States, >50K
 All Ages, State-gov,147215,Basic Degree,13,Married, Exec-managerial, Wife,Western Origin, Female,0,0,55, United-States, >50K
@@ -7339,7 +7339,7 @@ All Ages, Federal-gov,30731,Basic Degree,13,Married, Exec-managerial, Husband,We
 All Ages, Private,181929,Compulsory School,9,Not-Married, Exec-managerial, Unmarried,Western Origin, Male,0,0,50, United-States, >50K
 All Ages, Local-gov,100135,Basic Degree,13,Married, Prof-specialty, Wife,Western Origin, Female,0,0,35, United-States, >50K
 All Ages, Private,64922,Basic Degree,13,Married, Exec-managerial, Husband,Western Origin, Male,7688,0,50, United-States, >50K
-All Ages,,115513,Basic Degree,13,Married,, Husband,Western Origin, Male,5556,0,48, United-States, >50K
+All Ages,,115513,Basic Degree,13,Married,Unknown, Husband,Western Origin, Male,5556,0,48, United-States, >50K
 All Ages, Private,133219,Compulsory School,9,Married, Other-service, Husband,Western Origin, Male,4386,0,30, United-States, >50K
 All Ages, Private,162347,Basic Degree,15,Married, Exec-managerial, Husband,Western Origin, Male,0,1902,40, United-States, >50K
 All Ages, Private,168232,Basic Degree,13,Married, Adm-clerical, Husband,Western Origin, Male,7298,0,40, United-States, >50K
@@ -7478,7 +7478,7 @@ All Ages, Private,127772,Basic Degree,13,Married, Exec-managerial, Husband,Weste
 All Ages, Private,386397,Basic Degree,13,Married, Exec-managerial, Husband,Western Origin, Male,0,0,45, United-States, >50K
 All Ages, Private,34545,Basic Degree,10,Married, Exec-managerial, Husband,Western Origin, Male,0,1887,40, United-States, >50K
 All Ages, Private,87239,Basic Degree,10,Married, Exec-managerial, Husband,Western Origin, Male,0,0,50, United-States, >50K
-All Ages,,208862,Compulsory School,9,Married,, Husband,Western Origin, Male,0,0,50, United-States, >50K
+All Ages,,208862,Compulsory School,9,Married,Unknown, Husband,Western Origin, Male,0,0,50, United-States, >50K
 All Ages, Self-emp-inc,98116,Basic Degree,10,Not-Married, Sales, Not-in-family,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,57534,Basic Degree,10,Married, Craft-repair, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,243631,Advanced Degree,16,Married, Prof-specialty, Husband,Non-Western Origin, Male,0,0,45, China, >50K
@@ -7495,7 +7495,7 @@ All Ages, Self-emp-not-inc,95435,Compulsory School,9,Married, Sales, Husband,Wes
 All Ages, Private,176037,Basic Degree,11,Not-Married, Tech-support, Not-in-family,Western Origin, Male,14344,0,40, United-States, >50K
 All Ages, Private,197683,Basic Degree,10,Married, Sales, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,242521,Basic Degree,13,Married, Sales, Husband,Western Origin, Male,7688,0,50, United-States, >50K
-All Ages,,174163,Basic Degree,10,Married,, Wife,Western Origin, Female,0,0,40, United-States, >50K
+All Ages,,174163,Basic Degree,10,Married,Unknown, Wife,Western Origin, Female,0,0,40, United-States, >50K
 All Ages, Private,304570,Basic Degree,13,Married, Exec-managerial, Husband,Non-Western Origin, Male,0,0,60, China, >50K
 All Ages, Private,100292,Compulsory School,9,Married, Sales, Husband,Western Origin, Male,0,0,52, United-States, >50K
 All Ages, Private,117473,Basic Degree,10,Married, Prof-specialty, Husband,Western Origin, Male,4386,0,40, United-States, >50K
@@ -7539,7 +7539,7 @@ All Ages, Private,108293,Basic Degree,13,Not-Married, Prof-specialty, Unmarried,
 All Ages, Private,252079,Basic Degree,13,Married, Machine-op-inspct, Husband,Western Origin, Male,7688,0,44, United-States, >50K
 All Ages, State-gov,118551,Basic Degree,13,Married, Tech-support, Own-child,Western Origin, Female,5178,0,25,, >50K
 All Ages, Private,187292,Basic Degree,13,Married, Handlers-cleaners, Husband,Western Origin, Male,6418,0,40, United-States, >50K
-All Ages,,584259,Advanced Degree,14,Married,, Husband,Western Origin, Male,0,0,2, United-States, >50K
+All Ages,,584259,Advanced Degree,14,Married,Unknown, Husband,Western Origin, Male,0,0,2, United-States, >50K
 All Ages, Private,173992,Basic Degree,10,Married, Craft-repair, Husband,Western Origin, Male,0,0,45, United-States, >50K
 All Ages, Private,137290,Basic Degree,13,Married, Exec-managerial, Husband,Western Origin, Male,0,0,55, United-States, >50K
 All Ages, Local-gov,30793,Basic Degree,13,Married, Prof-specialty, Wife,Western Origin, Female,0,0,55, United-States, >50K
@@ -7602,7 +7602,7 @@ All Ages, Self-emp-not-inc,308746,Basic Degree,15,Not-Married, Prof-specialty, N
 All Ages, Private,278720,Compulsory School,9,Married, Craft-repair, Husband,Western Origin, Male,0,0,45, United-States, >50K
 All Ages, Private,286634,Basic Degree,13,Married, Prof-specialty, Wife,Western Origin, Female,0,0,50, United-States, >50K
 All Ages, Private,142712,Basic Degree,13,Not-Married, Exec-managerial, Not-in-family,Western Origin, Male,0,0,50, United-States, >50K
-All Ages,,108796,Basic Degree,15,Married,, Husband,Western Origin, Male,0,0,40, United-States, >50K
+All Ages,,108796,Basic Degree,15,Married,Unknown, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,72338,Advanced Degree,14,Married, Prof-specialty, Husband,Non-Western Origin, Male,0,0,40, Philippines, >50K
 All Ages, Private,146767,Compulsory School,9,Married, Machine-op-inspct, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,102346,Basic Degree,13,Married, Exec-managerial, Wife,Western Origin, Female,0,2415,20, United-States, >50K
@@ -7612,7 +7612,7 @@ All Ages, Private,24982,Basic Degree,10,Married, Craft-repair, Husband,Western O
 All Ages, Private,229272,Compulsory School,9,Married, Craft-repair, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Self-emp-not-inc,149640,Basic Degree,15,Not-Married, Prof-specialty, Not-in-family,Western Origin, Male,0,0,30, United-States, >50K
 All Ages, Federal-gov,155594,Basic Degree,13,Married, Prof-specialty, Husband,Western Origin, Male,0,0,40, United-States, >50K
-All Ages,,370727,Basic Degree,13,Married,, Wife,Western Origin, Female,0,1977,40, United-States, >50K
+All Ages,,370727,Basic Degree,13,Married,Unknown, Wife,Western Origin, Female,0,1977,40, United-States, >50K
 All Ages, Private,174752,Compulsory School,9,Married, Sales, Husband,Western Origin, Male,0,0,60, United-States, >50K
 All Ages, Self-emp-not-inc,112115,Basic Degree,13,Married, Prof-specialty, Husband,Western Origin, Male,7688,0,40, United-States, >50K
 All Ages, Private,264651,Compulsory School,9,Married, Machine-op-inspct, Husband,Western Origin, Male,0,0,40, United-States, >50K
@@ -7631,7 +7631,7 @@ All Ages, Private,266324,Compulsory School,9,Married, Craft-repair, Husband,West
 All Ages, Federal-gov,187046,Basic Degree,10,Married, Prof-specialty, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Self-emp-inc,343789,Basic Degree,13,Married, Exec-managerial, Husband,Western Origin, Male,7688,0,55, United-States, >50K
 All Ages, Local-gov,141649,Basic Degree,11,Married, Protective-serv, Husband,Western Origin, Male,0,0,40, United-States, >50K
-All Ages,,313986,Compulsory School,9,Married,, Husband,Western Origin, Male,0,0,40, United-States, >50K
+All Ages,,313986,Compulsory School,9,Married,Unknown, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,396595,Basic Degree,10,Married, Craft-repair, Husband,Non-Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,345522,Compulsory School,9,Married, Transport-moving, Husband,Western Origin, Male,3103,0,70, United-States, >50K
 All Ages, Private,169628,Basic Degree,13,Not-Married, Sales, Unmarried,Western Origin, Female,0,0,35, United-States, >50K
@@ -7651,7 +7651,7 @@ All Ages, Self-emp-inc,69333,Basic Degree,13,Married, Craft-repair, Husband,West
 All Ages, Private,132879,Basic Degree,10,Married, Exec-managerial, Husband,Western Origin, Male,0,0,50, United-States, >50K
 All Ages, Private,181219,Basic Degree,13,Married, Prof-specialty, Husband,Western Origin, Male,0,1848,40, United-States, >50K
 All Ages, Private,184872,Basic Degree,13,Married, Exec-managerial, Wife,Western Origin, Female,0,0,55, United-States, >50K
-All Ages,,101602,Advanced Degree,16,Married,, Husband,Western Origin, Male,0,0,25, United-States, >50K
+All Ages,,101602,Advanced Degree,16,Married,Unknown, Husband,Western Origin, Male,0,0,25, United-States, >50K
 All Ages, Private,60940,Compulsory School,9,Not-Married, Sales, Not-in-family,Western Origin, Female,8614,0,50, France, >50K
 All Ages, Private,178946,Compulsory School,9,Married, Craft-repair, Husband,Western Origin, Male,0,0,48, United-States, >50K
 All Ages, Private,102615,Compulsory School,9,Married, Exec-managerial, Husband,Western Origin, Male,0,1902,40, United-States, >50K
@@ -7705,13 +7705,13 @@ All Ages, Private,259463,Basic Degree,11,Married, Prof-specialty, Husband,Wester
 All Ages, State-gov,250821,Basic Degree,15,Married, Exec-managerial, Husband,Western Origin, Male,15024,0,40, United-States, >50K
 All Ages, Private,172822,Compulsory School,9,Married, Machine-op-inspct, Husband,Western Origin, Male,0,0,52, United-States, >50K
 All Ages, Self-emp-not-inc,170866,Basic Degree,12,Married, Farming-fishing, Husband,Western Origin, Male,0,0,50, United-States, >50K
-All Ages,,268954,Basic Degree,10,Married,, Husband,Western Origin, Male,0,0,12, United-States, >50K
-All Ages,,89951,Compulsory School,8,Married,, Wife,Western Origin, Female,0,0,40, United-States, >50K
+All Ages,,268954,Basic Degree,10,Married,Unknown, Husband,Western Origin, Male,0,0,12, United-States, >50K
+All Ages,,89951,Compulsory School,8,Married,Unknown, Wife,Western Origin, Female,0,0,40, United-States, >50K
 All Ages, Local-gov,108435,Advanced Degree,14,Married, Prof-specialty, Husband,Western Origin, Male,0,0,80, United-States, >50K
 All Ages, Private,386175,Basic Degree,10,Not-Married, Sales, Not-in-family,Western Origin, Male,0,0,50, United-States, >50K
 All Ages, Private,128392,Compulsory School,9,Married, Machine-op-inspct, Husband,Western Origin, Male,0,1887,40, United-States, >50K
 All Ages, Federal-gov,130057,Advanced Degree,14,Married, Exec-managerial, Husband,Western Origin, Male,7688,0,60, United-States, >50K
-All Ages,,178764,Compulsory School,9,Married,, Husband,Western Origin, Male,0,0,40, United-States, >50K
+All Ages,,178764,Compulsory School,9,Married,Unknown, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,36327,Compulsory School,9,Married, Sales, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,139703,Basic Degree,10,Married, Craft-repair, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Local-gov,140219,Advanced Degree,14,Not-Married, Prof-specialty, Not-in-family,Western Origin, Female,8614,0,55, United-States, >50K
@@ -7830,12 +7830,12 @@ All Ages, Private,107302,Compulsory School,9,Married, Prof-specialty, Husband,We
 All Ages, Private,42972,Advanced Degree,14,Married, Prof-specialty, Wife,Western Origin, Female,0,0,22, United-States, >50K
 All Ages, Local-gov,110417,Compulsory School,9,Married, Craft-repair, Husband,Western Origin, Male,99999,0,40, United-States, >50K
 All Ages, Private,364548,Basic Degree,10,Married, Exec-managerial, Husband,Western Origin, Male,0,0,48, United-States, >50K
-All Ages,,320084,Basic Degree,13,Married,, Wife,Western Origin, Female,0,0,55, United-States, >50K
+All Ages,,320084,Basic Degree,13,Married,Unknown, Wife,Western Origin, Female,0,0,55, United-States, >50K
 All Ages, Private,204461,Advanced Degree,16,Married, Prof-specialty, Husband,Western Origin, Male,0,0,60, United-States, >50K
 All Ages, Private,337992,Basic Degree,13,Married, Exec-managerial, Husband,Non-Western Origin, Male,0,0,50, Japan, >50K
 All Ages, Private,160216,Basic Degree,13,Not-Married, Exec-managerial, Not-in-family,Western Origin, Female,0,0,55, United-States, >50K
 All Ages, Private,139180,Basic Degree,13,Not-Married, Prof-specialty, Unmarried,Western Origin, Female,15020,0,45, United-States, >50K
-All Ages,,287372,Advanced Degree,16,Married,, Husband,Western Origin, Male,0,0,10, United-States, >50K
+All Ages,,287372,Advanced Degree,16,Married,Unknown, Husband,Western Origin, Male,0,0,10, United-States, >50K
 All Ages, Local-gov,111499,Basic Degree,12,Married, Adm-clerical, Wife,Western Origin, Female,0,0,20, United-States, >50K
 All Ages, Private,321865,Advanced Degree,14,Married, Exec-managerial, Husband,Western Origin, Male,0,0,40, United-States, >50K
 All Ages, Private,154374,Compulsory School,9,Married, Machine-op-inspct, Husband,Western Origin, Male,0,0,40, United-States, >50K
