@@ -1,3 +1,4 @@
+# Part1:
 1. This is about designing and implementing a heuristic algorithm to ensure (k1, k2)-anonymity for the Adult dataset from the UCI Machine Learning Repository. The key challenge here is anonymizing the dataset to protect users' privacy (based on their salary) while maintaining as much utility of the dataset as possible. The two levels of anonymity are:
 
     k1 = 10 for users with salaries ≤ 50K (stronger privacy).
@@ -38,3 +39,11 @@ Sensitive Attribute:
 6. For missing values (e.g., 'Occupation = ?'), consider them generalized to the top level of the hierarchy. This ensures that they still contribute to the anonymized dataset.
 
 7. Once implemented, test my algorithm on the Adult dataset and ensure that it satisfies both k1 and k2. You’ll need to fine-tune the hierarchies and generalization steps to minimize utility loss while achieving the desired anonymity levels.
+
+# Part 2:
+I'll need to ensure that for each group of records sharing the same generalized quasi-identifier values, the entropy of the sensitive attribute is high enough to satisfy the specified diversity level ℓ. 
+
+Steps to Implement Entropy l-Diversity:
+- Generalize the dataset based on my chosen generalization levels for quasi-identifiers.
+- Calculate the entropy for the sensitive attribute within each q∗-block.
+- Check if the entropy meets the required threshold  log(ℓ).
