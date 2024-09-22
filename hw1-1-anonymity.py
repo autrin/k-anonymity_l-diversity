@@ -1,6 +1,6 @@
-
 import pandas as pd
-
+import numpy as np
+import math
 
 # Define column names based on the description from 'adult.names'
 column_names = [
@@ -13,36 +13,20 @@ adult_data = pd.read_csv('adult.data', header=None, names=column_names, na_value
 
 adult_test = pd.read_csv('adult.test', header=None, names=column_names, skiprows=1, na_values=" ?") # skipping the first line bc it was not important
 
-
-
 # Replace NaN in the 'occupation' column with 'Unknown'
 adult_data.fillna({'occupation':'Unknown'}, inplace=True)
-
-
 print(adult_data.isnull().sum())
-
-
 print(adult_data.head())
 print(adult_test.head())
-
-
 
 with open('adult.names', 'r') as f:
     names_content = f.read()
 
 # Print the content of the 'adult.names' file
 # print(names_content)
-
-
 print(adult_data['salary'])
-
-
 adult_data['age'].sort_values(ascending=False)
-
-
 # Generalize the age based on the hierarchy in hierarchy.txt
-
-
 def generalize_age(age, level):
     if level == 1:
         # Level 1: No generalization, return the precise age
@@ -101,15 +85,9 @@ age = 35
 generalized_age = generalize_age(age, 3)
 print(f'Generalized age at level 3: {generalized_age}')
 
-
-
-print(adult_data['education'].unique())
-
-
+adult_data['education'].unique()
 
 # Education generaliztion
-
-
 def generalize_education(education, level):
     education = education.strip()
     
@@ -153,11 +131,7 @@ education = 'Bachelors'
 generalized_education = generalize_education(education, 3)
 print(f'Generalized education at level 3: {generalized_education}')
 
-
-
 # Marital Status Generalization
-
-
 def generalize_marital_status(status, level):
     status = status.strip()
     
@@ -187,11 +161,7 @@ marital_status = 'Married-civ-spouse'
 generalized_status = generalize_marital_status(marital_status, 3)
 print(f'Generalized marital status at level 3: {generalized_status}')
 
-
-
 # Race Generalization
-
-
 def generalize_race(race, level):
     race = race.strip()
     
@@ -226,25 +196,19 @@ def generalize_race(race, level):
     
     elif level == 5:
         return 'Race'
-
+    return 'Race'
 race = 'Asian-Pac-Islander'
 generalized_race = generalize_race(race, 3)
 print(f'Generalized race at level 3: {generalized_race}')
-
-
 # create a diffent dataset with the generalized data
 generalized_data = adult_data.copy()
-print(generalized_data) # will be generalized in the next steps
-
-
+generalized_data # will be generalized in the next steps
 def generalize_QIs(data, educationLevel, maritalStatusLevel, raceLevel, ageLevel):
     data['age'] = data['age'].apply(lambda x : generalize_age(x, ageLevel)) 
     data['education'] = data['education'].apply(lambda x : generalize_education(x, educationLevel))
     data['marital_status'] = data['marital_status'].apply(lambda x : generalize_marital_status(x, maritalStatusLevel))
     data['race'] = data['race'].apply(lambda x : generalize_race(x, raceLevel))
     return data
-
-
 
 def check_k_anonymity_le50(data, k1):
     """
@@ -277,8 +241,6 @@ def check_k_anonymity_le50(data, k1):
     
     return True, data_le_50k
 
-
-
 def check_k_anonymity_gt50(data, k2):
     """
     Check if the dataset meets the k-anonymity requirement.
@@ -308,11 +270,7 @@ def check_k_anonymity_gt50(data, k2):
             return False, data_gt_50k
     
     return True, data_gt_50k
-
-
 # Generalizing the data with salary of <=50k while meeting the k-anonymity requirements
-
-
 # Max level of generalization for Race, Education, Marital Status, Age is 5, 5, 4, 5 respectively.
 # Also attributes can have different levels of generalization in the same dataset
 generalized_data = adult_data.copy()
@@ -321,21 +279,26 @@ k2 = 5
 
 found = False
 global gen_levels
-for i in range(2, 6):
-    for j in range(2, 6):
-        for k in range(2, 5):
-            for l in range(2, 6):
+for i in range(1, 6):
+    for j in range(1, 6):
+        for k in range(1, 5):
+            for l in range(1, 6):
                 generalized_data = adult_data.copy()
                 generalized_data = generalize_QIs(generalized_data, i, j, k, l)
                 
                 # Check if the dataset meets the k-anonymity requirement
                 is_k_anonymous_le_50k, table_le_50k= check_k_anonymity_le50(generalized_data, k1)
-                is_k_anonymous_gt_50k, table_gt_50k= check_k_anonymity_gt50(generalized_data, k2)
 
                 if is_k_anonymous_le_50k:
-                    table_le_50k.to_csv(f'generalized_data_le_50k_{i}_{j}_{k}_{l}.csv', index=False)
-                    print(f'Generalization levels for <=50k dataset: Race={i}, Education={j}, Marital Status={k}, Age={l}')
+                    table_le_50k.to_csv(f'hw1-1-generalized_data_le_50k_{i}_{j}_{k}_{l}.csv', index=False)
+                    print(f'Generalization levels for <=50k dataset: Race={k}, Education={i}, Marital Status={j}, Age={l}')
                     gen_levels_le_50k = [i, j, k, l]
+                    generalization_levels_le50k = {
+                        'age': l,
+                        'education': i, 
+                        'marital_status': j, 
+                        'race': k 
+                    }
                     found = True
                     break
             if found:
@@ -344,16 +307,12 @@ for i in range(2, 6):
             break
     if found:
         break
-
-
 # Generalizing the data with salary of >50k while meeting the k-anonymity requirements
-
-
 found = False
-for i in range(2, 6):
-    for j in range(2, 6):
-        for k in range(2, 5):
-            for l in range(2, 6):
+for j in range(1, 6):
+    for l in range(1, 6):
+        for k in range(1, 5):
+            for i in range(1, 6):
                 generalized_data = adult_data.copy()
                 generalized_data = generalize_QIs(generalized_data, i, j, k, l)
                 
@@ -361,9 +320,15 @@ for i in range(2, 6):
                 is_k_anonymous_gt_50k, table_gt_50k= check_k_anonymity_gt50(generalized_data, k2)
 
                 if is_k_anonymous_gt_50k:
-                    table_gt_50k.to_csv(f'generalized_data_gt_50k_{i}_{j}_{k}_{l}.csv', index=False)
-                    print(f'Generalization levels for >50k dataset: Race={i}, Education={j}, Marital Status={k}, Age={l}')
+                    table_gt_50k.to_csv(f'hw1-1-generalized_data_gt_50k_{i}_{j}_{k}_{l}.csv', index=False)
+                    print(f'Generalization levels for >50k dataset: Race={k}, Education={i}, Marital Status={j}, Age={l}')
                     gen_levels_gt_50k = [i, j, k, l]
+                    generalization_levels_gt50k = {
+                        'age': l,
+                        'education': i, 
+                        'marital_status': j, 
+                        'race': k 
+                    }
                     found = True
                     break
             if found:
@@ -372,34 +337,24 @@ for i in range(2, 6):
             break
     if found:
         break
-
-
 print(f'Is k-anonymous: {is_k_anonymous_le_50k} for <=50k dataset')
-
-
 print(f'Is k-anonymous: {is_k_anonymous_gt_50k} for >50k dataset')
-
-
 print("Table for users with salaries ≤ 50K:")
 
-
+table_le_50k
 # For table_le_50k
 q_block_counts_le_50k = table_le_50k.groupby(['age', 'education', 'marital_status', 'race']).size().reset_index(name='counts')
 print("\n Q* block counts for users with salaries ≤ 50K:")
 print(q_block_counts_le_50k)
 
 
-
-
 # For table_gt_50k
 q_block_counts_gt_50k = table_gt_50k.groupby(['age', 'education', 'marital_status', 'race']).size().reset_index(name='counts')
 print("\n Q* block counts for users with salaries > 50K:")
 print(q_block_counts_gt_50k)
-
-
 print("Table for users with salaries > 50K:")
 
-
+table_gt_50k
 # Verify group sizes for users with salaries ≤ 50K
 if (q_block_counts_le_50k['counts'] >= k1).all():
     print("All Q* blocks for users with salaries ≤ 50K meet the k-anonymity requirement.")
@@ -411,38 +366,26 @@ if (q_block_counts_gt_50k['counts'] >= k2).all():
     print("All Q* blocks for users with salaries > 50K meet the k-anonymity requirement.")
 else:
     print("Some Q* blocks for users with salaries > 50K do not meet the k-anonymity requirement.")
-
-
-# Calculate the distortion and precision
-
-
 num_attr = len(table_gt_50k.columns)
-
-
+num_attr
+len(table_le_50k.columns)
+len(generalized_data.columns)
 # Calculate the distortion
 
-def calculate_distortion():
+def calculate_distortion(gen_levels):
     # For all atributes: generalization level / max generalization level
-    sum_of_generalizations = gen_levels[0]/5 + gen_levels[1]/4 + gen_levels[2]/5 + gen_levels[3]/5 # the order: educationLevel, maritalStatusLevel, raceLevel, ageLevel
+    sum_of_generalizations = gen_levels['age']/5 + gen_levels['marital_status']/4 + gen_levels['education']/5 + gen_levels['age']/5
     sum_of_generalizations = sum_of_generalizations + (15 - 4) # Add the genralization level of the other attributes/columns which are 1's
     return sum_of_generalizations / num_attr
 
-
-
-print(f'Distortion for data >50k: {calculate_distortion(gen_levels_gt_50k)}')
-print(f'Distortion for data <=50k: {calculate_distortion(gen_levels_le_50k)}')
+print(f'Distortion for data >50k: {calculate_distortion(generalization_levels_gt50k)}')
+print(f'Distortion for data <=50k: {calculate_distortion(generalization_levels_le50k)}')
 # On average, the attributes have been generalized to about 94.33% of their maximum generalization levels.
-
-
 # Calculate precision
-
-
 table_gt_50k_len = len(table_gt_50k.index)
-
-
+table_gt_50k_len
 table_le_50k_len = len(table_le_50k.index)
-
-
+table_le_50k_len
 def calculate_precision(data, generalization_levels, hierarchy_depths):
     """
     Calculate the precision.
@@ -465,15 +408,9 @@ def calculate_precision(data, generalization_levels, hierarchy_depths):
     precision = 1 - (sum_generalization_height / (PT * N_A))
     return precision
 
-generalization_levels_le50k = {
-    'age': 3,
-    'education': 3, 
-    'marital_status': 2, 
-    'race': 2 
-}
 hierarchy_depths = {
     'age': 5, 
-    'education': 4,
+    'education': 5,
     'marital_status': 4,
     'race': 5 
 }
@@ -481,16 +418,11 @@ hierarchy_depths = {
 precision_value = calculate_precision(table_le_50k, generalization_levels_le50k, hierarchy_depths)
 print(f'Precision for <=50k dataset: {precision_value}')
 
-generalization_levels_gt50k = {
-    'age': 5,
-    'education': 3,
-    'marital_status': 4,
-    'race': 3
-}
-
 precision_value = calculate_precision(table_gt_50k, generalization_levels_gt50k, hierarchy_depths)
 print(f'Precision for >50K dataset: {precision_value}')
-
+table_gt_50k
+#Calculate entropy and l-diversity
+#">50K" dataset didn't meet the l-diversity requirements when l = 3:
 def calculate_entropy(group):
     """ Calculate entropy for a single group of records """
     if len(group) == 0:
@@ -523,60 +455,59 @@ l = 3
 print("Checking >50K dataset for l-diversity:")
 satisfied_l_diversity_gt_50k = check_l_diversity(table_gt_50k, l)
 
+# The generalized dataset with salary <=50k meets the requirements of l-diversity:
 print("Checking <=50K dataset for l-diversity:")
 satisfied_l_diversity_le_50k = check_l_diversity(table_le_50k, l)
-
-# Dictionary to map DataFrames to their names
-# dataframe_names = {
-#     id(table_gt_50k): 'table_gt_50k',
-#     id(table_le_50k): 'table_le_50k'
-# }
-
-# # Conditionally add DataFrames if they exist
-# try:
-#     generalized_data_gt_50k_adjusted
-# except NameError:
-#     generalized_data_gt_50k_adjusted = None
-
-# try:
-#     generalized_data_le_50k_adjusted
-# except NameError:
-#     generalized_data_le_50k_adjusted = None
-
-# if generalized_data_gt_50k_adjusted is not None:
-#     dataframe_names[id(generalized_data_gt_50k_adjusted)] = 'generalized_data_gt_50k_adjusted'
-
-# if generalized_data_le_50k_adjusted is not None:
-#     dataframe_names[id(generalized_data_le_50k_adjusted)] = 'generalized_data_le_50k_adjusted'
-
-def apply_adjusted_generalization(data, generalization_levels, attribute, condition_value, generalization_function, condition_attribute='race', generalization_level=4):
+# Increase the generalization level for a specific attribute, say 'education' in table_gt_50k
+def apply_adjusted_generalization(data, generalization_levels, attribute, condition_value, generalization_function, condition_attribute='education', generalization_level=4):
     """
     Apply generalization based on a condition on the attribute.
-    
-    :param data: pandas DataFrame to generalize.
-    :param attribute: Attribute to generalize (e.g., 'education').
-    :param condition_value: Value in the condition_attribute to apply the generalization on.
-    :param generalization_function: Function to generalize the attribute (e.g., generalize_education).
-    :param condition_attribute: Attribute to apply the condition on (e.g., 'race'). Defaults to 'race'.
-    :param generalization_level: The level of generalization to apply.
-    :return: DataFrame with the applied generalization.
+    condition_value:  the value you're checking against
     """
-    data[attribute] = data.apply(lambda row: generalization_function(row[attribute], generalization_level) 
-                                 if row[condition_attribute] == condition_value else row[attribute], axis=1)
-    generalization_levels[attribute] = generalization_level # Update the generalization level
+    def generalized_value(row, attribute, condition_value, generalization_function, generalization_level):
+        if row[condition_attribute] == condition_value and generalization_level > 0:
+            return generalization_function(row[attribute], generalization_level)
+        return row[attribute]
+    
+    # Apply generalization
+    data[attribute] = data.apply(lambda row: generalized_value(row, attribute, condition_value, generalization_function, generalization_level), axis=1)
+    
+    # Update the generalization level
+    generalization_levels[attribute] = generalization_level
     return data
 
 
 # Apply adjusted generalization
-generalized_data_gt_50k_adjusted = apply_adjusted_generalization(table_gt_50k.copy(), generalization_levels_gt50k, 'education', 'Non-Western Origin', generalize_education)
+generalized_data_gt_50k_adjusted = apply_adjusted_generalization(
+    data=table_gt_50k.copy(), 
+    generalization_levels=generalization_levels_gt50k, 
+    attribute='marital_status', 
+    condition_value='Non-Western Origin',  # The group condition (you can adjust as needed)
+    generalization_function=generalize_education, 
+    condition_attribute='race',  # This ensures that the generalization happens only for the 'Non-Western Origin' group
+    generalization_level=generalization_levels_gt50k['marital_status'] + 1  # Increment education's generalization level
+)
+
+
+# generalized_data_gt_50k_adjusted = apply_adjusted_generalization(
+#     data=table_gt_50k.copy(), 
+#     generalization_levels=generalization_levels_gt50k, 
+#     attribute='race', 
+#     condition_value='Basic Degree',  # The group condition
+#     generalization_function=generalize_race, 
+#     condition_attribute='education',  # This ensures that the generalization happens for the 'Basic Degree' group in education
+#     generalization_level=generalization_levels_gt50k['race'] + 1  # Increment race's generalization level
+# )
 
 # Check l-diversity again
 print("Rechecking >50K dataset for l-diversity after adjustment:")
 satisfied_l_diversity_gt_50k_adjusted = check_l_diversity(generalized_data_gt_50k_adjusted, l)
+print(satisfied_l_diversity_gt_50k_adjusted)
+
 # Save the adjusted dataset
 generalized_data_gt_50k_adjusted.to_csv('hw1-1-generalized_data_gt_50k_adjusted_for_lDiversity.csv', index=False)
 
-
+# Calculate Recursive (c, ℓ)-diversity
 def check_recursive_diversity(data, l, c, attribute_groups, detailed=False):
     all_diverse = True
     failed_groups = []
@@ -596,110 +527,115 @@ def check_recursive_diversity(data, l, c, attribute_groups, detailed=False):
             all_diverse = False
 
     return all_diverse, failed_groups
-
-def auto_adjust_generalization(data, generalization_levels, l, c, attribute_groups, max_attempts=10, gt_data=False):
+def auto_adjust_generalization(data, generalization_levels, l, c, attribute_groups, max_attempts=10):
     attempts = 0
     while attempts < max_attempts:
         # Check diversity and get detailed information about failing groups
         diverse, failed_groups = check_recursive_diversity(data, l, c, attribute_groups, detailed=True)
-        
+
         if diverse:
             print("All groups meet the recursive (c, l)-diversity requirement.")
             break
         else:
             print(f"Adjusting generalization levels due to failures in groups: {failed_groups}")
+            no_more_adjustments = True  # Track whether we can adjust any further
+            
             # Increase generalization for failed groups
             for group in failed_groups:
                 group_conditions = dict(zip(attribute_groups, group))  # Map group attributes to values
 
                 # Adjust the generalization based on the specific group that failed
                 for attribute, value in group_conditions.items():
-                    current_level = generalization_levels[attribute] if gt_data else generalization_levels_le50k[attribute] # Becuase we are experimenting on dataset >50k, it will never use generalization_levels_le50k
+                    current_level = generalization_levels[attribute]
                     max_depth = hierarchy_depths[attribute]
-                    print(f"Attribute: {attribute}, Current Level: {current_level}, Max Depth: {max_depth}")
 
+                    print(f"Before Adjustment: Attribute: {attribute}, Current Level: {current_level}, Max Depth: {max_depth}")
+
+                    # If we're not yet at the max generalization level, increase the level
                     if current_level < max_depth:
+                        # Optionally adjust the increment based on difficulty of group generalization
                         new_generalization_level = current_level + 1
-                        if attribute == 'education':
-                            apply_adjusted_generalization(
-                                data,
-                                generalization_levels, 
-                                attribute='education', 
-                                condition_value=value, 
-                                generalization_function=generalize_education, 
-                                condition_attribute=attribute, 
-                                generalization_level=new_generalization_level  # Increase generalization
-                            )
-                            
-                        elif attribute == 'race':
-                            apply_adjusted_generalization(
-                                data, 
-                                generalization_levels,
-                                attribute='race', 
-                                condition_value=value, 
-                                generalization_function=generalize_race, 
-                                condition_attribute=attribute, 
-                                generalization_level=new_generalization_level 
-                            )
-                        elif attribute == 'marital_status':
-                            apply_adjusted_generalization(
-                                data, 
-                                generalization_levels,
-                                attribute='marital_status', 
-                                condition_value=value, 
-                                generalization_function=generalize_marital_status, 
-                                condition_attribute=attribute, 
-                                generalization_level=new_generalization_level
-                            )
-                        elif attribute == 'age':
-                            apply_adjusted_generalization(
-                                data,
-                                generalization_levels,
-                                attribute='age', 
-                                condition_value=value, 
-                                generalization_function=generalize_age, 
-                                condition_attribute=attribute, 
-                                generalization_level=new_generalization_level
-                            )
-                            
+
+                        # Apply the adjustment to generalize more
+                        data = apply_adjusted_generalization(
+                            data,
+                            generalization_levels,
+                            attribute=attribute,
+                            condition_value=value,
+                            generalization_function=get_generalization_function(attribute),
+                            condition_attribute=attribute,
+                            generalization_level=new_generalization_level  # Increase generalization by 1 level
+                        )
+                        
+                        generalization_levels[attribute] = new_generalization_level  # Update level
+                        no_more_adjustments = False  # We made at least one adjustment
+
+                        print(f"After Adjustment: Attribute: {attribute}, New Generalization Level: {new_generalization_level}")
                     else:
                         print(f"Attribute {attribute} is already at its maximum generalization level.")
+            
+            # Recheck diversity after generalization adjustments in the same loop iteration
+            diverse, failed_groups = check_recursive_diversity(data, l, c, attribute_groups, detailed=True)
+
+            # If no groups fail after the adjustments, break the loop
+            if diverse:
+                print("All groups meet the recursive (c, l)-diversity requirement after adjustments.")
+                break
+
+            # If no attributes could be adjusted, break the loop
+            if no_more_adjustments:
+                print("No further adjustments possible. Exiting.")
+                break
         
         attempts += 1
     
     if attempts == max_attempts:
         print("Maximum adjustment attempts reached, some groups may still fail the diversity requirements.")
 
+def get_generalization_function(attribute):
+    """
+    Returns the correct generalization function based on the attribute.
+    """
+    if attribute == 'education':
+        return generalize_education
+    elif attribute == 'race':
+        return generalize_race
+    elif attribute == 'marital_status':
+        return generalize_marital_status
+    elif attribute == 'age':
+        return generalize_age
+    else:
+        raise ValueError(f"Unknown attribute: {attribute}")
 l_recursive_data_c_point5 = table_gt_50k.copy()
-generalization_levels_l_recursive_data_c_point5 = {
+generalization_levels_recursive_data_c_point5 = { # Race=4, Education=4, Marital Status=2, Age=5
     'age': 5,
-    'education': 3,
-    'marital_status': 4,
-    'race': 3
+    'education': 4,
+    'marital_status': 2,
+    'race': 4
 }
 # When k = 5 and l = 3, c = 0.5
-auto_adjust_generalization(l_recursive_data_c_point5, generalization_levels_l_recursive_data_c_point5, l=3, c=0.5, attribute_groups=['education', 'race'])
+auto_adjust_generalization(l_recursive_data_c_point5, generalization_levels_recursive_data_c_point5, l=3, c=0.5, attribute_groups=['race', 'marital_status'])
 l_recursive_data_c_1 = table_gt_50k.copy()
-generalization_levels_l_recursive_data_c_1 = {
+generalization_levels_recursive_data_c_1 = {
     'age': 5,
-    'education': 3,
-    'marital_status': 4,
-    'race': 3
+    'education': 4,
+    'marital_status': 2,
+    'race': 4
 }
-auto_adjust_generalization(l_recursive_data_c_1, generalization_levels_l_recursive_data_c_1, l=3, c=1, attribute_groups=['education', 'race'])
+auto_adjust_generalization(l_recursive_data_c_1, generalization_levels_recursive_data_c_1, l=3, c=1, attribute_groups=['education', 'race'])
 l_recursive_data_c_2 = table_gt_50k.copy()
-generalization_levels_l_recursive_data_c_2 = {
+generalization_levels_recursive_data_c_2 = {
     'age': 5,
-    'education': 3,
-    'marital_status': 4,
-    'race': 3
+    'education': 4,
+    'marital_status': 2,
+    'race': 4
 }
 # When k = 5 and l = 3, c = 2
-auto_adjust_generalization(l_recursive_data_c_2, generalization_levels_l_recursive_data_c_2, l=3, c=2, attribute_groups=['education', 'race'])
+auto_adjust_generalization(l_recursive_data_c_2, generalization_levels_recursive_data_c_2, l=3, c=2, attribute_groups=['education', 'race'])
 # Calculate distortion and precision when k=5
-print(f'Distortion for data with salary >50k when c=0.5: {calculate_distortion([generalization_levels_l_recursive_data_c_point5["education"], generalization_levels_l_recursive_data_c_point5["marital_status"], generalization_levels_l_recursive_data_c_point5["race"], generalization_levels_l_recursive_data_c_point5["age"]])}') #the order: educationLevel, maritalStatusLevel, raceLevel, ageLevel
-print("precision for data with salary >50k when c=0.5: ", calculate_precision(l_recursive_data_c_point5, generalization_levels_l_recursive_data_c_point5, hierarchy_depths))
-print("precision for data with salary >50k when c=1: ", calculate_precision(l_recursive_data_c_1, generalization_levels_l_recursive_data_c_1, hierarchy_depths))
-print("precision for data with salary >50k when c=1: ", calculate_precision(l_recursive_data_c_1, generalization_levels_l_recursive_data_c_1, hierarchy_depths))
-print(f'Distortion for data with salary >50k when c=2: {calculate_distortion([generalization_levels_l_recursive_data_c_2["education"], generalization_levels_l_recursive_data_c_2["marital_status"], generalization_levels_l_recursive_data_c_2["race"], generalization_levels_l_recursive_data_c_2["age"]])}') #the order: educationLevel, maritalStatusLevel, raceLevel, ageLevel
-print("precision for data with salary >50k when c=2: ", calculate_precision(l_recursive_data_c_2, generalization_levels_l_recursive_data_c_2, hierarchy_depths))
+print(f'Distortion for data with salary >50k when c=0.5: {calculate_distortion(generalization_levels_recursive_data_c_point5)}')
+print("precision for data with salary >50k when c=0.5: ", calculate_precision(l_recursive_data_c_point5, generalization_levels_recursive_data_c_point5, hierarchy_depths))
+print(f'Distortion for data with salary >50k when c=1: {calculate_distortion(generalization_levels_recursive_data_c_1)}')
+print("precision for data with salary >50k when c=1: ", calculate_precision(l_recursive_data_c_1, generalization_levels_recursive_data_c_1, hierarchy_depths))
+print(f'Distortion for data with salary >50k when c=2: {calculate_distortion(generalization_levels_recursive_data_c_2)}')
+print("precision for data with salary >50k when c=2: ", calculate_precision(l_recursive_data_c_2, generalization_levels_recursive_data_c_2, hierarchy_depths))
