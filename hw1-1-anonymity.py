@@ -527,29 +527,29 @@ print("Checking <=50K dataset for l-diversity:")
 satisfied_l_diversity_le_50k = check_l_diversity(table_le_50k, l)
 
 # Dictionary to map DataFrames to their names
-dataframe_names = {
-    id(table_gt_50k): 'table_gt_50k',
-    id(table_le_50k): 'table_le_50k'
-}
+# dataframe_names = {
+#     id(table_gt_50k): 'table_gt_50k',
+#     id(table_le_50k): 'table_le_50k'
+# }
 
-# Conditionally add DataFrames if they exist
-try:
-    generalized_data_gt_50k_adjusted
-except NameError:
-    generalized_data_gt_50k_adjusted = None
+# # Conditionally add DataFrames if they exist
+# try:
+#     generalized_data_gt_50k_adjusted
+# except NameError:
+#     generalized_data_gt_50k_adjusted = None
 
-try:
-    generalized_data_le_50k_adjusted
-except NameError:
-    generalized_data_le_50k_adjusted = None
+# try:
+#     generalized_data_le_50k_adjusted
+# except NameError:
+#     generalized_data_le_50k_adjusted = None
 
-if generalized_data_gt_50k_adjusted is not None:
-    dataframe_names[id(generalized_data_gt_50k_adjusted)] = 'generalized_data_gt_50k_adjusted'
+# if generalized_data_gt_50k_adjusted is not None:
+#     dataframe_names[id(generalized_data_gt_50k_adjusted)] = 'generalized_data_gt_50k_adjusted'
 
-if generalized_data_le_50k_adjusted is not None:
-    dataframe_names[id(generalized_data_le_50k_adjusted)] = 'generalized_data_le_50k_adjusted'
+# if generalized_data_le_50k_adjusted is not None:
+#     dataframe_names[id(generalized_data_le_50k_adjusted)] = 'generalized_data_le_50k_adjusted'
 
-def apply_adjusted_generalization(data, attribute, condition_value, generalization_function, condition_attribute='race', generalization_level=4):
+def apply_adjusted_generalization(data, generalization_levels, attribute, condition_value, generalization_function, condition_attribute='race', generalization_level=4):
     """
     Apply generalization based on a condition on the attribute.
     
@@ -563,16 +563,12 @@ def apply_adjusted_generalization(data, attribute, condition_value, generalizati
     """
     data[attribute] = data.apply(lambda row: generalization_function(row[attribute], generalization_level) 
                                  if row[condition_attribute] == condition_value else row[attribute], axis=1)
-    data_name = dataframe_names.get(id(data))
-    if data_name == 'table_gt_50k' or data_name == 'generalized_data_gt_50k_adjusted':
-        generalization_levels_gt50k[attribute] = generalization_level
-    elif data_name == 'table_le_50k' or data_name == 'generalized_data_le_50k_adjusted':
-        generalization_levels_le50k[attribute] = generalization_level
+    generalization_levels[attribute] = generalization_level # Update the generalization level
     return data
 
 
 # Apply adjusted generalization
-generalized_data_gt_50k_adjusted = apply_adjusted_generalization(table_gt_50k.copy(), 'education', 'Non-Western Origin', generalize_education)
+generalized_data_gt_50k_adjusted = apply_adjusted_generalization(table_gt_50k.copy(), generalization_levels_gt50k, 'education', 'Non-Western Origin', generalize_education)
 
 # Check l-diversity again
 print("Rechecking >50K dataset for l-diversity after adjustment:")
@@ -600,7 +596,8 @@ def check_recursive_diversity(data, l, c, attribute_groups, detailed=False):
             all_diverse = False
 
     return all_diverse, failed_groups
-def auto_adjust_generalization(data, l, c, attribute_groups, max_attempts=10, gt_data=False):
+
+def auto_adjust_generalization(data, generalization_levels, l, c, attribute_groups, max_attempts=10, gt_data=False):
     attempts = 0
     while attempts < max_attempts:
         # Check diversity and get detailed information about failing groups
@@ -617,14 +614,16 @@ def auto_adjust_generalization(data, l, c, attribute_groups, max_attempts=10, gt
 
                 # Adjust the generalization based on the specific group that failed
                 for attribute, value in group_conditions.items():
-                    current_level = generalization_levels_gt50k[attribute] if gt_data else generalization_levels_le50k[attribute]
+                    current_level = generalization_levels[attribute] if gt_data else generalization_levels_le50k[attribute] # Becuase we are experimenting on dataset >50k, it will never use generalization_levels_le50k
                     max_depth = hierarchy_depths[attribute]
+                    print(f"Attribute: {attribute}, Current Level: {current_level}, Max Depth: {max_depth}")
 
                     if current_level < max_depth:
                         new_generalization_level = current_level + 1
                         if attribute == 'education':
                             apply_adjusted_generalization(
-                                data, 
+                                data,
+                                generalization_levels, 
                                 attribute='education', 
                                 condition_value=value, 
                                 generalization_function=generalize_education, 
@@ -635,6 +634,7 @@ def auto_adjust_generalization(data, l, c, attribute_groups, max_attempts=10, gt
                         elif attribute == 'race':
                             apply_adjusted_generalization(
                                 data, 
+                                generalization_levels,
                                 attribute='race', 
                                 condition_value=value, 
                                 generalization_function=generalize_race, 
@@ -644,6 +644,7 @@ def auto_adjust_generalization(data, l, c, attribute_groups, max_attempts=10, gt
                         elif attribute == 'marital_status':
                             apply_adjusted_generalization(
                                 data, 
+                                generalization_levels,
                                 attribute='marital_status', 
                                 condition_value=value, 
                                 generalization_function=generalize_marital_status, 
@@ -652,7 +653,8 @@ def auto_adjust_generalization(data, l, c, attribute_groups, max_attempts=10, gt
                             )
                         elif attribute == 'age':
                             apply_adjusted_generalization(
-                                data, 
+                                data,
+                                generalization_levels,
                                 attribute='age', 
                                 condition_value=value, 
                                 generalization_function=generalize_age, 
@@ -668,10 +670,36 @@ def auto_adjust_generalization(data, l, c, attribute_groups, max_attempts=10, gt
     if attempts == max_attempts:
         print("Maximum adjustment attempts reached, some groups may still fail the diversity requirements.")
 
-
-print(auto_adjust_generalization(generalized_data_gt_50k_adjusted, l=3, c=0.5, attribute_groups=['education', 'race']))
-print(auto_adjust_generalization(generalized_data_gt_50k_adjusted, l=3, c=1, attribute_groups=['education', 'race']))
-print(auto_adjust_generalization(generalized_data_gt_50k_adjusted, l=3, c=2, attribute_groups=['education', 'race']))
-print(auto_adjust_generalization(table_le_50k, l=3, c=0.5, attribute_groups=['education', 'race']))
-print(auto_adjust_generalization(table_le_50k, l=3, c=0.1, attribute_groups=['education', 'race']))
-print(auto_adjust_generalization(table_le_50k, l=3, c=2, attribute_groups=['education', 'race']))
+l_recursive_data_c_point5 = table_gt_50k.copy()
+generalization_levels_l_recursive_data_c_point5 = {
+    'age': 5,
+    'education': 3,
+    'marital_status': 4,
+    'race': 3
+}
+# When k = 5 and l = 3, c = 0.5
+auto_adjust_generalization(l_recursive_data_c_point5, generalization_levels_l_recursive_data_c_point5, l=3, c=0.5, attribute_groups=['education', 'race'])
+l_recursive_data_c_1 = table_gt_50k.copy()
+generalization_levels_l_recursive_data_c_1 = {
+    'age': 5,
+    'education': 3,
+    'marital_status': 4,
+    'race': 3
+}
+auto_adjust_generalization(l_recursive_data_c_1, generalization_levels_l_recursive_data_c_1, l=3, c=1, attribute_groups=['education', 'race'])
+l_recursive_data_c_2 = table_gt_50k.copy()
+generalization_levels_l_recursive_data_c_2 = {
+    'age': 5,
+    'education': 3,
+    'marital_status': 4,
+    'race': 3
+}
+# When k = 5 and l = 3, c = 2
+auto_adjust_generalization(l_recursive_data_c_2, generalization_levels_l_recursive_data_c_2, l=3, c=2, attribute_groups=['education', 'race'])
+# Calculate distortion and precision when k=5
+print(f'Distortion for data with salary >50k when c=0.5: {calculate_distortion([generalization_levels_l_recursive_data_c_point5["education"], generalization_levels_l_recursive_data_c_point5["marital_status"], generalization_levels_l_recursive_data_c_point5["race"], generalization_levels_l_recursive_data_c_point5["age"]])}') #the order: educationLevel, maritalStatusLevel, raceLevel, ageLevel
+print("precision for data with salary >50k when c=0.5: ", calculate_precision(l_recursive_data_c_point5, generalization_levels_l_recursive_data_c_point5, hierarchy_depths))
+print("precision for data with salary >50k when c=1: ", calculate_precision(l_recursive_data_c_1, generalization_levels_l_recursive_data_c_1, hierarchy_depths))
+print("precision for data with salary >50k when c=1: ", calculate_precision(l_recursive_data_c_1, generalization_levels_l_recursive_data_c_1, hierarchy_depths))
+print(f'Distortion for data with salary >50k when c=2: {calculate_distortion([generalization_levels_l_recursive_data_c_2["education"], generalization_levels_l_recursive_data_c_2["marital_status"], generalization_levels_l_recursive_data_c_2["race"], generalization_levels_l_recursive_data_c_2["age"]])}') #the order: educationLevel, maritalStatusLevel, raceLevel, ageLevel
+print("precision for data with salary >50k when c=2: ", calculate_precision(l_recursive_data_c_2, generalization_levels_l_recursive_data_c_2, hierarchy_depths))
