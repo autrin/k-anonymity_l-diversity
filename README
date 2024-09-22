@@ -47,3 +47,14 @@ Steps to Implement Entropy l-Diversity:
 - Generalize the dataset based on my chosen generalization levels for quasi-identifiers.
 - Calculate the entropy for the sensitive attribute within each q∗-block.
 - Check if the entropy meets the required threshold  log(ℓ).
+
+Recursive (c, ℓ)-diversity
+Here’s a brief breakdown of the Recursive (c, ℓ)-diversity:
+
+Recursive (c, ℓ)-diversity requires that for each equivalence class, the most frequent ℓ−1 sensitive values appear less than c times the frequency of the ℓ-th most frequent sensitive value.
+
+Steps to Implement:
+- Implement Generalization Logic: Adjust generalization levels to find a balance between data utility and privacy.
+- Check Recursive (c, ℓ)-diversity: Implement a function to verify if each equivalence class meets the recursive (c, ℓ)-diversity.
+- Adjust for Different c Values: Implement the check for different c values as specified.
+- Evaluate Results: Calculate distortion and precision for each configuration.
