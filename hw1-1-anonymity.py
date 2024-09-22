@@ -526,6 +526,28 @@ satisfied_l_diversity_gt_50k = check_l_diversity(table_gt_50k, l)
 print("Checking <=50K dataset for l-diversity:")
 satisfied_l_diversity_le_50k = check_l_diversity(table_le_50k, l)
 
+# Dictionary to map DataFrames to their names
+dataframe_names = {
+    id(table_gt_50k): 'table_gt_50k',
+    id(table_le_50k): 'table_le_50k'
+}
+
+# Conditionally add DataFrames if they exist
+try:
+    generalized_data_gt_50k_adjusted
+except NameError:
+    generalized_data_gt_50k_adjusted = None
+
+try:
+    generalized_data_le_50k_adjusted
+except NameError:
+    generalized_data_le_50k_adjusted = None
+
+if generalized_data_gt_50k_adjusted is not None:
+    dataframe_names[id(generalized_data_gt_50k_adjusted)] = 'generalized_data_gt_50k_adjusted'
+
+if generalized_data_le_50k_adjusted is not None:
+    dataframe_names[id(generalized_data_le_50k_adjusted)] = 'generalized_data_le_50k_adjusted'
 
 def apply_adjusted_generalization(data, attribute, condition_value, generalization_function, condition_attribute='race', generalization_level=4):
     """
@@ -541,18 +563,23 @@ def apply_adjusted_generalization(data, attribute, condition_value, generalizati
     """
     data[attribute] = data.apply(lambda row: generalization_function(row[attribute], generalization_level) 
                                  if row[condition_attribute] == condition_value else row[attribute], axis=1)
+    data_name = dataframe_names.get(id(data))
+    if data_name == 'table_gt_50k' or data_name == 'generalized_data_gt_50k_adjusted':
+        generalization_levels_gt50k[attribute] = generalization_level
+    elif data_name == 'table_le_50k' or data_name == 'generalized_data_le_50k_adjusted':
+        generalization_levels_le50k[attribute] = generalization_level
     return data
 
 
 # Apply adjusted generalization
 generalized_data_gt_50k_adjusted = apply_adjusted_generalization(table_gt_50k.copy(), 'education', 'Non-Western Origin', generalize_education)
-generalization_levels_gt50k['education'] = 4  # Update the generalization level
 
 # Check l-diversity again
 print("Rechecking >50K dataset for l-diversity after adjustment:")
 satisfied_l_diversity_gt_50k_adjusted = check_l_diversity(generalized_data_gt_50k_adjusted, l)
 # Save the adjusted dataset
 generalized_data_gt_50k_adjusted.to_csv('hw1-1-generalized_data_gt_50k_adjusted_for_lDiversity.csv', index=False)
+
 
 def check_recursive_diversity(data, l, c, attribute_groups, detailed=False):
     all_diverse = True
@@ -573,7 +600,6 @@ def check_recursive_diversity(data, l, c, attribute_groups, detailed=False):
             all_diverse = False
 
     return all_diverse, failed_groups
-
 def auto_adjust_generalization(data, l, c, attribute_groups, max_attempts=10, gt_data=False):
     attempts = 0
     while attempts < max_attempts:
@@ -605,6 +631,7 @@ def auto_adjust_generalization(data, l, c, attribute_groups, max_attempts=10, gt
                                 condition_attribute=attribute, 
                                 generalization_level=new_generalization_level  # Increase generalization
                             )
+                            
                         elif attribute == 'race':
                             apply_adjusted_generalization(
                                 data, 
@@ -632,6 +659,7 @@ def auto_adjust_generalization(data, l, c, attribute_groups, max_attempts=10, gt
                                 condition_attribute=attribute, 
                                 generalization_level=new_generalization_level
                             )
+                            
                     else:
                         print(f"Attribute {attribute} is already at its maximum generalization level.")
         
@@ -639,6 +667,7 @@ def auto_adjust_generalization(data, l, c, attribute_groups, max_attempts=10, gt
     
     if attempts == max_attempts:
         print("Maximum adjustment attempts reached, some groups may still fail the diversity requirements.")
+
 
 print(auto_adjust_generalization(generalized_data_gt_50k_adjusted, l=3, c=0.5, attribute_groups=['education', 'race']))
 print(auto_adjust_generalization(generalized_data_gt_50k_adjusted, l=3, c=1, attribute_groups=['education', 'race']))
