@@ -53,6 +53,10 @@ Here’s a brief breakdown of the Recursive (c, ℓ)-diversity:
 
 Recursive (c, ℓ)-diversity requires that for each equivalence class, the most frequent ℓ−1 sensitive values appear less than c times the frequency of the ℓ-th most frequent sensitive value.
 
+Impact on Precision and Distortion:
+- For smaller c values (e.g.,c=0.5), the generalization levels might need to increase more in order to meet the stricter diversity requirements. This would result in higher distortion and lower precision.
+- For larger c values (e.g., c=2), the algorithm may not need to generalize as much to satisfy the diversity constraints, resulting in lower distortion and higher precision.
+
 Steps to Implement:
 - Implement Generalization Logic: Adjust generalization levels to find a balance between data utility and privacy.
 - Check Recursive (c, ℓ)-diversity: Implement a function to verify if each equivalence class meets the recursive (c, ℓ)-diversity.
