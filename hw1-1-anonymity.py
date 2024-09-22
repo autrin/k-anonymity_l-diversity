@@ -421,7 +421,7 @@ num_attr = len(table_gt_50k.columns)
 
 # Calculate the distortion
 
-def distortion():
+def calculate_distortion():
     # For all atributes: generalization level / max generalization level
     sum_of_generalizations = gen_levels[0]/5 + gen_levels[1]/4 + gen_levels[2]/5 + gen_levels[3]/5 # the order: educationLevel, maritalStatusLevel, raceLevel, ageLevel
     sum_of_generalizations = sum_of_generalizations + (15 - 4) # Add the genralization level of the other attributes/columns which are 1's
@@ -429,8 +429,8 @@ def distortion():
 
 
 
-print(f'Distortion for data >50k: {distortion(gen_levels_gt_50k)}')
-print(f'Distortion for data <=50k: {distortion(gen_levels_le_50k)}')
+print(f'Distortion for data >50k: {calculate_distortion(gen_levels_gt_50k)}')
+print(f'Distortion for data <=50k: {calculate_distortion(gen_levels_le_50k)}')
 # On average, the attributes have been generalized to about 94.33% of their maximum generalization levels.
 
 
@@ -488,5 +488,160 @@ generalization_levels_gt50k = {
     'race': 3
 }
 
-precision_value = precision(table_gt_50k, generalization_levels_gt50k, hierarchy_depths)
+precision_value = calculate_precision(table_gt_50k, generalization_levels_gt50k, hierarchy_depths)
 print(f'Precision for >50K dataset: {precision_value}')
+
+def calculate_entropy(group):
+    """ Calculate entropy for a single group of records """
+    if len(group) == 0:
+        return 0
+    value_counts = group.value_counts()
+    probabilities = value_counts / value_counts.sum()
+    entropy = -np.sum(probabilities * np.log(probabilities))
+    return entropy
+
+def check_l_diversity(data, l):
+    """ Check if the dataset satisfies l-diversity """
+    entropy_threshold = math.log(l)  # Define the minimum entropy threshold
+    fails = 0  # Track number of failures
+    
+    # Group data by QIs and calculate entropy for each group
+    grouped = data.groupby(['age', 'education', 'marital_status', 'race'])
+    for name, group in grouped:
+        entropy = calculate_entropy(group['occupation'])
+        if entropy < entropy_threshold:
+            print(f'Group {name} fails to meet the entropy l-diversity with entropy {entropy:.4f}')
+            fails += 1
+    if fails == 0:
+        print("All groups meet the l-diversity requirement.")
+        return True
+    else:
+        print(f"{fails} groups fail to meet the l-diversity requirement.")
+        return False
+
+l = 3
+print("Checking >50K dataset for l-diversity:")
+satisfied_l_diversity_gt_50k = check_l_diversity(table_gt_50k, l)
+
+print("Checking <=50K dataset for l-diversity:")
+satisfied_l_diversity_le_50k = check_l_diversity(table_le_50k, l)
+
+
+def apply_adjusted_generalization(data, attribute, condition_value, generalization_function, condition_attribute='race', generalization_level=4):
+    """
+    Apply generalization based on a condition on the attribute.
+    
+    :param data: pandas DataFrame to generalize.
+    :param attribute: Attribute to generalize (e.g., 'education').
+    :param condition_value: Value in the condition_attribute to apply the generalization on.
+    :param generalization_function: Function to generalize the attribute (e.g., generalize_education).
+    :param condition_attribute: Attribute to apply the condition on (e.g., 'race'). Defaults to 'race'.
+    :param generalization_level: The level of generalization to apply.
+    :return: DataFrame with the applied generalization.
+    """
+    data[attribute] = data.apply(lambda row: generalization_function(row[attribute], generalization_level) 
+                                 if row[condition_attribute] == condition_value else row[attribute], axis=1)
+    return data
+
+
+# Apply adjusted generalization
+generalized_data_gt_50k_adjusted = apply_adjusted_generalization(table_gt_50k.copy(), 'education', 'Non-Western Origin', generalize_education)
+
+# Check l-diversity again
+print("Rechecking >50K dataset for l-diversity after adjustment:")
+satisfied_l_diversity_gt_50k_adjusted = check_l_diversity(generalized_data_gt_50k_adjusted, l)
+# Save the adjusted dataset
+generalized_data_gt_50k_adjusted.to_csv('hw1-1-generalized_data_gt_50k_adjusted_for_lDiversity.csv', index=False)
+
+def check_recursive_diversity(data, l, c, attribute_groups, detailed=False):
+    all_diverse = True
+    failed_groups = []
+    for name, group in data.groupby(attribute_groups):
+        occupation_counts = group['occupation'].value_counts()
+        if len(occupation_counts) < l:
+            if detailed:
+                failed_groups.append(name)
+            all_diverse = False
+            continue
+        
+        sorted_counts = occupation_counts.sort_values(ascending=False)
+        threshold = c * sorted_counts.iloc[l-1] if len(sorted_counts) >= l else 0
+        if any(sorted_counts.iloc[:l-1] > threshold):
+            if detailed:
+                failed_groups.append(name)
+            all_diverse = False
+
+    return all_diverse, failed_groups
+
+def auto_adjust_generalization(data, l, c, attribute_groups, max_attempts=10, gt_data=False):
+    attempts = 0
+    while attempts < max_attempts:
+        # Check diversity and get detailed information about failing groups
+        diverse, failed_groups = check_recursive_diversity(data, l, c, attribute_groups, detailed=True)
+        
+        if diverse:
+            print("All groups meet the recursive (c, l)-diversity requirement.")
+            break
+        else:
+            print(f"Adjusting generalization levels due to failures in groups: {failed_groups}")
+            # Increase generalization for failed groups
+            for group in failed_groups:
+                group_conditions = dict(zip(attribute_groups, group))  # Map group attributes to values
+
+                # Adjust the generalization based on the specific group that failed
+                for attribute, value in group_conditions.items():
+                    current_level = generalization_levels_gt50k[attribute] if gt_data else generalization_levels_le50k[attribute]
+                    max_depth = hierarchy_depths[attribute]
+
+                    if current_level < max_depth:
+                        new_generalization_level = current_level + 1
+                        if attribute == 'education':
+                            apply_adjusted_generalization(
+                                data, 
+                                attribute='education', 
+                                condition_value=value, 
+                                generalization_function=generalize_education, 
+                                condition_attribute=attribute, 
+                                generalization_level=new_generalization_level  # Increase generalization
+                            )
+                        elif attribute == 'race':
+                            apply_adjusted_generalization(
+                                data, 
+                                attribute='race', 
+                                condition_value=value, 
+                                generalization_function=generalize_race, 
+                                condition_attribute=attribute, 
+                                generalization_level=new_generalization_level 
+                            )
+                        elif attribute == 'marital_status':
+                            apply_adjusted_generalization(
+                                data, 
+                                attribute='marital_status', 
+                                condition_value=value, 
+                                generalization_function=generalize_marital_status, 
+                                condition_attribute=attribute, 
+                                generalization_level=new_generalization_level
+                            )
+                        elif attribute == 'age':
+                            apply_adjusted_generalization(
+                                data, 
+                                attribute='age', 
+                                condition_value=value, 
+                                generalization_function=generalize_age, 
+                                condition_attribute=attribute, 
+                                generalization_level=new_generalization_level
+                            )
+                    else:
+                        print(f"Attribute {attribute} is already at its maximum generalization level.")
+        
+        attempts += 1
+    
+    if attempts == max_attempts:
+        print("Maximum adjustment attempts reached, some groups may still fail the diversity requirements.")
+
+print(auto_adjust_generalization(generalized_data_gt_50k_adjusted, l=3, c=0.5, attribute_groups=['education', 'race']))
+print(auto_adjust_generalization(generalized_data_gt_50k_adjusted, l=3, c=1, attribute_groups=['education', 'race']))
+print(auto_adjust_generalization(generalized_data_gt_50k_adjusted, l=3, c=2, attribute_groups=['education', 'race']))
+print(auto_adjust_generalization(table_le_50k, l=3, c=0.5, attribute_groups=['education', 'race']))
+print(auto_adjust_generalization(table_le_50k, l=3, c=0.1, attribute_groups=['education', 'race']))
+print(auto_adjust_generalization(table_le_50k, l=3, c=2, attribute_groups=['education', 'race']))
