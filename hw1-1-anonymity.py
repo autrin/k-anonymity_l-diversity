@@ -546,6 +546,7 @@ def apply_adjusted_generalization(data, attribute, condition_value, generalizati
 
 # Apply adjusted generalization
 generalized_data_gt_50k_adjusted = apply_adjusted_generalization(table_gt_50k.copy(), 'education', 'Non-Western Origin', generalize_education)
+generalization_levels_gt50k['education'] = 4  # Update the generalization level
 
 # Check l-diversity again
 print("Rechecking >50K dataset for l-diversity after adjustment:")
